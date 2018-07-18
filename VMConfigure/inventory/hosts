@@ -1,0 +1,9 @@
+[dc]
+13.78.9.94
+
+[dc:vars]
+ansible_user=mebisuda
+ansible_password=IiPZDIG2f2CilxcmVUZ!
+ansible_port=5986
+ansible_connection=winrm
+ansible_winrm_server_cert_validation=ignore
