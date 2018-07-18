@@ -4,14 +4,36 @@
     - name: Setup Active Directory Controller
       win_domain:
         dns_domain_name: "{{ dns_domain_name }}"
-        safe_mode_password: "{{ safe_mode_password }}"
+        safe_mode_password:  "{{ safe_mode_password }}"
       register: active_directory_controllers
 
     - name: reboot once DC created
       win_reboot:
       when: active_directory_controllers.reboot_required
-    
-    - name: install ActiveDirectoryCSDsc DSC resource
+
+    - name: install DSC resource
       win_psmodule:
         name: ActiveDirectoryCSDsc
         state: present
+
+    - name: install Windows Feature ADCS-Cert-Authority
+      win_feature:
+        name: ADCS-Cert-Authority
+        state: present
+        include_management_tools: yes
+        include_sub_features: yes
+      register: adcs_cert_authority
+
+    - name: reboot if installing ADCS-Cert-Authority feature requires it
+      win_reboot:
+      when: adcs_cert_authority.reboot_required
+
+
+    - name: install Active Directory Certificate Service
+      win_dsc:
+        resource_name: AdcsCertificationAuthority
+        IsSingleInstance: 'Yes'
+        Ensure: Present
+        CAType: EnterpriseRootCA
+        Credential_username: "{{ domainadmin_username }}"
+        Credential_password: "{{ domainadmin_password }}"

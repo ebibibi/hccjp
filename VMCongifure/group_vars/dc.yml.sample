@@ -1,2 +1,4 @@
 dns_domain_name: yourdomain.local
 safe_mode_password: yourpassword
+domainadmin_username: yourdomain\adminusername
+domainadmin_password: yourpassword
