@@ -28,7 +28,6 @@
       win_reboot:
       when: adcs_cert_authority.reboot_required
 
-
     - name: install Active Directory Certificate Service
       win_dsc:
         resource_name: AdcsCertificationAuthority
@@ -38,4 +37,13 @@
         Credential_username: "{{ domainadmin_username }}"
         Credential_password: "{{ domainadmin_password }}"
       no_log: true
+
+    - name: set ATTRIBUTESUBJECTALTNAME2 by certutil.exe
+      win_command: certutil -setreg policy\EditFlags +EDITF_ATTRIBUTESUBJECTALTNAME2
       
+    - name: restart certsvc
+      win_service:
+        name: certsvc
+        state: restarted
+        
+
