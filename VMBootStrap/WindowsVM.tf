@@ -202,3 +202,7 @@ resource "azurerm_virtual_machine" "virtualmachine" {
     }
   }
 }
+
+output "PublicIp" {
+  value = "${azurerm_public_ip.publicip.ip_address}"
+}
