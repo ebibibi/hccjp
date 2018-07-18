@@ -1,4 +1,4 @@
-Install-Module Microsoft.AzureStack.ReadinessChecker
+Install-Module Microsoft.AzureStack.ReadinessChecker -Force
 
 $subjectHash = [ordered]@{"OU"="AzureStack";"O"="HCCJP";"L"="Minato-ku";"ST"="Tokyo";"C"="JP"}
 $outputDirectory = "c:\"
