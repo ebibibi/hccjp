@@ -2,4 +2,4 @@
   user: mebisuda
   tasks:
     - name: output message.
-      debug: msg="{{ message}}"
+      debug: msg="test"
