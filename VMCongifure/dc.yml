@@ -3,8 +3,8 @@
   tasks:
     - name: Setup Active Directory Controller
       win_domain:
-        dns_domain_name: {{dns_domain_name}}
-        safe_mode_password:  {{safe_mode_password}}
+        dns_domain_name: "{{ dns_domain_name }}"
+        safe_mode_password: "{{ safe_mode_password }}"
       register: active_directory_controllers
 
     - name: reboot once DC created
