@@ -39,6 +39,39 @@
         HashAlgorithmName: SHA256
       no_log: true
 
+    - name: install IIS
+      win_feature:
+        name: Web-Server
+        state: present
+        include_management_tools: yes
+        include_sub_features: yes
+      register: iis
+
+    - name: reboot if installing IIS feature requires it
+      win_reboot:
+      when: iis.reboot_required
+
+    - name: install ADCS-Web-Enrollment
+      win_feature:
+        name: ADCS-Web-Enrollment
+        state: present
+        include_management_tools: yes
+        include_sub_features: yes
+      register: adcs_web_enrollment
+
+    - name: reboot if installing ADCS-Web-Enrollment feature requires it
+      win_reboot:
+      when: adcs_web_enrollment.reboot_required
+
+
+    - name: install AdcsWebEnrollment
+      win_dsc:
+        resource_name: AdcsWebEnrollment
+        IsSingleInstance: 'Yes'
+        Ensure: Present
+        Credential_username: "{{ domainadmin_username }}"
+        Credential_password: "{{ domainadmin_password }}"        
+
     - name: set ATTRIBUTESUBJECTALTNAME2 by certutil.exe
       win_command: certutil -setreg policy\EditFlags +EDITF_ATTRIBUTESUBJECTALTNAME2
       
@@ -59,5 +92,5 @@
     
     - name: generate CSR by GenerateCSR.ps1
       win_command: powershell -ExecutionPolicy RemoteSigned -file C:\AzureStackCSR\GenerateCSR.ps1 -SkipNetworkProfileCheck
-      
+
 
