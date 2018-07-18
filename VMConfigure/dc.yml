@@ -47,4 +47,17 @@
         name: certsvc
         state: restarted
 
+    - name: create c:\AzureStackCSR directory
+      win_file:
+        path: C:\AzureStackCSR
+        state: directory
+
+    - name: get GenerateCSR.ps1 to local
+      win_get_url:
+        url: https://raw.githubusercontent.com/ebibibi/hccjp/master/Certificate/GenerateCSR.ps1
+        dest: c:\AzureStackCSR\GenerateCSR.ps1
+    
+    - name: generate CSR by GenerateCSR.ps1
+      win_command: powershell -ExecutionPolicy RemoteSigned -file C:\AzureStackCSR\GenerateCSR.ps1 -SkipNetworkProfileCheck
+      
 

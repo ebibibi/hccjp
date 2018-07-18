@@ -1,7 +1,7 @@
 Install-Module Microsoft.AzureStack.ReadinessChecker -Force
 
 $subjectHash = [ordered]@{"OU"="AzureStack";"O"="HCCJP";"L"="Minato-ku";"ST"="Tokyo";"C"="JP"}
-$outputDirectory = "c:\"
+$outputDirectory = "c:\AzureStackCSR"
 $IdentitySystem = "AAD"
 $regionName = 'iijhuawei'
 $externalFQDN = 'hccjp.org'
