@@ -10,3 +10,8 @@
     - name: reboot once DC created
       win_reboot:
       when: active_directory_controllers.reboot_required
+    
+    - name: install ActiveDirectoryCSDsc DSC resource
+      win_psmodule:
+        name: ActiveDirectoryCSDsc
+        state: present
