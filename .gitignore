@@ -8,3 +8,4 @@
 # .tfvars files
 *.tfvars
 VMCongifure/inventory/hosts
+VMCongifure/group_vars/dc.yml

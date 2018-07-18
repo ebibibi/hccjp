@@ -1,5 +1,12 @@
 - hosts: dc
   user: mebisuda
   tasks:
-    - name: output message.
-      debug: msg="test"
+    - name: Setup Active Directory Controller
+      win_domain:
+        dns_domain_name: {{dns_domain_name}}
+        safe_mode_password:  {{safe_mode_password}}
+      register: active_directory_controllers
+
+    - name: reboot once DC created
+      win_reboot:
+      when: active_directory_controllers.reboot_required
