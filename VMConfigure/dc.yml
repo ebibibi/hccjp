@@ -36,6 +36,7 @@
         CAType: EnterpriseRootCA
         Credential_username: "{{ domainadmin_username }}"
         Credential_password: "{{ domainadmin_password }}"
+        HashAlgorithmName: SHA256
       no_log: true
 
     - name: set ATTRIBUTESUBJECTALTNAME2 by certutil.exe
@@ -45,5 +46,5 @@
       win_service:
         name: certsvc
         state: restarted
-        
+
 
