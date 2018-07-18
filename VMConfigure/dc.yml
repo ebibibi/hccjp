@@ -37,3 +37,5 @@
         CAType: EnterpriseRootCA
         Credential_username: "{{ domainadmin_username }}"
         Credential_password: "{{ domainadmin_password }}"
+      no_log: true
+      
