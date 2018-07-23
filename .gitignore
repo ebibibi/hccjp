@@ -10,3 +10,4 @@
 *.retry
 VMConfigure/inventory/hosts
 VMConfigure/group_vars/dc.yml
+VMConfigure/run_ansible.bat
