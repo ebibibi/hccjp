@@ -1,26 +1,3 @@
-variable "resourcename" {
-  default = "resourcegroup"
-}
-
-variable "location" {
-  default = "japaneast"
-}
-
-variable "vmname" {
-  default = "vmname"
-}
-
-variable "vmsize" {
-  default = "Standard_D2s_v3"
-}
-
-variable "adminusername" {
-  default = "admin"
-}
-
-variable "adminpassword" {
-  default = "P@ssw0rdOfAdmin"
-}
 
 # Create a resource  group if it doesn’t exist
 
