@@ -71,6 +71,14 @@ resource "azurerm_mysql_server" "mysqlserver" {
   ssl_enforcement              = "Disabled"
 }
 
+resource "azurerm_mysql_firewall_rule" "mysqlfirewall" {
+  name                = "any"
+  resource_group_name = "${azurerm_resource_group.webresourcegroup.name}"
+  server_name         = "${azurerm_mysql_server.mysqlserver.name}"
+  start_ip_address    = "0.0.0.0"
+  end_ip_address      = "255.255.255.255"
+}
+
 resource "azurerm_mysql_database" "mysqldatabase" {
   name                = "wordpress"
   resource_group_name = "${azurerm_resource_group.webresourcegroup.name}"
