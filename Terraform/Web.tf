@@ -43,6 +43,12 @@ resource "azurerm_app_service" "hccjpwordpress" {
   }
 }
 
+resource "azurerm_app_service_custom_hostname_binding" "customhostname" {
+  hostname = "www.hccjp.org"
+  app_service_name = "${azurerm_app_service.hccjpwordpress.name}"
+  resource_group_name = "${azurerm_resource_group.webresourcegroup.name}"
+}
+
 variable mysqlname {}
 variable mysqladministrator_login {}
 variable mysqladministrator_login_password {}
