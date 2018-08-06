@@ -1,8 +1,25 @@
+variable "vmresourcename" {
+  default = "vmresourcegroup"
+}
 
-# Create a resource  group if it doesn’t exist
+variable "vmname" {
+  default = "vmname"
+}
 
-resource "azurerm_resource_group" "vmresourcegroup" {
-  name     = "${var.resourcename}"
+variable "vmsize" {
+  default = "Standard_D2s_v3"
+}
+
+variable "vmadminusername" {
+  default = "admin"
+}
+
+variable "vmadminpassword" {
+  default = "P@ssw0rdOfAdmin"
+}
+
+resource "azurerm_resource_group" "resourcegroup" {
+  name     = "${var.vmresourcename}"
   location = "${var.location}"
 }
 
@@ -11,13 +28,13 @@ resource "azurerm_virtual_network" "virtualnetwork" {
   name                = "Vnet"
   address_space       = ["10.0.0.0/16"]
   location            = "${var.location}"
-  resource_group_name = "${azurerm_resource_group.vmresourcegroup.name}"
+  resource_group_name = "${azurerm_resource_group.resourcegroup.name}"
 }
 
 # Create subnet
 resource "azurerm_subnet" "subnet" {
   name                 = "Subnet1"
-  resource_group_name  = "${azurerm_resource_group.vmresourcegroup.name}"
+  resource_group_name  = "${azurerm_resource_group.resourcegroup.name}"
   virtual_network_name = "${azurerm_virtual_network.virtualnetwork.name}"
   address_prefix       = "10.0.1.0/24"
 }
@@ -26,7 +43,7 @@ resource "azurerm_subnet" "subnet" {
 resource "azurerm_public_ip" "publicip" {
   name                         = "PublicIP"
   location                     = "${var.location}"
-  resource_group_name          = "${azurerm_resource_group.vmresourcegroup.name}"
+  resource_group_name          = "${azurerm_resource_group.resourcegroup.name}"
   public_ip_address_allocation = "dynamic"
 }
 
@@ -34,7 +51,7 @@ resource "azurerm_public_ip" "publicip" {
 resource "azurerm_network_security_group" "networksecuritygroup" {
   name                = "NetworkSecurityGroup"
   location            = "${var.location}"
-  resource_group_name = "${azurerm_resource_group.vmresourcegroup.name}"
+  resource_group_name = "${azurerm_resource_group.resourcegroup.name}"
 
   security_rule {
     name                       = "RDP"
@@ -101,7 +118,7 @@ resource "azurerm_network_security_group" "networksecuritygroup" {
 resource "azurerm_network_interface" "networkinterface" {
   name                      = "NIC"
   location                  = "${var.location}"
-  resource_group_name       = "${azurerm_resource_group.vmresourcegroup.name}"
+  resource_group_name       = "${azurerm_resource_group.resourcegroup.name}"
   network_security_group_id = "${azurerm_network_security_group.networksecuritygroup.id}"
 
   ip_configuration {
@@ -116,7 +133,7 @@ resource "azurerm_network_interface" "networkinterface" {
 resource "random_id" "randomid" {
   keepers = {
     # Generate a new ID only when a new resource group is defined
-    resource_group = "${azurerm_resource_group.vmresourcegroup.name}"
+    resource_group = "${azurerm_resource_group.resourcegroup.name}"
   }
 
   byte_length = 8
@@ -125,7 +142,7 @@ resource "random_id" "randomid" {
 # Create storage account for boot diagnostics
 resource "azurerm_storage_account" "storageaccount" {
   name                     = "diag${random_id.randomid.hex}"
-  resource_group_name      = "${azurerm_resource_group.vmresourcegroup.name}"
+  resource_group_name      = "${azurerm_resource_group.resourcegroup.name}"
   location                 = "${var.location}"
   account_tier             = "Standard"
   account_replication_type = "LRS"
@@ -135,7 +152,7 @@ resource "azurerm_storage_account" "storageaccount" {
 resource "azurerm_virtual_machine" "virtualmachine" {
   name                  = "${var.vmname}"
   location              = "${var.location}"
-  resource_group_name   = "${azurerm_resource_group.vmresourcegroup.name}"
+  resource_group_name   = "${azurerm_resource_group.resourcegroup.name}"
   network_interface_ids = ["${azurerm_network_interface.networkinterface.id}"]
   vm_size               = "${var.vmsize}"
 
@@ -155,8 +172,8 @@ resource "azurerm_virtual_machine" "virtualmachine" {
 
   os_profile {
     computer_name  = "${var.vmname}"
-    admin_username = "${var.adminusername}"
-    admin_password = "${var.adminpassword}"
+    admin_username = "${var.vmadminusername}"
+    admin_password = "${var.vmadminpassword}"
   }
 
   os_profile_windows_config {
@@ -167,7 +184,7 @@ resource "azurerm_virtual_machine" "virtualmachine" {
       pass         = "oobeSystem"
       component    = "Microsoft-Windows-Shell-Setup"
       setting_name = "AutoLogon"
-      content      = "<AutoLogon><Password><Value>${var.adminpassword}</Value></Password><Enabled>true</Enabled><LogonCount>1</LogonCount><Username>${var.adminusername}</Username></AutoLogon>"
+      content      = "<AutoLogon><Password><Value>${var.vmadminpassword}</Value></Password><Enabled>true</Enabled><LogonCount>1</LogonCount><Username>${var.vmadminusername}</Username></AutoLogon>"
     }
 
     # Unattend config is to configure remoting for Ansible.
