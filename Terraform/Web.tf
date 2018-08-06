@@ -5,7 +5,7 @@ resource "azurerm_resource_group" "webresourcegroup" {
 
 resource "azurerm_app_service_plan" "appserviceplan" {
   name                = "HCCJPappserviceplan"
-  location            = "${azurerm_resource_group.resourcegroup.location}"
+  location            = "${azurerm_resource_group.vmresourcegroup.location}"
   resource_group_name = "${azurerm_resource_group.webresourcegroup.name}"
   kind                = "linux"
 
@@ -27,7 +27,7 @@ variable mysqladministrator_login_password {}
 
 resource "azurerm_mysql_server" "mysqlserver" {
   name                = "${var.mysqlname}"
-  location            = "${azurerm_resource_group.resourcegroup.location}"
+  location            = "${azurerm_resource_group.vmresourcegroup.location}"
   resource_group_name = "${azurerm_resource_group.webresourcegroup.name}"
 
   sku {
