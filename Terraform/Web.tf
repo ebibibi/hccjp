@@ -37,7 +37,7 @@ resource "azurerm_app_service" "hccjpwordpress" {
     DOCKER_ENABLE_CI = "true"
     WEBSITE_HTTPLOGGING_RETENTION_DAYS = "7"
     WEBSITES_ENABLE_APP_SERVICE_STORAGE = "false"
-    WORDPRESS_DB_HOST = "${azurerm_mysql_server.mysqlserver.name}"
+    WORDPRESS_DB_HOST = "${azurerm_mysql_server.mysqlserver.name}.mysql.database.azure.com"
     WORDPRESS_DB_USER = "${azurerm_mysql_server.mysqlserver.administrator_login}@${var.mysqlname}"
     WORDPRESS_DB_PASSWORD = "${var.mysqladministrator_login_password}"
   }
