@@ -55,7 +55,7 @@ variable mysqladministrator_login_password {}
 
 resource "azurerm_mysql_server" "mysqlserver" {
   name                = "${var.mysqlname}"
-  location            = "${azurerm_resource_group.resourcegroup.location}"
+  location            = "${azurerm_resource_group.webresourcegroup.location}"
   resource_group_name = "${azurerm_resource_group.webresourcegroup.name}"
 
   sku {
@@ -91,4 +91,12 @@ resource "azurerm_mysql_database" "mysqldatabase" {
   server_name         = "${azurerm_mysql_server.mysqlserver.name}"
   charset             = "utf8"
   collation           = "utf8_unicode_ci"
+}
+
+resource "azurerm_storage_account" "webstorageaccount" {
+  name                 = "wordpressimages"
+  resource_group_name  = "${azurerm_resource_group.webresourcegroup.name}"
+  location             = "${azurerm_resource_group.webresourcegroup.location}"
+  account_tier         = "Standard"
+  account_replication_type = "LRS"
 }
