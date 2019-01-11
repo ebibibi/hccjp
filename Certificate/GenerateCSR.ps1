@@ -3,7 +3,7 @@ Import-Module Microsoft.AzureStack.ReadinessChecker
 Update-Module Microsoft.AzureStack.ReadinessChecker
 
 $subjectHash = [ordered]@{"OU"="AzureStack";"O"="HCCJP";"L"="Minato-ku";"ST"="Tokyo";"C"="JP"}
-$outputDirectory = "c:\HCCJP\AzureStackCSR"
+$outputDirectory = "c:\AzureStackCSR"
 $IdentitySystem = "AAD"
 $regionName = 'iijhuawei'
 $externalFQDN = 'hccjp.org'

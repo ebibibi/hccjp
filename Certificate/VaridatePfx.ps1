@@ -8,4 +8,15 @@ $directories | ForEach-Object { New-Item -Path (Join-Path $destination $PSITEM) 
 
 $pfxPassword = Read-Host -Prompt "Enter PFX Password" -AsSecureString 
 
-Invoke-AzsCertificateValidation -CertificatePath c:\certificates -pfxPassword $pfxPassword -RegionName tokyo -FQDN hccjp.org -IdentitySystem AAD -ExtensionHostFeature
+Invoke-AzsCertificateValidation -CertificatePath c:\certificates\AAD -pfxPassword $pfxPassword -RegionName iijhuawei -FQDN hccjp.org -IdentitySystem AAD
+
+#PaaS
+$PaaSCertificates = @{
+    'PaaSDBCert' = @{'pfxPath' = 'C:\Certificates\AAD\Public Portal\portal.iijhuawei.hccjp.org.pfx';'pfxPassword' = $pfxPassword }
+    'PaaSDefaultCert' = @{'pfxPath' = 'C:\Certificates\AAD\Public Portal\portal.iijhuawei.hccjp.org.pfx';'pfxPassword' = $pfxPassword }
+    'PaaSAPICert' = @{'pfxPath' = 'C:\Certificates\AAD\Public Portal\portal.iijhuawei.hccjp.org.pfx';'pfxPassword' = $pfxPassword }
+    'PaaSFTPCert' = @{'pfxPath' = 'C:\Certificates\AAD\Public Portal\portal.iijhuawei.hccjp.org.pfx';'pfxPassword' = $pfxPassword }
+    'PaaSSSOCert' = @{'pfxPath' = 'C:\Certificates\AAD\Public Portal\portal.iijhuawei.hccjp.org.pfx';'pfxPassword' = $pfxPassword }
+    }
+
+Invoke-AzsCertificateValidation -PaaSCertificates $PaaSCertificates -RegionName iijhuawei -FQDN hccjp.org
