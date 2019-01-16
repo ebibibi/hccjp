@@ -41,6 +41,9 @@ rm ExpressRoute.tf
 ```
 
 ## Terraform実行
+
+```
 terraform init
 terraform plan
 terraform apply
+```
