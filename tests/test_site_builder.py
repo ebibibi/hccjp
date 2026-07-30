@@ -181,12 +181,16 @@ def test_build_site_creates_home_archive_details_and_metadata(
         encoding="utf-8"
     )
     sitemap = (output_dir / "sitemap.xml").read_text(encoding="utf-8")
+    headers = (output_dir / "_headers").read_text(encoding="utf-8")
 
     assert "最新イベント" in home
     assert "第75回" in home
+    assert 'href="/assets/site.css?v=2"' in home
     assert "既存の記事" in archive
     assert "最新イベントの本文" in detail
     assert "既存記事の本文" in legacy
     assert "https://hccjp.org/events/75/" in sitemap
+    assert "/assets/media/*" in headers
+    assert "\n/assets/*" not in headers
     assert (output_dir / "_headers").exists()
     assert (output_dir / "404.html").exists()
