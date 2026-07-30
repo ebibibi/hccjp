@@ -19,7 +19,7 @@ SITE_TAGLINE = (
 )
 SITE_URL = "https://hccjp.org"
 CONNPASS_URL = "https://hybridcloud.connpass.com/"
-YOUTUBE_URL = "https://www.youtube.com/@hccjp"
+YOUTUBE_URL = "https://www.youtube.com/@hccjp."
 
 ALLOWED_TAGS = frozenset(
     {
