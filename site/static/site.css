@@ -219,6 +219,10 @@ nav a:hover,
   object-fit: cover;
 }
 
+.hero-visual > img {
+  object-position: 10% center;
+}
+
 .hero-placeholder,
 .card-placeholder {
   display: grid;
@@ -607,6 +611,10 @@ nav a:hover,
 
   .hero h1 {
     font-size: 2.65rem;
+  }
+
+  .hero-visual > img {
+    object-position: left center;
   }
 
   .topics {
