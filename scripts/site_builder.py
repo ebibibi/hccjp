@@ -324,7 +324,7 @@ def _document(*, title: str, description: str, body: str) -> str:
   <meta property="og:description" content="{safe_description}">
   <meta property="og:site_name" content="HCCJP">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="/assets/site.css">
+  <link rel="stylesheet" href="/assets/site.css?v=2">
 </head>
 <body>
   <a class="skip-link" href="#main">本文へ移動</a>
@@ -551,7 +551,7 @@ def _write_headers(output_dir: Path) -> None:
   Permissions-Policy: camera=(), microphone=(), geolocation=()
   Strict-Transport-Security: max-age=31536000; includeSubDomains
 
-/assets/*
+/assets/media/*
   Cache-Control: public, max-age=31536000, immutable
 """
     _write_text(output_dir / "_headers", headers)
