@@ -186,6 +186,7 @@ def test_build_site_creates_home_archive_details_and_metadata(
     assert "最新イベント" in home
     assert "第75回" in home
     assert 'href="/assets/site.css?v=2"' in home
+    assert 'href="https://www.youtube.com/@hccjp."' in home
     assert "既存の記事" in archive
     assert "最新イベントの本文" in detail
     assert "既存記事の本文" in legacy
