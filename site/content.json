@@ -1,0 +1,1052 @@
+{
+  "snapshot_date": "2026-07-30",
+  "wordpress": [
+    {
+      "title": "ローカルLLMでAI使い放題！NVIDIA DGX Spark × Azure ハイブリッド構成",
+      "date": "2026-02-02",
+      "path": "2026/02/02/ローカルllmでai使い放題！nvidia-dgx-spark-x-azure-ハイブリッド構成",
+      "excerpt": "HCCJP 第70回勉強会 開催情報 概要 毎月第2金曜日14時からはHCCJPの勉強会！ 2月は「ローカルLLM × クラウドのハイブリッド構成」をテーマにお届けします！ クラウドLLMのAPI課金が気になる…そんな悩 […]",
+      "content_html": "\n<a href=\"https://hybridcloud.connpass.com/event/383449/\" rel=\"noopener noreferrer\" title=\"ローカルLLMでAI使い放題！NVIDIA DGX Spark × Azure ハイブリッド構成 (2026/02/13 14:00〜)\"><span class=\"fa\"></span><figure class=\"blogcard-thumbnail external-blogcard-thumbnail\"></figure>ローカルLLMでAI使い放題！NVIDIA DGX Spark × Azure ハイブリッド構成 (2026/02/13 14:00〜)# HCCJP 第70回勉強会  ## 開催情報    * 日時: 2026年2月13日（金）14:00-15:30   * 形式: オンライン（YouTube Live）   * テーマ: ローカルLLMでクラウドアプリもAI使い放題！NVIDIA DGX Spark × Azure ハイブリッド構成  ## 概要 ...hybridcloud.connpass.com</a>\n<figure class=\"wp-block-embed is-type-rich is-provider-埋め込みハンドラー wp-block-embed-埋め込みハンドラー wp-embed-aspect-16-9 wp-has-aspect-ratio\">\n<span class=\"embed-youtube\"><iframe allowfullscreen=\"true\" height=\"707\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/IMKtBrHJQMo?si=bF-FaSKEnTresb2t&amp;version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=ja&amp;autohide=2&amp;wmode=transparent\" width=\"1256\"></iframe></span>\n</figure>\nHCCJP 第70回勉強会\n<h2>開催情報</h2>\n<ul>\n<li><strong>日時</strong>: 2026年2月13日（金）14:00-15:30</li>\n<li><strong>形式</strong>: オンライン（YouTube Live）</li>\n<li><strong>テーマ</strong>: ローカルLLMでクラウドアプリもAI使い放題！NVIDIA DGX Spark × Azure ハイブリッド構成</li>\n</ul>\n<h2>概要</h2>\n<p>毎月第2金曜日14時からはHCCJPの勉強会！</p>\n<p>2月は「ローカルLLM × クラウドのハイブリッド構成」をテーマにお届けします！</p>\n<p>クラウドLLMのAPI課金が気になる…そんな悩みを解決！<strong>NVIDIA DGX Spark</strong>をオンプレミスに設置してローカルLLMを動かせば、<strong>AI使い放題</strong>の環境が手に入ります。さらにAzure上のアプリケーションからシームレスに利用できるハイブリッド構成を、実践事例を交えてご紹介します。</p>\n<p>ポイントはLiteLLM！Ollamaはv0.13.3以降でResponses API（/v1/responses）に対応していますが、stateful（previous_response_id / conversation）には未対応です。必要に応じてLiteLLMを挟むことで、OpenAI互換APIの統合（例：セッション継続やルーティング）を行い、Agent SDK/フレームワーク側の実装をシンプルにできます。</p>\n<p>本セッションでは、Ollama、LiteLLMといったオープンソースツールを活用した統合的なLLM基盤の構築方法を学べます！</p>\n<h2>セッション内容</h2>\n<h3>1. ローカルLLMでクラウドアプリもAI使い放題！NVIDIA DGX Spark × Azure ハイブリッド構成</h3>\n<p><strong>NVIDIA DGX Spark</strong>は128GB統合メモリを搭載したデスクトップサイズのAIスーパーコンピューター。これをオンプレミスに設置すれば、大規模LLMを<strong>使い放題</strong>で運用できます。Ollama + LiteLLMで統合的なLLM基盤を構築し、VPN経由でAzure上のアプリケーションから利用する「真のハイブリッドクラウド」構成を実践事例を交えてご紹介します。</p>\n<ul>\n<li><strong>NVIDIA DGX Spark</strong>とは？128GB統合メモリの威力</li>\n<li><strong>Ollama</strong> / <strong>LiteLLM</strong> によるローカルLLM環境の構築</li>\n<li>Azure × オンプレミスLLM ハイブリッド構成の実装</li>\n</ul>\n<h3>2. Microsoft “Adaptive Cloud” 最新動向</h3>\n<p>Microsoft高添さんからは毎月恒例のMicrosoft “Adaptive Cloud” の最新動向をお伝えいただきます！Azure Local、Azure Arc、Windows Server関連の最新情報をお見逃しなく！</p>\n<h2>スピーカー</h2>\n<ul>\n<li><strong>胡田 昌彦</strong> – 日本ビジネスシステムズ株式会社、Microsoft MVP for Cloud and Datacenter Management, Microsoft Azure</li>\n<li><strong>高添 修 氏</strong> – 日本マイクロソフト株式会社</li>\n</ul>\n<h2>タイムテーブル</h2>\n<figure class=\"wp-block-table\"><table><thead><tr><th>時刻</th><th>時間</th><th>セッション</th><th>スピーカー</th></tr></thead><tbody><tr><td>14:00</td><td>5分</td><td>オープニング</td><td>胡田 昌彦</td></tr><tr><td>14:05</td><td>45分</td><td>ローカルLLMでAI使い放題！NVIDIA DGX Spark × Azure</td><td>胡田 昌彦</td></tr><tr><td>14:50</td><td>10分</td><td>Q&amp;A</td><td>全員</td></tr><tr><td>15:00</td><td>20分</td><td>Microsoft “Adaptive Cloud” Updates</td><td>高添 修 氏</td></tr><tr><td>15:20</td><td>5分</td><td>Q&amp;A</td><td>全員</td></tr><tr><td>15:25</td><td>5分</td><td>クロージング</td><td>胡田 昌彦</td></tr><tr><td>## 視聴方法</td><td></td><td></td><td></td></tr></tbody></table></figure>\n<ul>\n<li><strong>YouTube Live</strong>: <a href=\"https://youtube.com/live/IMKtBrHJQMo?feature=share\" rel=\"noopener noreferrer\">https://youtube.com/live/IMKtBrHJQMo?feature=share</a></li>\n<li>チャンネル登録をお願いします！</li>\n</ul>\n<h2>主催</h2>\n<p>ハイブリッドクラウド研究会（HCCJP）</p>\n<p><strong>主幹事</strong>: 日本ビジネスシステムズ株式会社</p>\n<p><strong>幹事</strong>（50音順）: – NTTコミュニケーションズ株式会社 – 日商エレクトロニクス株式会社 – 日本ヒューレット・パッカード株式会社 – 日本マイクロソフト株式会社 – VistaNet株式会社 – 株式会社ネットワールド – 三井情報株式会社 – レノボ・エンタープライズ・ソリューションズ株式会社</p>\n",
+      "source_url": "https://www.hccjp.org/2026/02/02/%e3%83%ad%e3%83%bc%e3%82%ab%e3%83%abllm%e3%81%a7ai%e4%bd%bf%e3%81%84%e6%94%be%e9%a1%8c%ef%bc%81nvidia-dgx-spark-x-azure-%e3%83%8f%e3%82%a4%e3%83%96%e3%83%aa%e3%83%83%e3%83%89%e6%a7%8b%e6%88%90/",
+      "image_path": null,
+      "kind": "post"
+    },
+    {
+      "title": "新年雑談会 + AIに何かを作らせる回",
+      "date": "2026-01-06",
+      "path": "2026/01/06/新年雑談会-aiに何かを作らせる回",
+      "excerpt": "第69回 HCCJP勉強会 テーマ：新年雑談会 + AIに何かを作らせる回 🎍 あけましておめでとうございます！ 2026年最初の勉強会は、ゆる〜く楽しくスタートします！ 新年1発目ということで、今回はいつもと趣向を変え […]",
+      "content_html": "\n<figure class=\"wp-block-embed is-type-rich is-provider-埋め込みハンドラー wp-block-embed-埋め込みハンドラー wp-embed-aspect-16-9 wp-has-aspect-ratio\">\n<span class=\"embed-youtube\"><iframe allowfullscreen=\"true\" height=\"707\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/UwJYqstY4C4?si=REwxL6Hv-71BLVM8&amp;version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=ja&amp;autohide=2&amp;wmode=transparent\" width=\"1256\"></iframe></span>\n</figure>\n第69回 HCCJP勉強会\n<p><strong>テーマ：新年雑談会 + AIに何かを作らせる回</strong></p>\n<hr/>\n<h2>🎍 あけましておめでとうございます！</h2>\n<p><strong>2026年最初の勉強会は、ゆる〜く楽しくスタートします！</strong></p>\n<p>新年1発目ということで、今回はいつもと趣向を変えて「雑談会」形式で開催します。 肩の力を抜いて、みんなでわいわいお話ししながら新年を迎えましょう！</p>\n<hr/>\n<h2>🤖 今回のメインコンテンツ</h2>\n<h3>✨ AIに何かを作らせる回 2026年1月版</h3>\n<p>定期的に実施している人気企画「AIに何かを作らせる」を今回もやります！</p>\n<p>AIの進化は日進月歩。「どんどん勝手に性能良くなっている」今のAIが、 果たしてどんなものを生み出してくれるのか？　最新のAI能力を一緒に体験しましょう！</p>\n<h3>💬 自由な雑談タイム</h3>\n<p>議題はとくに決めません！</p>\n<ul>\n<li>年末年始のできごと</li>\n<li>気になる技術トピック</li>\n<li>仕事や趣味の話</li>\n<li>何でもOK！</li>\n</ul>\n<p>AIに何かを作らせつつ、気軽におしゃべりしながら、楽しいひとときを過ごしましょう。</p>\n<hr/>\n<h2>開催概要</h2>\n<figure class=\"wp-block-table\"><table><thead><tr><th>項目</th><th>内容</th></tr></thead><tbody><tr><td><strong>開催日</strong></td><td>2026年1月9日(金)</td></tr><tr><td><strong>開始</strong></td><td>14:00〜</td></tr><tr><td><strong>配信</strong></td><td>オンライン開催</td></tr><tr><td><strong>参加費</strong></td><td>無料</td></tr></tbody></table></figure>\n<h3>参加方法は2つ！</h3>\n<figure class=\"wp-block-table\"><table><thead><tr><th>方法</th><th>内容</th><th>URL</th></tr></thead><tbody><tr><td>📺 <strong>YouTube視聴</strong></td><td>見るだけでOK！気軽に視聴できます</td><td><a href=\"https://youtube.com/live/UwJYqstY4C4\" rel=\"noopener noreferrer\">https://youtube.com/live/UwJYqstY4C4</a></td></tr><tr><td>💬 <strong>Teams参加</strong></td><td>会話に参加したい方はこちら。自由に入退室OK！</td><td>参加申込者にURLが表示されます</td></tr></tbody></table></figure>\n<p>どちらでもお好きな方法でご参加ください！</p>\n<hr/>\n<h2>📺 YouTubeチャンネルコラボ（予定）</h2>\n<p>今回は新しい試みとして、複数チャンネルでの同時配信に挑戦予定です！ 視聴者の皆さんにもっと見つけてもらえるよう、新しい取り組みを試してみます。</p>\n<hr/>\n<h2>🎯 こんな方におすすめ！</h2>\n<ul>\n<li>新年からHCCJPの仲間と交流したい方</li>\n<li>ゆるく楽しくIT談義をしたい方</li>\n<li>最新AIの実力を見てみたい方</li>\n<li>気軽にオンラインイベントに参加してみたい方</li>\n<li>Teams会議で直接おしゃべりしたい方</li>\n</ul>\n<p><strong>堅苦しいことは抜きにして、気軽に遊びに来てください！</strong></p>\n<hr/>\n<h2>🕒 進め方</h2>\n<p>今回はゆるい会なので、きっちりとしたタイムテーブルはありません。</p>\n<p><strong>雑談しながら、AIに何かを作らせます！</strong></p>\n<p>おしゃべりを楽しみつつ、その場のノリで「これ作ってみよう」とAIにお題を出してみたり、 できあがったものを見てワイワイしたり……今年何をしたいかを話したり……流れに任せて楽しくやっていきます！</p>\n<hr/>\n<h2>主催</h2>\n<ul>\n<li>ハイブリッドクラウド研究会\n<ul>\n<li>主幹事：日本ビジネスシステムズ株式会社</li>\n<li>幹事(50音順)：NTTコミュニケーションズ株式会社, 日商エレクトロニクス株式会社, 日本ヒューレット・パッカード株式会社,日本マイクロソフト株式会社, VistaNet株式会社, 株式会社ネットワールド, 三井情報株式会社, レノボ・エンタープライズ・ソリューションズ株式会社</li>\n</ul>\n</li>\n</ul>\n",
+      "source_url": "https://www.hccjp.org/2026/01/06/%e6%96%b0%e5%b9%b4%e9%9b%91%e8%ab%87%e4%bc%9a-ai%e3%81%ab%e4%bd%95%e3%81%8b%e3%82%92%e4%bd%9c%e3%82%89%e3%81%9b%e3%82%8b%e5%9b%9e/",
+      "image_path": null,
+      "kind": "post"
+    },
+    {
+      "title": "WSUSの次のキャッシュはこれ？Connected Cache導入事例！",
+      "date": "2025-10-09",
+      "path": "2025/10/09/wsusの次のキャッシュはこれ？connected-cache導入事例！",
+      "excerpt": "第66回 HCCJP勉強会 WSUSの次はこれ？Connected Cache導入事例！ HCCJP(ハイブリッドクラウド勉強会) 第66回は、企業・教育機関で増え続ける Windows / アプリ配信を“速く・賢く・安 […]",
+      "content_html": "\n第66回 HCCJP勉強会\n<p>WSUSの次はこれ？Connected Cache導入事例！</p>\n<p>HCCJP(ハイブリッドクラウド勉強会) 第66回は、企業・教育機関で増え続ける Windows / アプリ配信を“速く・賢く・安定して”届けるための鍵、Microsoft Connected Cache (MCC) を徹底解説します。GA化されたばかりのこのサービスの最新情報を導入事例をもとにMKI 養老さんに解説いただきます。</p>\n<p>WSUSの非推奨化によりWindows Updateの配信管理の将来像にお困りの方必見の内容です。お見逃しなく！</p>\n<p>さらに後半は毎月恒例「Microsoft Adaptive Cloud Updates」。Microsoft 高添さんが最新アップデートを厳選し、現場で押さえるべき要点をテンポよく解説してくれます。短時間でキャッチアップしたい方にも最適です。</p>\nライブ視聴 URL\n<ul>\n<li>YouTube Live: <a href=\"https://youtube.com/live/RbU5g5jrsEc?feature=share\" rel=\"noopener noreferrer\">https://youtube.com/live/RbU5g5jrsEc?feature=share</a></li>\n</ul>\n開催概要\n<ul>\n<li>開催日: 2025年10月10日(金)</li>\n<li>開始時間: 14:00</li>\n<li>配信: YouTube HCCJPチャンネル</li>\n<li>参加費: 無料 (事前登録制)</li>\n</ul>\n<h2>メインセッション</h2>\n<ul>\n<li>登壇者: 三井情報株式会社 養老 利紀 (ようろう としのり)</li>\n<li>タイトル: Microsoft Connected Cache for Enterprise and Education 〜当社での導入事例とアクティビティの見える化の紹介〜</li>\n</ul>\n<h2>高添さんの毎月恒例セッション</h2>\n<ul>\n<li>登壇者: 日本マイクロソフト株式会社 高添 修 (たかぞえ おさむ)</li>\n<li>タイトル: Microsoft “Adaptive Cloud” Updates</li>\n</ul>\nアジェンダ／タイムテーブル\n<figure class=\"wp-block-table\"><table><thead><tr><th>開始</th><th>時間(分)</th><th>セッション</th><th>スピーカー</th></tr></thead><tbody><tr><td>14:00</td><td>5</td><td>オープニング</td><td>日本ビジネスシステムズ株式会社<br/>Microsoft MVP for Cloud and Datacenter Management, Microsoft Azure<br/>胡田 昌彦</td></tr><tr><td>14:05</td><td>40</td><td>Microsoft Connected Cache for Enterprise and Education 〜当社での導入事例とアクティビティの見える化の紹介〜</td><td>三井情報株式会社<br/>養老 利紀</td></tr><tr><td>14:45</td><td>15</td><td>Q&amp;A</td><td></td></tr><tr><td>15:00</td><td>20</td><td>Microsoft “Adaptive Cloud” Updates</td><td>日本マイクロソフト株式会社<br/>高添 修</td></tr><tr><td>15:20</td><td>10</td><td>Q&amp;A</td><td></td></tr><tr><td>15:30</td><td></td><td>クロージング</td><td></td></tr></tbody></table></figure>\n主催\n<ul>\n<li>ハイブリッドクラウド研究会\n<ul>\n<li>主幹事：日本ビジネスシステムズ株式会社</li>\n<li>幹事(50音順)：NTTコミュニケーションズ株式会社, 日商エレクトロニクス株式会社, 日本ヒューレット・パッカード株式会社,日本マイクロソフト株式会社, VistaNet株式会社, 株式会社ネットワールド, 三井情報株式会社, レノボ・エンタープライズ・ソリューションズ株式会社</li>\n</ul>\n</li>\n</ul>\n",
+      "source_url": "https://www.hccjp.org/2025/10/09/wsus%e3%81%ae%e6%ac%a1%e3%81%ae%e3%82%ad%e3%83%a3%e3%83%83%e3%82%b7%e3%83%a5%e3%81%af%e3%81%93%e3%82%8c%ef%bc%9fconnected-cache%e5%b0%8e%e5%85%a5%e4%ba%8b%e4%be%8b%ef%bc%81/",
+      "image_path": null,
+      "kind": "post"
+    },
+    {
+      "title": "BicepでMicrosoft Entra IDリソース&オンプレミスVM管理！",
+      "date": "2025-08-07",
+      "path": "2025/08/07/bicepでmicrosoft-entra-idリソースオンプレミスvm管理！",
+      "excerpt": "HCCJP(ハイブリッドクラウド研究会) 64回勉強会 毎月第2金曜日14時からはHCCJPの勉強会！今回はBicepでMicrosoft Entra IDリソースの作成が可能になったのでBicepにフォーカスを当てたい […]",
+      "content_html": "\nHCCJP(ハイブリッドクラウド研究会) 64回勉強会\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio\">\n<span class=\"embed-youtube\"><iframe allowfullscreen=\"true\" height=\"707\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/fs3vSpph4mg?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=ja&amp;autohide=2&amp;wmode=transparent\" width=\"1256\"></iframe></span>\n</figure>\n<p>毎月第2金曜日14時からはHCCJPの勉強会！今回はBicepでMicrosoft Entra IDリソースの作成が可能になったのでBicepにフォーカスを当てたいと思います。</p>\n<p>■BicepでMicrosoft Entra IDリソース&amp;オンプレミスVM管理 GAとなったBicepによるEntra IDリソース作成と、Arcを使ったオンプレミスVM構成管理について、メリットや手順をデモを交えてご紹介します</p>\n<p>■Microsoft “Adaptive Cloud” 最新動向 Microsoft高添さんからは毎月恒例のMicrosoft “Adaptive Cloud” の最新動向をお伝えいただきます！ぜひお見逃しなく！</p>\n<p>皆様のご参加をお待ちしております！</p>\n<ul>\n<li>📆 日時: 2025年8月8日 (金)</li>\n<li>🕑 開始: 14:00開始</li>\n<li>📽️ オンライン会場：Youtube HCCJPチャンネル(※チャンネル登録してお待ち下さい！)<br/><a href=\"https://www.youtube.com/channel/UCrf4bEl7yJnkGYo3F67gA7w\" rel=\"noopener noreferrer\">https://www.youtube.com/channel/UCrf4bEl7yJnkGYo3F67gA7w</a></li>\n<li>👥 登壇者:<br/>日本マイクロソフト株式会社 高添 修 氏<br/>日本ビジネスシステムズ株式会社 胡田 昌彦</li>\n</ul>\nアジェンダ/タイムテーブル\n<figure class=\"wp-block-table\"><table><thead><tr><th>開始時刻</th><th>時間(分)</th><th>セッション</th><th>スピーカー</th></tr></thead><tbody><tr><td>14:00</td><td>5</td><td>オープニング</td><td></td></tr><tr><td>14:05</td><td>40</td><td>BicepでMicrosoft Entra IDリソース&amp;オンプレミスVM管理</td><td>日本ビジネスシステムズ株式会社<br/>Microsoft MVP for Azure Hybrid, Windows Server<br/>胡田 昌彦</td></tr><tr><td>14:45</td><td>10</td><td>Q&amp;A<br/>匿名で何でも質問できます！</td><td></td></tr><tr><td>14:55</td><td>20</td><td>Microsoft “Adaptive Cloud” Updates</td><td>日本マイクロソフト株式会社<br/>高添 修 氏</td></tr><tr><td>15:15</td><td>10</td><td>Q&amp;A<br/>匿名で何でも質問できます！</td><td></td></tr><tr><td>15:25</td><td>5</td><td>クロージング</td><td></td></tr><tr><td>15:30</td><td></td><td></td></tr></tbody></table></figure>\n",
+      "source_url": "https://www.hccjp.org/2025/08/07/bicep%e3%81%a7microsoft-entra-id%e3%83%aa%e3%82%bd%e3%83%bc%e3%82%b9%e3%82%aa%e3%83%b3%e3%83%97%e3%83%ac%e3%83%9f%e3%82%b9vm%e7%ae%a1%e7%90%86%ef%bc%81/",
+      "image_path": "assets/media/2d994a9e6adc-hcc-logo02f_300-300x277.png",
+      "kind": "post"
+    },
+    {
+      "title": "HCCJP#63 Azure×生成AI最前線: Claude/Gemini/EdgeRAG祭り",
+      "date": "2025-07-04",
+      "path": "2025/07/04/hccjp63-azurex生成ai最前線-claude-gemini-edgerag祭り",
+      "excerpt": "HCCJP(ハイブリッドクラウド研究会) 63回勉強会 毎月第2金曜日14時からはHCCJPの勉強会！7月も「Azure + 生成AI」関連多めの内容でお届けします！ ■Claude Code × Azure, Gemi […]",
+      "content_html": "\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio\">\n<span class=\"embed-youtube\"><iframe allowfullscreen=\"true\" height=\"707\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/BFuknoOTt3Q?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=ja&amp;autohide=2&amp;wmode=transparent\" width=\"1256\"></iframe></span>\n</figure>\nHCCJP(ハイブリッドクラウド研究会) 63回勉強会\n<p>毎月第2金曜日14時からはHCCJPの勉強会！7月も「Azure + 生成AI」関連多めの内容でお届けします！</p>\n<p>■Claude Code × Azure, Gemini CLI × Azure</p>\n<p>最近話題沸騰中のClaude CodeおよびGemini CLIでのAzure環境構築に関してのTipsや実演を行います。Microsoft Learn Docs MCPを用いて公式ドキュメントも参照させながらコンソールベースの生成AIにあれこれと作業をお願いできるのはまるで魔法のようです。無料でも実現できますので是非一緒にやり方を学んじゃってください！</p>\n<p>■Microsoft “Adaptive Cloud” 最新動向</p>\n<p>Microsoft高添さんからは毎月恒例のMicrosoft “Adaptive Cloud” の最新動向をお伝えいただきます！先月勉強会がお休みだったので2か月分の情報がありますね。ぜひお見逃しなく！</p>\n<p>■Azure Arc 対応 Kubernetes 拡張機能 ”Edge RAG”</p>\n<p>Azure Local上で簡単に動作させることのできる「Edge RAG」。プレビュー中の段階ですが、展開して動作検証を簡単にしてみました。その際のはまりポイントを共有します。</p>\n<p>今月は先月休んだ分も含めて盛りだくさんです。 皆様のご参加をお待ちしております！</p>\n<ul>\n<li>📆 日時: 2025年7月11日 (金)</li>\n<li>🕑 開始: 14:00開始</li>\n<li>📽️ オンライン会場：Youtube HCCJPチャンネル(※チャンネル登録してお待ち下さい！)<br/><a href=\"https://www.youtube.com/channel/UCrf4bEl7yJnkGYo3F67gA7w\" rel=\"noopener noreferrer\">https://www.youtube.com/channel/UCrf4bEl7yJnkGYo3F67gA7w</a></li>\n<li>👥 登壇者:<br/>日本マイクロソフト株式会社 高添 修 氏<br/>日本ビジネスシステムズ株式会社 胡田 昌彦</li>\n</ul>\nアジェンダ/タイムテーブル\n<figure class=\"wp-block-table\"><table><thead><tr><th>開始時刻</th><th>時間(分)</th><th>セッション</th><th>スピーカー</th></tr></thead><tbody><tr><td>14:00</td><td>5</td><td>オープニング</td><td>日本ビジネスシステムズ株式会社<br/>Microsoft MVP for Azure Hybrid, Windows Server<br/>胡田 昌彦</td></tr><tr><td>14:05</td><td>20</td><td>【前半】Claude Code × Azure, Gemini CLI × Azure</td><td>日本ビジネスシステムズ株式会社<br/>Microsoft MVP for Azure Hybrid, Windows Server<br/>胡田 昌彦</td></tr><tr><td>14:25</td><td>20</td><td>Microsoft “Adaptive Cloud” Updates</td><td>日本マイクロソフト株式会社<br/>高添 修 氏</td></tr><tr><td>14:45</td><td>20</td><td>Azure Arc 対応 Kubernetes 拡張機能 ”Edge RAG”</td><td>日本ビジネスシステムズ株式会社<br/>Microsoft MVP for Azure Hybrid, Windows Server<br/>胡田 昌彦</td></tr><tr><td>15:05</td><td>10</td><td>【後半】Claude Code × Azure, Gemini CLI × Azure</td><td>日本ビジネスシステムズ株式会社<br/>Microsoft MVP for Azure Hybrid, Windows Server<br/>胡田 昌彦</td></tr><tr><td>15:15</td><td>10</td><td>Q&amp;A<br/>匿名で何でも質問できます！</td><td></td></tr><tr><td>15:25</td><td>5</td><td>クロージング</td><td></td></tr><tr><td>15:30</td><td></td><td></td><td></td></tr></tbody></table></figure>\n主催\n<ul>\n<li>ハイブリッドクラウド研究会\n<ul>\n<li>主幹事：日本ビジネスシステムズ株式会社</li>\n<li>幹事(50音順)：NTTコミュニケーションズ株式会社, 日商エレクトロニクス株式会社, 日本ヒューレット・パッカード株式会社,日本マイクロソフト株式会社, VistaNet株式会社, 株式会社ネットワールド, 三井情報株式会社, レノボ・エンタープライズ・ソリューションズ株式会社</li>\n</ul>\n</li>\n</ul>\n",
+      "source_url": "https://www.hccjp.org/2025/07/04/hccjp63-azurex%e7%94%9f%e6%88%90ai%e6%9c%80%e5%89%8d%e7%b7%9a-claude-gemini-edgerag%e7%a5%ad%e3%82%8a/",
+      "image_path": null,
+      "kind": "post"
+    },
+    {
+      "title": "Microsoft Adaptive Cloud最前線とTeams会議の超かんたん配信を体感せよ！ / HCCJP(ハイブリッドクラウド研究会) 第59回勉強会",
+      "date": "2025-02-05",
+      "path": "2025/02/05/microsoft-adaptive-cloud最前線とteams会議の超かんたん配信を体感せよ",
+      "excerpt": "今回の勉強会はいつもより1時間早い「13時スタート」となりますのでお間違えのないようご注意ください！ 見どころ 「ハイブリッドクラウドって何？」「もっと運用をラクにしたい！」という方も大歓迎。ぜひ、この機会にHCCJP第 […]",
+      "content_html": "\n<p>今回の勉強会はいつもより<strong>1時間早い「13時スタート」</strong>となりますのでお間違えのないようご注意ください！</p>\n<h2>見どころ</h2>\n<ul>\n<li>いつもより1時間早い13時開始！ 忘れずにご参加を！</li>\n<li>HCCJPのライブ配信手法が新しくなりました。Teams会議をYouTubeに簡単配信する実践ノウハウを大公開！</li>\n<li>Microsoft “Adaptive Cloud” の最新動向を、スペシャリストの高添さんから直接学べます。</li>\n<li>匿名質問コーナーを複数回ご用意！日頃の疑問を気軽にぶつけてみませんか？</li>\n</ul>\n<p>「ハイブリッドクラウドって何？」「もっと運用をラクにしたい！」という方も大歓迎。ぜひ、この機会にHCCJP第59回勉強会にご参加ください！</p>\n<p>最後に、HCCJPのYouTubeチャンネル登録もよろしくお願いいたします。登録していただけると、とても嬉しいです！ 皆様のご参加をお待ちしております！ – <a href=\"https://www.youtube.com/@hccjp\" rel=\"noopener noreferrer\">https://www.youtube.com/@hccjp</a>.</p>\n<ul>\n<li>📆 日時: 2025年2月14日 (金)</li>\n<li>🕑 開始: 13:00開始(※<strong>いつもの14時開始ではないのでご注意ください！</strong>)</li>\n<li>📽️ オンライン会場：Youtube HCCJPチャンネル(※チャンネル登録してお待ち下さい！)<br/><a href=\"https://www.youtube.com/channel/UCrf4bEl7yJnkGYo3F67gA7w\" rel=\"noopener noreferrer\">https://www.youtube.com/channel/UCrf4bEl7yJnkGYo3F67gA7w</a></li>\n<li>👥 登壇者:<br/>日本マイクロソフト株式会社 高添 修 氏<br/>日本ビジネスシステムズ株式会社 胡田 昌彦</li>\n</ul>\nアジェンダ/タイムテーブル\n<figure class=\"wp-block-table\"><table><thead><tr><th>開始時刻</th><th>時間(分)</th><th>セッション</th><th>スピーカー</th></tr></thead><tbody><tr><td>13:00</td><td>5</td><td>オープニング</td><td>日本ビジネスシステムズ株式会社<br/>Microsoft MVP for Azure Hybrid, Windows Server<br/>胡田 昌彦</td></tr><tr><td>13:05</td><td>15</td><td>【ワンオペでも安心！】<br/>Teams会議を超簡単にYoutubeにライブ配信する方法<br/>【HCCJPの配信手法変更しました！】</td><td>日本ビジネスシステムズ株式会社<br/>Microsoft MVP for Azure Hybrid, Windows Server<br/>胡田 昌彦</td></tr><tr><td>13:20</td><td>5</td><td>Q&amp;A<br/>匿名で何でも質問できます！</td><td></td></tr><tr><td>13:25</td><td>40</td><td>Microsoft “Adaptive Cloud” Updates</td><td>日本マイクロソフト株式会社<br/>高添 修 氏</td></tr><tr><td>14:05</td><td>10</td><td>Q&amp;A<br/>匿名で何でも質問できます！</td><td></td></tr><tr><td>14:15</td><td>5</td><td>クロージング</td><td></td></tr></tbody></table></figure>\n主催\n<ul>\n<li>ハイブリッドクラウド研究会\n<ul>\n<li>主幹事：日本ビジネスシステムズ株式会社</li>\n<li>幹事(50音順)：NTTコミュニケーションズ株式会社, 日商エレクトロニクス株式会社, 日本ヒューレット・パッカード株式会社,日本マイクロソフト株式会社, VistaNet株式会社, 株式会社ネットワールド, 三井情報株式会社, レノボ・エンタープライズ・ソリューションズ株式会社</li>\n</ul>\n</li>\n</ul>\n<p></p>\n",
+      "source_url": "https://www.hccjp.org/2025/02/05/microsoft-adaptive-cloud%e6%9c%80%e5%89%8d%e7%b7%9a%e3%81%a8teams%e4%bc%9a%e8%ad%b0%e3%81%ae%e8%b6%85%e3%81%8b%e3%82%93%e3%81%9f%e3%82%93%e9%85%8d%e4%bf%a1%e3%82%92%e4%bd%93%e6%84%9f%e3%81%9b%e3%82%88/",
+      "image_path": "assets/media/2d994a9e6adc-hcc-logo02f_300-300x277.png",
+      "kind": "post"
+    },
+    {
+      "title": "HCCJP第58回勉強会の会場へのアクセス方法",
+      "date": "2024-12-12",
+      "path": "2024/12/12/hccjp第58回勉強会の会場へのアクセス方法",
+      "excerpt": "会場は「虎ノ門ヒルズ ステーションタワー」の20階です。 虎ノ門ヒルズ公式道先案内マップ：虎ノ門ヒルズ ステーションタワー｜Access／eHills Club 「虎ノ門駅」からお越し頂く場合も、徒歩で「虎ノ門 […]",
+      "content_html": "\n<p>会場は「虎ノ門ヒルズ ステーションタワー」の20階です。</p>\n<p>虎ノ門ヒルズ公式道先案内マップ：<a href=\"https://www.ehills.co.jp/rp/dfw/EHILLS/building/roadmap/toramon-statower/toramon-statower.php\" rel=\"noopener noreferrer\">虎ノ門ヒルズ ステーションタワー｜Access／eHills Club</a></p>\n<p>「虎ノ門駅」からお越し頂く場合も、徒歩で「虎ノ門ヒルズ駅」を目指してください。地下通路でつながっています。</p>\n<p>虎ノ門ヒルズ駅を使った場合、地下2階で改札を出てから右手奥のエレベーターホールをお使いください。</p>\n<p>少々わかりにくくなっています。間違ってエスカレーターに乗ってしまわないようにご注意ください。</p>\n<figure class=\"wp-block-image size-large\"></figure>\n<p> エレベーターで7階までお上がりください。</p>\n<p>そして、 ステーションタワー７F受付付近にある発券機にて</p>\n<p>「入館予約番号(Connpassの「参加者への情報」欄に記載されています)」をご入力いただきご自身のConnpass上の名前を選択して、紙のＱＲコードを発券ください。</p>\n<p>（※QRコードは退館時まで必ず保管してください。）</p>\n<p>QRコードを発券したらすぐ左にスターバックスさんのあるゲスト用の入場ゲートよりQRコードを使って入場し、20階にお向かいください。</p>\n<figure class=\"wp-block-image size-large\"></figure>\n<p>20階に到着しましたら、直接2005セミナールームにお向かいください。</p>\n",
+      "source_url": "https://www.hccjp.org/2024/12/12/hccjp%e7%ac%ac58%e5%9b%9e%e5%8b%89%e5%bc%b7%e4%bc%9a%e3%81%ae%e4%bc%9a%e5%a0%b4%e3%81%b8%e3%81%ae%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e6%96%b9%e6%b3%95/",
+      "image_path": "assets/media/2d994a9e6adc-hcc-logo02f_300-300x277.png",
+      "kind": "post"
+    },
+    {
+      "title": "1年ぶりに現地参加可能！5社6セッションで学ぶハイブリッド最前線！",
+      "date": "2024-12-04",
+      "path": "2024/12/04/1年ぶりに現地参加可能！5社6セッションで学ぶハ",
+      "excerpt": "🌟【特別開催！オフライン＋オンライン ハイブリッドイベント】🌟 今回のイベントは、普段のオンライン開催とは異なり、1年ぶりのオフライン会場での参加も可能なハイブリッド形式で行います！直接会場で参加し、リアルタイムでの交流 […]",
+      "content_html": "\n<h2>🌟【特別開催！オフライン＋オンライン ハイブリッドイベント】🌟</h2>\n<p>今回のイベントは、普段のオンライン開催とは異なり、<strong>1年ぶりのオフライン会場</strong>での参加も可能なハイブリッド形式で行います！直接会場で参加し、リアルタイムでの交流やQ&amp;Aに参加する絶好の機会です。もちろん、オンライン参加も可能で、都合が合わない方にはアーカイブ視聴もご用意していますので、どなたでもお好きな方法でご参加いただけます。</p>\n<p>イベント内容も充実！11月18日から22日に開催される<strong>Microsoft Ignite 2024</strong>の新情報を日本語で素早く把握できる絶好の機会です。Adaptive CloudやWindows Server 2025、AI/GPUサーバーの最新技術動向を学びつつ、専門家の解説と座談会を通じて、理解を深めることができます。新しい知見を吸収し、ビジネスに活かすためのヒントを得られる貴重な機会です。</p>\n<h2>注目のセッションハイライト</h2>\n<ul>\n<li>Windows Server HCI / Azure Stack HCI の国内活用シナリオ</li>\n<li>オンプレミスのAI/GPUサーバー活用事例</li>\n<li>AWS MGNを活用したサーバー移行事例</li>\n<li>Hybrid Cloud活用による5G技術の最新動向</li>\n<li>Adaptive Cloudの最新トレンド解説</li>\n</ul>\n<p>Q&amp;Aセッションも匿名で質問可能なので、気軽にご参加いただけます。イベント後半にはMicrosoft Ignite 2024の内容を基にした座談会も予定しており、皆様の疑問にお答えする場も設けています。リアルな情報交換を楽しみながら、知識を深めましょう！</p>\n<p>最後に、HCCJPのYouTubeチャンネル登録もよろしくお願いいたします。登録していただけると、とても嬉しいです！ 皆様のご参加をお待ちしております！ – <a href=\"https://www.youtube.com/@hccjp\" rel=\"noopener noreferrer\">https://www.youtube.com/@hccjp</a>.</p>\n<ul>\n<li>📆 日時: 2024年12月13日 (金)</li>\n<li>🕑 開始: 13:30開場、14:00開始</li>\n<li>🏢 オフライン開場：Microsoft Base Toranomon / 東京都港区虎ノ門2-6-1 虎ノ門ヒルズ ステーションタワー20F<br/><a href=\"https://www.microsoft.com/ja-jp/events/azurebase/places/toranomon/\" rel=\"noopener noreferrer\">https://www.microsoft.com/ja-jp/events/azurebase/places/toranomon/</a></li>\n<li>📽️ オンライン会場：Youtube HCCJPチャンネル(※チャンネル登録してお待ち下さい！)<br/><a href=\"https://www.youtube.com/channel/UCrf4bEl7yJnkGYo3F67gA7w\" rel=\"noopener noreferrer\">https://www.youtube.com/channel/UCrf4bEl7yJnkGYo3F67gA7w</a><br/>実際の視聴URLはイベント前日ごろに「参加者への情報」に掲載します！(チャンネルからも確認いただけます)<br/>詳しいオフライン開場への案内は申込みいただいた方へのメッセージでお伝えします。</li>\n<li>👥 登壇者:<br/>日本ビジネスシステムズ株式会社 胡田 昌彦<br/>デル・テクノロジーズ株式会社 津村 賢哉 氏<br/>日本ヒューレット・パッカード合同会社 片山 嘉彦 氏<br/>三井情報株式会社 西村 恭介 氏<br/>日本マイクロソフト株式会社 高添 修 氏</li>\n</ul>\n<a href=\"https://www.youtube.com/live/nSudbBepSE8\" rel=\"noopener noreferrer\" title=\" - YouTube\"><span class=\"fa\"></span><figure class=\"blogcard-thumbnail external-blogcard-thumbnail\"></figure> - YouTubeYouTube でお気に入りの動画や音楽を楽しみ、オリジナルのコンテンツをアップロードして友だちや家族、世界中の人たちと共有しましょう。www.youtube.com</a>\n",
+      "source_url": "https://www.hccjp.org/2024/12/04/1%e5%b9%b4%e3%81%b6%e3%82%8a%e3%81%ab%e7%8f%be%e5%9c%b0%e5%8f%82%e5%8a%a0%e5%8f%af%e8%83%bd%ef%bc%815%e7%a4%be6%e3%82%bb%e3%83%83%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%a7%e5%ad%a6%e3%81%b6%e3%83%8f/",
+      "image_path": "assets/media/2d994a9e6adc-hcc-logo02f_300-300x277.png",
+      "kind": "post"
+    },
+    {
+      "title": "Azureユーザー必見！ArcBox 3.0で簡単に試せる最新技術！",
+      "date": "2024-09-04",
+      "path": "2024/09/04/azureユーザー必見！arcbox-3-0で簡単に試せる最新技術！",
+      "excerpt": "皆さんこんにちは！HCCJPの胡田です！ HCCJP(ハイブリッドクラウド研究会) 56回勉強会のお知らせです！ ===Azureユーザー必見！ArcBox 3.0で簡単に試せる最新技術！ – connpas […]",
+      "content_html": "\n<p>皆さんこんにちは！HCCJPの胡田です！</p>\n<p>HCCJP(ハイブリッドクラウド研究会) 56回勉強会のお知らせです！</p>\n<p>===<br/>Azureユーザー必見！ArcBox 3.0で簡単に試せる最新技術！ – connpass <a href=\"https://hybridcloud.connpass.com/event/329832/\" rel=\"noopener noreferrer\">https://hybridcloud.connpass.com/event/329832/</a><br/>===</p>\n<p>毎月第2金曜日の14時から開催しているHCCJPの勉強会、今月も盛りだくさんの内容でお届けします！</p>\n<p>今回の勉強会では、Azure Hybrid環境をAzure上に簡単に構築し、さまざまな体験ができる「Azure Arc Jumpstart ArcBox」の最新バージョン3.0をご紹介します！</p>\n<p>ArcBoxでは、疑似的なオンプレミス環境を含む最新のAzure Hybridシナリオを体験でき、PoCやデモ、ハンズオンなどに利用可能です。</p>\n<p>過去にもHCCJPではAzure Arc Jumpstartシリーズについて取り上げてきましたが、バージョン3.0で何が変わったのかを詳しく解説します。</p>\n<p>これまで触ったことがない方はもちろん、以前のバージョンを経験された方にも、ぜひ注目していただきたい内容です。</p>\n<p>さらに、毎月恒例のMicrosoft 高添さんによる「Microsoft ‘Adaptive Cloud’ Update」では、最新情報をキャッチアップできます！</p>\n<p>また、今回はHPEの片山さんが、Azure Stack HCIのOEMライセンスについて詳しく解説してくださいます。</p>\n<p>質問コーナーも設けておりますので、疑問があれば匿名で何でもご質問ください。</p>\n<p>Azure Hybrid、Azure Arc、Azure Stack HCIに興味のある方は、ぜひこの機会にご参加ください！</p>\n<p>なお、当日はYouTubeでライブ配信を行い、アーカイブも後日公開しますので、リアルタイムで参加できない方も安心してご覧いただけます。</p>\n<p>過去の勉強会のアーカイブもすべて公開中ですので、ぜひチェックしてみてください。</p>\n<p>最後に、HCCJPのYouTubeチャンネル登録もよろしくお願いいたします。登録していただけると、とても嬉しいです！<br/>https://www.youtube.com/@hccjp.</p>\n<p>皆様のご参加をお待ちしております！</p>\n<p>日時: 2024年9月13日 (金)<br/>開始: 14:00～<br/>オンライン会場：Youtube HCCJPチャンネル(※チャンネル登録してお待ち下さい！)<br/>https://www.youtube.com/channel/UCrf4bEl7yJnkGYo3F67gA7w<br/>実際の視聴URLはイベント前日ごろに「参加者への情報」に掲載します！(チャンネルからも確認いただけます)</p>\n<p>登壇者:<br/>日本ビジネスシステムズ株式会社 胡田 昌彦<br/>日本マイクロソフト株式会社 高添 修 氏<br/>日本ヒューレット・パッカード合同会社 片山 嘉彦氏</p>\n",
+      "source_url": "https://www.hccjp.org/2024/09/04/azure%e3%83%a6%e3%83%bc%e3%82%b6%e3%83%bc%e5%bf%85%e8%a6%8b%ef%bc%81arcbox-3-0%e3%81%a7%e7%b0%a1%e5%8d%98%e3%81%ab%e8%a9%a6%e3%81%9b%e3%82%8b%e6%9c%80%e6%96%b0%e6%8a%80%e8%a1%93%ef%bc%81/",
+      "image_path": null,
+      "kind": "post"
+    },
+    {
+      "title": "今だからこそ改めてHyper-V, SCVMMについて基礎から学び直そう! / HCCJP(ハイブリッドクラウド研究会) 第54回勉強会",
+      "date": "2024-06-04",
+      "path": "2024/06/04/今だからこそ改めてhyper-v-scvmmについて基礎から学び直",
+      "excerpt": "毎月第2金曜日14時からはHCCJPの勉強会！ 最近のVMwareのライセンス変更に伴い、多くの企業が仮想化ソリューションの再評価を迫られています。そんな中で、MicrosoftのHyper-VとSystem Cente […]",
+      "content_html": "\n<p>毎月第2金曜日14時からはHCCJPの勉強会！</p>\n<p>最近のVMwareのライセンス変更に伴い、多くの企業が仮想化ソリューションの再評価を迫られています。そんな中で、MicrosoftのHyper-VとSystem Center Virtual Machine Manager (SCVMM)は、注目に値する選択肢です。そこで、これらの技術を基礎から学び直すための気軽なコミュニティイベントを開催します。</p>\n<p>登壇者: 日本マイクロソフト 高添 修 (Takasoe Osamu) 氏</p>\n<p>今回の勉強会では、日本Microsoftの高添さんが登壇します。高添さんは長年にわたりMicrosoftの基盤技術を広めてきたプロフェッショナルで、その豊富な経験とわかりやすい解説で多くのITエンジニアから信頼を得ています。</p>\n<p>勉強会の特徴 初心者歓迎: 仮想化技術に初めて触れる方でも安心して参加できます。 双方向コミュニケーション: 質疑応答の時間も設けており、直接質問して疑問を解消することができます。質問は匿名でも可能ですので本当に基礎的な内容でも安心して質問できます。</p>\n<p>また、誰でも登壇できるLT枠もありますので、そちらも気軽にお申込みいただければと思います！</p>\n<ul>\n<li>📆 日時: 2024年6月14日 (金)</li>\n<li>🕑 開始: 14:00～</li>\n<li>📽️ オンライン会場：Youtube HCCJPチャンネル(※チャンネル登録してお待ち下さい！)<br/><a href=\"https://www.youtube.com/channel/UCrf4bEl7yJnkGYo3F67gA7w\" rel=\"noopener noreferrer\">https://www.youtube.com/channel/UCrf4bEl7yJnkGYo3F67gA7w</a><br/>実際の視聴URLはイベント前日ごろに「参加者への情報」に掲載します！(チャンネルからも確認いただけます)</li>\n<li>👥 登壇者:<br/>日本マイクロソフト株式会社 高添 修 氏</li>\n</ul>\n<p><br/></p>\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio\">\n<span class=\"embed-youtube\"><iframe allowfullscreen=\"true\" height=\"707\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/IOhQ-EUmgF8?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=ja&amp;autohide=2&amp;wmode=transparent\" width=\"1256\"></iframe></span>\n</figure>\n",
+      "source_url": "https://www.hccjp.org/2024/06/04/%e4%bb%8a%e3%81%a0%e3%81%8b%e3%82%89%e3%81%93%e3%81%9d%e6%94%b9%e3%82%81%e3%81%a6hyper-v-scvmm%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%e5%9f%ba%e7%a4%8e%e3%81%8b%e3%82%89%e5%ad%a6%e3%81%b3%e7%9b%b4/",
+      "image_path": "assets/media/2d994a9e6adc-hcc-logo02f_300-300x277.png",
+      "kind": "post"
+    },
+    {
+      "title": "AzureからのWindows Server管理,自動化について学ぼう！ / HCCJP(ハイブリッドクラウド研究会) 第53回勉強会",
+      "date": "2024-05-09",
+      "path": "2024/05/09/azureからのwindows-server管理自動化について学ぼう！-hccjpハイブ",
+      "excerpt": "HCCJP(ハイブリッドクラウド研究会) 53回勉強会 毎月第2金曜日14時からはHCCJPの勉強会！ 今回の勉強会ではAzureからのオンプレミスのWindows Serverの管理をテーマにお届けします。 Azure […]",
+      "content_html": "\nHCCJP(ハイブリッドクラウド研究会) 53回勉強会\n<p>毎月第2金曜日14時からはHCCJPの勉強会！</p>\n<p>今回の勉強会ではAzureからのオンプレミスのWindows Serverの管理をテーマにお届けします。</p>\n<p>Azureからどのように管理できるのか、自動化できるのかということはもちろん、Azureにつなげた際に追加で気をつけるべき権限周りのTipsなどもお伝えします。すでにAzureに接続して管理している方も、まだこれからという方も是非参加ください！</p>\n<p>さらに、毎月恒例のMicrosoft 高添さんからの「Microsoft “Adaptive Cloud” Update」もありますので最新情報のキャッチアップも可能です！</p>\n<p>そしていつも通り匿名のオンラインQ&amp;Aシステムを使うので質問も気軽にいくらでもできます。</p>\n<p>また、誰でも登壇できるLT枠もありますので、そちらも気軽にお申込みいただければと思います！</p>\n<ul>\n<li>📆 日時: 2024年5月10日 (金)</li>\n<li>🕑 開始: 14:00～</li>\n<li>📽️ オンライン会場：Youtube HCCJPチャンネル(※チャンネル登録してお待ち下さい！)<br/><a href=\"https://www.youtube.com/channel/UCrf4bEl7yJnkGYo3F67gA7w\" rel=\"noopener noreferrer\">https://www.youtube.com/channel/UCrf4bEl7yJnkGYo3F67gA7w</a><br/>実際の視聴URLはイベント前日ごろに「参加者への情報」に掲載します！(チャンネルからも確認いただけます)</li>\n<li>👥 登壇者:<br/>日本マイクロソフト株式会社 高添 修 氏<br/>日本ビジネスシステムズ株式会社 胡田昌彦</li>\n</ul>\nアジェンダ/タイムテーブル\n<figure class=\"wp-block-table\"><table><thead><tr><th>開始時刻</th><th>時間(分)</th><th>セッション</th><th>スピーカー</th></tr></thead><tbody><tr><td>14:00</td><td>10</td><td>オープニング</td><td>日本ビジネスシステムズ株式会社<br/>Microsoft MVP for Azure<br/>胡田 昌彦</td></tr><tr><td>14:10</td><td>40</td><td>AzureからのWindows Server管理<br/><br/>Windows ServerをAzureに接続してAzureから管理、自動化する方法とAzure接続時の注意点について</td><td>日本ビジネスシステムズ株式会社<br/>Microsoft MVP for Azure<br/>胡田 昌彦</td></tr><tr><td>14:50</td><td>20</td><td>Q&amp;A<br/>匿名で何でも質問できます！</td><td></td></tr><tr><td>15:10</td><td>20</td><td>Microsoft “Adaptive Cloud” Update</td><td>日本マイクロソフト株式会社<br/>高添 修 氏</td></tr><tr><td>15:30</td><td>10</td><td>Q&amp;A<br/>匿名で何でも質問できます！</td><td></td></tr><tr><td>15:40</td><td>10</td><td>クロージング</td><td></td></tr><tr><td>15:50</td><td></td><td></td><td></td></tr></tbody></table></figure>\n主催\n<ul>\n<li>ハイブリッドクラウド研究会\n<ul>\n<li>主幹事：日本ビジネスシステムズ株式会社</li>\n<li>幹事(50音順)：NTTコミュニケーションズ株式会社, 日商エレクトロニクス株式会社, 日本ヒューレット・パッカード株式会社,日本マイクロソフト株式会社, VistaNet株式会社, 株式会社ネットワールド, 三井情報株式会社, レノボ・エンタープライズ・ソリューションズ株式会社</li>\n</ul>\n</li>\n</ul>\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio\">\n<span class=\"embed-youtube\"><iframe allowfullscreen=\"true\" height=\"707\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/533Dd3qZP-U?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=ja&amp;autohide=2&amp;wmode=transparent\" width=\"1256\"></iframe></span>\n</figure>\n",
+      "source_url": "https://www.hccjp.org/2024/05/09/azure%e3%81%8b%e3%82%89%e3%81%aewindows-server%e7%ae%a1%e7%90%86%e8%87%aa%e5%8b%95%e5%8c%96%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6%e5%ad%a6%e3%81%bc%e3%81%86%ef%bc%81-hccjp%e3%83%8f%e3%82%a4%e3%83%96/",
+      "image_path": null,
+      "kind": "post"
+    },
+    {
+      "title": "Active DirectoryはWindows Server 2025でどう変わるのか!? / HCCJP(ハイブリッドクラウド研究会) 第52回勉強会",
+      "date": "2024-04-11",
+      "path": "2024/04/11/active-directoryはwindows-server-2025でどう変わるのか-hccjpハイブリッドクラ",
+      "excerpt": "毎月第2金曜日14時からはHCCJPの勉強会！ 皆さんからの要望にお応えして今回の勉強会ではActive Diretoryの最新の動向をお伝えします。 足音が聞こえてきたWindows Server 2025では久しぶり […]",
+      "content_html": "\n<p>毎月第2金曜日14時からはHCCJPの勉強会！<br/></p>\n<p>皆さんからの要望にお応えして今回の勉強会ではActive Diretoryの最新の動向をお伝えします。</p>\n<p>足音が聞こえてきたWindows Server 2025では久しぶりにActive Directoryに新しい機能レベルが登場します。どんな改良がくわえられたのか、既存のAD環境にはどんな影響があるのか、どのような移行ステップになるのか？気になる方はすごく多いですよね。この辺り含めて、先日開催されたWindows Server SummitのRecapと共にMicrosoftの高添さんにお話をいただきます。運用でActive Directoryを使用している組織は全員必見の内容です！</p>\n<p>そしていつも通り匿名のオンラインQ&amp;Aシステムを使うので質問も気軽にいくらでもできます。</p>\n<p>誰でも登壇できるLT枠もありますので、そちらも気軽にお申込みいただければと思います！</p>\n<p>– 📆 <strong>日時</strong>: 2024年4月12日 (金)</p>\n<p>– 🕑 <strong>開始</strong>: 14:00～</p>\n<p>– 👥 <strong>登壇者</strong>: 日本マイクロソフト株式会社 高添 修 氏</p>\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio\">\n<span class=\"embed-youtube\"><iframe allowfullscreen=\"true\" height=\"707\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/EX4XtBE5sFQ?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=ja&amp;autohide=2&amp;wmode=transparent\" width=\"1256\"></iframe></span>\n</figure>\n<p></p>\n",
+      "source_url": "https://www.hccjp.org/2024/04/11/active-directory%e3%81%afwindows-server-2025%e3%81%a7%e3%81%a9%e3%81%86%e5%a4%89%e3%82%8f%e3%82%8b%e3%81%ae%e3%81%8b-hccjp%e3%83%8f%e3%82%a4%e3%83%96%e3%83%aa%e3%83%83%e3%83%89%e3%82%af%e3%83%a9/",
+      "image_path": "assets/media/2d994a9e6adc-hcc-logo02f_300-300x277.png",
+      "kind": "post"
+    },
+    {
+      "title": "認証にシークレットも証明書も不要?!オンプレミスのサーバーでマネージドIDを利用! / HCCJP(ハイブリッドクラウド研究会) 第51回勉強会",
+      "date": "2024-03-04",
+      "path": "2024/03/04/認証にシークレットも証明書も不要オンプレミス",
+      "excerpt": "ERROR: The request could not be satisfiedhybridcloud.connpass.com 毎月第2金曜日14時からはHCCJPの勉強会！ 今回の勉強会ではAzure上で使えるとっ […]",
+      "content_html": "\n<a href=\"https://hybridcloud.connpass.com/event/312263/\" rel=\"noopener noreferrer\" title=\"ERROR: The request could not be satisfied\"><span class=\"fa\"></span><figure class=\"blogcard-thumbnail external-blogcard-thumbnail\"></figure>ERROR: The request could not be satisfiedhybridcloud.connpass.com</a>\n<p>毎月第2金曜日14時からはHCCJPの勉強会！</p>\n<p>今回の勉強会ではAzure上で使えるとっても便利な「マネージドID」が実はAzure外でも使える！というお話をさせていただきます。例えばAzure PowerShellを使ってAzureの操作を自動化するときに「完全に自動化」したかったら皆さんはどうしますか？多要素認証が当たり前の昨今、シークレットを直接書いちゃうのはNGですよね。かといっても証明書認証も期限管理含めて面倒があります。そこで便利な「マネージドID」。これがAzure Arcの力を借りればAzure外のサーバーでも使えちゃうんです。</p>\n<p>「マネージドIDってそもそも何？」っていう方にも理解してもらえるように説明しますのでMicrosoft Entra ID(旧Azure Active Directory)を使った認証周りを安全に自動化したい方はぜひご参加くださいませ！</p>\n<p>そしてもちろん今月も毎月恒例のMicrosoft 高添さんからのUpdate情報もあります。 AVD for Azure Stack HCIの展開時に発生するエラーとその回避策についての情報など展開いただけるそうです！</p>\n<ul>\n<li>📆 日時: 3月8日 (金)</li>\n<li>🕑 開始: 14:00～</li>\n<li>📽️ オンライン会場：Youtube HCCJPチャンネル(※チャンネル登録してお待ち下さい！) <a href=\"https://www.youtube.com/channel/UCrf4bEl7yJnkGYo3F67gA7w\" rel=\"noopener noreferrer\">https://www.youtube.com/channel/UCrf4bEl7yJnkGYo3F67gA7w</a></li>\n<li>👥 登壇者:<br/>日本ビジネスシステムズ株式会社 胡田 昌彦(Microsoft MVP for Azure)<br/>日本マイクロソフト株式会社 高添 修 氏</li>\n</ul>\nアジェンダ/タイムテーブル\n<figure class=\"wp-block-table\"><table><thead><tr><th>開始時刻</th><th>時間(分)</th><th>セッション</th><th>スピーカー</th></tr></thead><tbody><tr><td>14:00</td><td>5</td><td>オープニング</td><td>日本ビジネスシステムズ株式会社<br/>Microsoft MVP for Azure<br/>胡田 昌彦</td></tr><tr><td>14:05</td><td>30</td><td>認証にシークレットも証明書も不要?!オンプレミスのサーバーでマネージドIDを利用!</td><td>日本ビジネスシステムズ株式会社<br/>Microsoft MVP for Azure<br/>胡田 昌彦</td></tr><tr><td>14:35</td><td>20</td><td>Q&amp;A<br/>匿名で何でも質問できます！</td><td></td></tr><tr><td>14:55</td><td>20</td><td>(仮称)今月のUpdate情報</td><td>日本マイクロソフト株式会社<br/>高添 修 氏</td></tr><tr><td>15:15</td><td>10</td><td>Q&amp;A<br/>匿名で何でも質問できます！</td><td></td></tr><tr><td>15:25</td><td>10</td><td>【LT枠】どなたでもどんなネタでもどうぞ！<br/>希望者はLT枠で登録の上で、X(旧Twitter): @ebi までご連絡ください！</td><td></td></tr><tr><td>15:35</td><td>5</td><td>クロージング</td><td></td></tr><tr><td>15:40</td><td></td><td></td><td></td></tr></tbody></table></figure>\n主催\n<ul>\n<li>ハイブリッドクラウド研究会\n<ul>\n<li>主幹事：日本ビジネスシステムズ株式会社</li>\n<li>幹事(50音順)：NTTコミュニケーションズ株式会社, 日商エレクトロニクス株式会社, 日本ヒューレット・パッカード株式会社,日本マイクロソフト株式会社, VistaNet株式会社, 株式会社ネットワールド, 三井情報株式会社, レノボ・エンタープライズ・ソリューションズ株式会社</li>\n</ul>\n</li>\n</ul>\n<p></p>\n",
+      "source_url": "https://www.hccjp.org/2024/03/04/%e8%aa%8d%e8%a8%bc%e3%81%ab%e3%82%b7%e3%83%bc%e3%82%af%e3%83%ac%e3%83%83%e3%83%88%e3%82%82%e8%a8%bc%e6%98%8e%e6%9b%b8%e3%82%82%e4%b8%8d%e8%a6%81%e3%82%aa%e3%83%b3%e3%83%97%e3%83%ac%e3%83%9f%e3%82%b9/",
+      "image_path": "assets/media/2d994a9e6adc-hcc-logo02f_300-300x277.png",
+      "kind": "post"
+    },
+    {
+      "title": "待望のGA! AVD for Azure Stack HCI, 23H2速報勉強会！ / HCCJP(ハイブリッドクラウド研究会) 第50回勉強会",
+      "date": "2024-03-04",
+      "path": "2024/03/04/待望のga-avd-for-azure-stack-hci-23h2速報勉強会！-hccjpハイブリッドクラ",
+      "excerpt": "",
+      "content_html": "\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\">\n<span class=\"embed-youtube\"><iframe allowfullscreen=\"true\" height=\"707\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/_woABsbbw_E?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=ja&amp;autohide=2&amp;wmode=transparent\" width=\"1256\"></iframe></span>\n</figure>\n",
+      "source_url": "https://www.hccjp.org/2024/03/04/%e5%be%85%e6%9c%9b%e3%81%aega-avd-for-azure-stack-hci-23h2%e9%80%9f%e5%a0%b1%e5%8b%89%e5%bc%b7%e4%bc%9a%ef%bc%81-hccjp%e3%83%8f%e3%82%a4%e3%83%96%e3%83%aa%e3%83%83%e3%83%89%e3%82%af%e3%83%a9/",
+      "image_path": "assets/media/2d994a9e6adc-hcc-logo02f_300-300x277.png",
+      "kind": "post"
+    },
+    {
+      "title": "AzureならファイルサーバーそのままPaaS化OK! / HCCJP(ハイブリッドクラウド研究会) 第49回勉強会",
+      "date": "2024-01-11",
+      "path": "2024/01/11/azureならファイルサーバーそのままpaas化ok-hccjpハイブリ",
+      "excerpt": "毎月第2金曜日14時からはHCCJPの勉強会！ 皆さん、あけましておめでとうございます！2024年もHCCJPをよろしくお願いします！ 昨年12月に約4年ぶりのハイブリッドイベントを開催したので今月はオンラインでのんびり […]",
+      "content_html": "\n<p>毎月第2金曜日14時からはHCCJPの勉強会！</p>\n<p>皆さん、あけましておめでとうございます！2024年もHCCJPをよろしくお願いします！ 昨年12月に約4年ぶりのハイブリッドイベントを開催したので今月はオンラインでのんびりです(運営が)。</p>\n<p>今回はファイルサーバーをそのままクラウドでPaaS化できるAzure Filesの実装方法をお伝えしつつ Azure Filesが備えている認証方法の選択肢についてもお話をします。</p>\n<p>内容は下記のYoutube動画と重複する部分があります。合わせて御覧いただければと思います。 ✨Azure活用でファイルサーバーの悩みから解放！#Azure #AzureFiles　<a href=\"https://youtu.be/lfuB3eFplAs\" rel=\"noopener noreferrer\">https://youtu.be/lfuB3eFplAs</a></p>\n<p>さらに！今月から毎月定期的にMicrosoft 高添さんから毎月のUpdate情報を15分程度でクイックにお伝えしてもらえることになりました！ 今月から開始です！最新情報のクイックなキャッチアップを行いましょう！</p>\n<p>📆 日時: 1月12日 (金)<br/>🕑 開始: 14:00<br/>📽️ オンライン会場：Youtube HCCJPチャンネル(※チャンネル登録してお待ち下さい！) <a href=\"https://www.youtube.com/channel/UCrf4bEl7yJnkGYo3F67gA7w\" rel=\"noopener noreferrer\">https://www.youtube.com/channel/UCrf4bEl7yJnkGYo3F67gA7w</a><br/>👥 登壇者:<br/>日本ビジネスシステムズ株式会社 胡田 昌彦(Microsoft MVP for Azure)<br/>日本マイクロソフト株式会社 高添 修 氏</p>\n<iframe allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\" height=\"315\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/OexrRrLVuoU?si=M6teQMduoLbCMMKb\" title=\"YouTube video player\" width=\"560\"></iframe>\n",
+      "source_url": "https://www.hccjp.org/2024/01/11/azure%e3%81%aa%e3%82%89%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%82%b5%e3%83%bc%e3%83%90%e3%83%bc%e3%81%9d%e3%81%ae%e3%81%be%e3%81%bepaas%e5%8c%96ok-hccjp%e3%83%8f%e3%82%a4%e3%83%96%e3%83%aa/",
+      "image_path": "assets/media/2d994a9e6adc-hcc-logo02f_300-300x277.png",
+      "kind": "post"
+    },
+    {
+      "title": "【OpenAI/Arc/StackHCI】4年ぶり集結！9講演で紐解くAzureハイブリッド最新動向HCCJP(ハイブリッドクラウド研究会) 第48回勉強会",
+      "date": "2023-11-24",
+      "path": "2023/11/24/【openai-arc-stackhci】4年ぶり集結！9講演で紐解くazureハイブリッ",
+      "excerpt": "毎月第2金曜日14時からはHCCJPの勉強会！ 皆さん、お待たせしました！ 今回は約4年ぶりに、現地とYoutubeをつないで、リアルタイムの対話が可能なハイブリッド形式でのイベントが帰ってきます！🎙️💻 📆 日時: 1 […]",
+      "content_html": "\n<p>毎月第2金曜日14時からはHCCJPの勉強会！</p>\n<p>皆さん、お待たせしました！</p>\n<p>今回は約4年ぶりに、現地とYoutubeをつないで、リアルタイムの対話が可能なハイブリッド形式でのイベントが帰ってきます！🎙️💻</p>\n<p>📆 日時: 12月8日 (木)<br/>🕒 開場: 13:30 | 🕑 開始: 14:00<br/>🏢 オフライン会場：日本マイクロソフト 31階 セミナールーム Room A (品川)<br/>📽️ オンライン会場：※準備中<br/>🙋‍♂️ 質問場所：※準備中</p>\n<p>👥 登壇者: 業界のエキスパート9名が集結し、Azureハイブリッドクラウドに関する貴重な話題を披露します。各セッションでは、Azure Stack HCI、Azure Arc、ChatGPTといった最先端技術の活用方法から、Ignite 2023の最新情報のまとめまで、幅広いテーマが展開されます！</p>\n<p>ぜひタイムテーブルを御覧ください！魅力的なセッションが目白押しですよ！</p>\n<p>🔗 参加登録:<br/>現地参加者とオンライン参加者の両方に開かれたこのイベント、今すぐお席を確保してください！</p>\n<p>この機会を逃す手はありません！あなたのAzureハイブリッドクラウドの理解を次のレベルに引き上げましょう！🚀 現地でお会いできるのを楽しみにしています！🤝</p>\n<figure class=\"wp-block-table\"><table><thead><tr><th>開始時刻</th><th>時間(分)</th><th>セッション</th><th>スピーカー</th></tr></thead><tbody><tr><td>13:30</td><td>30</td><td>開場・受付</td><td></td></tr><tr><td>14:00</td><td>15</td><td>オープニング</td><td>日本ビジネスシステムズ株式会社<br/>Microsoft MVP for Azure<br/>胡田 昌彦</td></tr><tr><td>14:15</td><td>15</td><td>Azure Stack HCI導入のメリット！Azure特典のおさらいと注意すべきポイントのご紹介<br/><br/>Windows Server 2012/R2のEOL等を追い風に、導入が進むAzure Stack HCIの特徴「Azure特典」について、メリットのおさらいとプロジェクトでの導入を通して見えてきた注意点をご紹介します。</td><td>三井情報株式会社<br/>松本秀太 氏</td></tr><tr><td>14:30</td><td>15</td><td>Azure Arc-enabled serversを利用したハイブリッド・マルチクラウド環境の管理<br/><br/>　マルチクラウドやハイブリッドクラウドの台頭を背景に、複数の環境を組み合わせて利用する事例が増えています。しかし、環境毎に実施できるガバナンスやポリシーチェック、セキュリティの確保などは各クラウド環境に依存しており、統合的に管理することは困難といった課題があります。<br/>　Azure Arc-enabled serversではAzureに限らず様々な環境のVMに対応でき、それらVMのガバナンス・ポリシーチェックやパッケージのライフサイクル管理、Microsoft Defender for Cloudによる脆弱性や脅威からの保護などをAzure上から統一的に実施できます。本セッションでは、Amazon EC2、Google Compute Engine、および自社提供のSDPFクラウドの仮想サーバに対してAzure Arc-enabled serversを導入し、複数環境の管理を検証した結果や所感等について共有します。</td><td>NTTコミュニケーションズ株式会社<br/>イノベーションセンター CCoEプロジェクト<br/>インフラストラクチャエンジニア<br/>福田優真 氏</td></tr><tr><td>14:45</td><td>15</td><td>Azure Arcで実現するハイブリッドクラウドの実践！<br/><br/>Azure Arc Enabled Infrastructure/Serviceを活用した、Azureによるオブザービリティおよび、<br/>クラウド技術のオンプレ移植の可能性について探ります。</td><td>日本ヒューレット・パッカード合同会社<br/>ソリューションアーキテクト<br/>片山嘉彦 氏</td></tr><tr><td>15:00</td><td>10</td><td>Q&amp;A<br/>匿名で何でも質問できます！</td><td></td></tr><tr><td>15:10</td><td>10</td><td>休憩 &amp; 歓談</td><td></td></tr><tr><td>15:20</td><td>15</td><td>オンプレや閉域網のデータを活用したChatGPTベースのチャットシステムの構築方法<br/><br/>自社オンプレ環境のファイルをAzure Cognitive Searchに取り込み、RAG（Retrieval Augmented Generation）を利用することで、ハルシネーションの少ない回答を実現したChatGPTによるチャットシステムの構築方法について説明します。</td><td>日本ビジネスシステムズ株式会社<br/>ビジネスソリューション事業本部<br/>先端技術部 AIソリューショングループ<br/>シニアエキスパート<br/>上田英治 氏</td></tr><tr><td>15:35</td><td>15</td><td>セッション 5<br/>OpenAI関連</td><td>日商エレクトロニクス株式会社</td></tr><tr><td>15:50</td><td>15</td><td>丸投げ！ ChatGPT で Azure の環境を IaC する<br/><br/>Infrastructure as Code のツールを用いて Azure に環境を構築する内容です。<br/>OpenAI ChatGPT (GPT-4V) を使ってどこまで丸投げできるのかを検証します。<br/>どれぐらい雑でもイケるのか、コード生成における実際の打率、そしてどれぐらい自分で書かないといけないのかを調べたりします。<br/>「他のChatGPTセッションもホントは上手くいったとこだけ切り抜いてデモを作ってるんですよね？」という疑問に迫ります。</td><td>株式会社ネットワールド<br/>ソリューションアーキテクト<br/>海野航 氏</td></tr><tr><td>16:05</td><td>10</td><td>Q&amp;A<br/>匿名で何でも質問できます！</td><td></td></tr><tr><td>16:15</td><td>10</td><td>休憩 &amp; 歓談</td><td></td></tr><tr><td>16:25</td><td>15</td><td>AI for ALL：Lenovo, AI From Edge to Cloud<br/><br/>AIが実用化されたいま、多くの企業はAIワークロード向けの一貫した「エッジからクラウド」ソリューションを構築するという課題に直面しています。このセッションでは事例を交えて「エッジからクラウド」を活用したAIについて解説します。</td><td>レノボ・エンタープライズ・ソリューションズ合同会社<br/>ソリューション推進本部<br/>アライアンスマネージャー<br/>米津直樹 氏</td></tr><tr><td>16:40</td><td>15</td><td>クラウドとオンプレミスの違いをなくすデル・テクノロジーズのAzure Stack HCI<br/><br/>Microsoft Premier Solutionsにアップグレードし、ACP for Microsoft Azureと改名して新登場</td><td>デル・テクノロジーズ株式会社<br/>データセンターソリューションズ事業統括<br/>製品本部 マイクロソフトソリューション部<br/>山野邊真澄 氏</td></tr><tr><td>16:55</td><td>15</td><td>Microsoft Ignite 2023 Update<br/><br/>Microsoft Ignite 2023から見えたMicrosoftの方向性とHybrid Cloud関連を一気に紹介します。</td><td>日本マイクロソフト株式会社<br/>高添 修 氏</td></tr><tr><td>17:10</td><td>10</td><td>Q&amp;A<br/>匿名で何でも質問できます！</td><td></td></tr><tr><td>17:20</td><td>10</td><td>クロージング</td><td></td></tr><tr><td>17:30</td><td></td><td></td><td></td></tr></tbody></table></figure>\n主催\n<ul>\n<li>ハイブリッドクラウド研究会\n<ul>\n<li>主幹事：日本ビジネスシステムズ株式会社</li>\n<li>幹事(50音順)：NTTコミュニケーションズ株式会社, デル・テクノロジーズ株式会社, 日商エレクトロニクス株式会社, 日本ヒューレット・パッカード株式会社,日本マイクロソフト株式会社, 株式会社ネットワールド, 三井情報株式会社, レノボ・エンタープライズ・ソリューションズ株式会社</li>\n</ul>\n</li>\n</ul>\n",
+      "source_url": "https://www.hccjp.org/2023/11/24/%e3%80%90openai-arc-stackhci%e3%80%914%e5%b9%b4%e3%81%b6%e3%82%8a%e9%9b%86%e7%b5%90%ef%bc%819%e8%ac%9b%e6%bc%94%e3%81%a7%e7%b4%90%e8%a7%a3%e3%81%8fazure%e3%83%8f%e3%82%a4%e3%83%96%e3%83%aa%e3%83%83/",
+      "image_path": "assets/media/2d994a9e6adc-hcc-logo02f_300-300x277.png",
+      "kind": "post"
+    },
+    {
+      "title": "Microsoft Ignite直前！Azure ArcとStack HCIの最新動向 / HCCJP(ハイブリッドクラウド研究会) 第47回勉強会",
+      "date": "2023-10-31",
+      "path": "2023/10/31/microsoft-ignite直前！azure-arcとstack-hciの最新動向-hccjpハイブリッドクラ",
+      "excerpt": "毎月第2金曜日14時からはHCCJPの勉強会！…ですが今回は13時30分開始です！いつもと時間が異なりますのでご注意ください！ 🚀 イベントタイトル: 「Microsoft Ignite直前！Azu […]",
+      "content_html": "\n<p>毎月第2金曜日14時からはHCCJPの勉強会！…ですが今回は13時30分開始です！いつもと時間が異なりますのでご注意ください！</p>\n<p>🚀 <strong>イベントタイトル: 「Microsoft Ignite直前！Azure ArcとStack HCIの最新動向」</strong></p>\n<p>こんにちは、クラウド技術ファンの皆さん！Microsoft Igniteがもうすぐそこまで来ていますね。そんなわくわくするこの時期に、ちょっと特別な勉強会を企画しました。今回のスピーカーは、あの日本マイクロソフトの高添さんですよ！</p>\n<p>🎉 <strong>こんなことやります:</strong></p>\n<p>登壇者: 高添さんって聞いただけで、もう期待大！日本マイクロソフトの知識豊富な高添さんから、最新のクラウド情報をゲットしましょう。</p>\n<p>内容: Igniteの予習として、Azure ArcとAzure Stack HCIの最新情報をガッツリお届け。AKS-HCIの最新トレンドや、リソースブリッジがハイブリッドクラウドでどんなキーロールを果たすのか、詳しく教えてもらいます。さらに、 Arc経由のESU提供や、AKS HCIの展開方法がリソースブリッジをどう変えるのか、などのホットな話題も！</p>\n<p>🙋‍♂️ <strong>質問タイムもあります:</strong></p>\n<p>匿名で質問OK！気になること、聞きたいことがあればどんどん投げてみてください。直接、専門家からの回答が聞けるチャンスです。</p>\n<a href=\"https://youtube.com/live/8XvWul4aTSU\" rel=\"noopener noreferrer\" title=\" - YouTube\"><span class=\"fa\"></span><figure class=\"blogcard-thumbnail external-blogcard-thumbnail\"></figure> - YouTubeYouTube でお気に入りの動画や音楽を楽しみ、オリジナルのコンテンツをアップロードして友だちや家族、世界中の人たちと共有しましょう。youtube.com</a>\n",
+      "source_url": "https://www.hccjp.org/2023/10/31/microsoft-ignite%e7%9b%b4%e5%89%8d%ef%bc%81azure-arc%e3%81%a8stack-hci%e3%81%ae%e6%9c%80%e6%96%b0%e5%8b%95%e5%90%91-hccjp%e3%83%8f%e3%82%a4%e3%83%96%e3%83%aa%e3%83%83%e3%83%89%e3%82%af%e3%83%a9/",
+      "image_path": "assets/media/2d994a9e6adc-hcc-logo02f_300-300x277.png",
+      "kind": "post"
+    },
+    {
+      "title": "Azure Arc x IoT Connect Gatewayを用いたIoTシステム / HCCJP(ハイブリッドクラウド研究会) 第46回勉強会",
+      "date": "2023-10-31",
+      "path": "2023/10/31/azure-arc-x-iot-connect-gatewayを用いたiotシステム-hccjpハイブリッドクラウ",
+      "excerpt": "IoTの世界は日々進化し、新たな技術や手法が次々と登場しています。しかし、その進化の裏には、異なるIoTデバイスの制御や管理、セキュアなデータ通信の確保、そして各種クラウドサービスへの接続という課題が潜んでいます。 今回 […]",
+      "content_html": "\n<p>IoTの世界は日々進化し、新たな技術や手法が次々と登場しています。しかし、その進化の裏には、異なるIoTデバイスの制御や管理、セキュアなデータ通信の確保、そして各種クラウドサービスへの接続という課題が潜んでいます。</p>\n<p>今回の勉強会では、そんな課題にアプローチする『Azure Arc x IoT Connect Gatewayを用いたIoTシステム』がテーマです。</p>\n<p>セッション内容ハイライト:</p>\n<ul>\n<li>Azure Arcを使用したIoTデバイスの統一された制御・管理方法の解説</li>\n<li>IoT Connect Mobile®️ Type Sの特徴と、セキュアで迅速なモバイル閉域通信の実現手法</li>\n<li>IoT Connect Gatewayによる暗号化通信変換による通信オーバヘッドの削減</li>\n<li>複数クラウドサービスへの簡単接続</li>\n</ul>\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\">\n<span class=\"embed-youtube\"><iframe allowfullscreen=\"true\" height=\"707\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/K-oj4kErfvo?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=ja&amp;autohide=2&amp;wmode=transparent\" width=\"1256\"></iframe></span>\n</figure>\n",
+      "source_url": "https://www.hccjp.org/2023/10/31/azure-arc-x-iot-connect-gateway%e3%82%92%e7%94%a8%e3%81%84%e3%81%9fiot%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0-hccjp%e3%83%8f%e3%82%a4%e3%83%96%e3%83%aa%e3%83%83%e3%83%89%e3%82%af%e3%83%a9%e3%82%a6/",
+      "image_path": "assets/media/2d994a9e6adc-hcc-logo02f_300-300x277.png",
+      "kind": "post"
+    },
+    {
+      "title": "クラウド&エッジ：次世代スーパーマーケットのアーキテクチャ解説&デモ / HCCJP(ハイブリッドクラウド研究会) 第45回勉強会",
+      "date": "2023-08-25",
+      "path": "2023/08/25/クラウドエッジ：次世代スーパーマーケットのア",
+      "excerpt": "毎月第2金曜日14時からはHCCJPの勉強会！ 今回のテーマは次世代スーパーマーケット！Azureを用いた最新のアーキテクチャでどのようなことが可能になるのかをデモ交えて解説します。 今回はこれまでも何度か紹介したAzu […]",
+      "content_html": "\n<p>毎月第2金曜日14時からはHCCJPの勉強会！<br/></p>\n<p>今回のテーマは次世代スーパーマーケット！Azureを用いた最新のアーキテクチャでどのようなことが可能になるのかをデモ交えて解説します。</p>\n<p><br/>今回はこれまでも何度か紹介したAzure Arc Jumpstartの最新のインダストリーシナリオ集である「Jumpstart Agora」から「Contoso Supermarket」です。具体的なインダストリーにフォーカスしたサンプルを元にハイブリッドなアーキテクチャを理解いただきます。自動展開周りに関してもこれまでも何度も解説しているので今回はそこは簡単な解説にとどめて中身の解説やデモなどに時間を割きたいと思っています！</p>\n<p>参考： Azure Arc Jumpstart <a href=\"https://azurearcjumpstart.io/azure_jumpstart_ag/\" rel=\"noopener noreferrer\">https://azurearcjumpstart.io/azure_jumpstart_ag/</a></p>\n<p>イベントへの参加登録は下記からお願いします！</p>\n<a href=\"https://hybridcloud.connpass.com/event/294419/\" rel=\"noopener noreferrer\" title=\"クラウド&amp;エッジ：次世代スーパーマーケットのアーキテクチャ解説&amp;デモ #HCCJP (2023/09/08 14:00〜)\"><span class=\"fa\"></span><figure class=\"blogcard-thumbnail external-blogcard-thumbnail\"></figure>クラウド&amp;エッジ：次世代スーパーマーケットのアーキテクチャ解説&amp;デモ #HCCJP (2023/09/08 14:00〜)# ライブ配信 URL, ライブQ&amp;A URL    * ライブ配信URL(Youtube Live) -    * ライブQ&amp;A URL - (準備中)  # HCCJP(ハイブリッドクラウド研究会) 44回勉強会  毎月第2金曜日14時からはHCCJPの勉強会！  今回のテーマは次世代スーパーマーケット！Azure...hybridcloud.connpass.com</a>\n<figure class=\"wp-block-embed is-type-rich is-provider-埋め込みハンドラー wp-block-embed-埋め込みハンドラー wp-embed-aspect-16-9 wp-has-aspect-ratio\">\n<span class=\"embed-youtube\"><iframe allowfullscreen=\"true\" height=\"707\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/PkAsQCTIOd0?si=W4IPmW6kxptJVaZS&amp;version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=ja&amp;autohide=2&amp;wmode=transparent\" width=\"1256\"></iframe></span>\n</figure>\n",
+      "source_url": "https://www.hccjp.org/2023/08/25/%e3%82%af%e3%83%a9%e3%82%a6%e3%83%89%e3%82%a8%e3%83%83%e3%82%b8%ef%bc%9a%e6%ac%a1%e4%b8%96%e4%bb%a3%e3%82%b9%e3%83%bc%e3%83%91%e3%83%bc%e3%83%9e%e3%83%bc%e3%82%b1%e3%83%83%e3%83%88%e3%81%ae%e3%82%a2/",
+      "image_path": "assets/media/2d994a9e6adc-hcc-logo02f_300-300x277.png",
+      "kind": "post"
+    },
+    {
+      "title": "企業IT向け：Azure OpenAIでChatGPTを閉域で安全に展開 / HCCJP(ハイブリッドクラウド研究会) 第44回勉強会",
+      "date": "2023-08-10",
+      "path": "2023/08/10/企業it向け：azure-openaiでchatgptを閉域で安全に展開-hccjpハイブ",
+      "excerpt": "毎月第2金曜日14時からはHCCJPの勉強会…なのですが、今回は山の日(祭日)と重なったので月曜日に移動しました！ 今回のテーマはAzure OpenAI Serviceです！ ChatGPTは便利だけれども社員にそのま […]",
+      "content_html": "\n<p>毎月第2金曜日14時からはHCCJPの勉強会…なのですが、今回は山の日(祭日)と重なったので月曜日に移動しました！</p>\n<p>今回のテーマはAzure OpenAI Serviceです！</p>\n<p>ChatGPTは便利だけれども社員にそのまま使わせると情報漏洩など含めて色々と心配ですね。企業で安心して使えるように「閉域でつかえる自社専用のChatGPT」が欲しい、というのは現在多くの企業にあるニーズだと思います。さらに自社独自のデータの内容を知っているchatbotを作りたい、そんな要望もあるかと思います。これらの要望はすでに公開されているリファレンスアーキテクチャーやドキュメントを参考にしつつAzure OpenAI Serviceを使うだけで簡単に実現可能です。</p>\n<p>この勉強会ではAzure OpenAI Service自体の概要からはじめ、公開されている参考になるドキュメントやリファレンスアーキテクチャーの紹介をしつつ、実際の「自社内データを知っている閉域でつかえる自社専用のChatGPT」の構築方法を紹介します。</p>\n<p></p>\n<figure class=\"wp-block-embed is-type-rich is-provider-embed-handler wp-block-embed-embed-handler wp-embed-aspect-16-9 wp-has-aspect-ratio\">\n<span class=\"embed-youtube\"><iframe allowfullscreen=\"true\" height=\"707\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/h8Sr1JpGNCM?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=ja&amp;autohide=2&amp;wmode=transparent\" width=\"1256\"></iframe></span>\n</figure>\n",
+      "source_url": "https://www.hccjp.org/2023/08/10/%e4%bc%81%e6%a5%adit%e5%90%91%e3%81%91%ef%bc%9aazure-openai%e3%81%a7chatgpt%e3%82%92%e9%96%89%e5%9f%9f%e3%81%a7%e5%ae%89%e5%85%a8%e3%81%ab%e5%b1%95%e9%96%8b-hccjp%e3%83%8f%e3%82%a4%e3%83%96/",
+      "image_path": "assets/media/2d994a9e6adc-hcc-logo02f_300-300x277.png",
+      "kind": "post"
+    },
+    {
+      "title": "ChatGPT x Azure Bicep: 話題のAIがリソース展開に挑戦！ / HCCJP(ハイブリッドクラウド研究会) 42回勉強会",
+      "date": "2023-05-11",
+      "path": "2023/05/11/chatgpt-x-azure-bicep-話題のaiがリソース展開に挑戦！-hccjpハイブリ",
+      "excerpt": "毎月第2金曜日14時からはHCCJPの勉強会！ 今回のテーマは今話題沸騰中のChatGPTとAzureへのInfrastructure as Codeです！ イベント概要 Azureリソース展開を実現するBicepと、A […]",
+      "content_html": "\n<p>毎月第2金曜日14時からはHCCJPの勉強会！</p>\n<p>今回のテーマは今話題沸騰中のChatGPTとAzureへのInfrastructure as Codeです！</p>\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio\">\n<span class=\"embed-youtube\"><iframe allowfullscreen=\"true\" height=\"707\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/MUl2DRX8mOA?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=ja&amp;autohide=2&amp;wmode=transparent\" width=\"1256\"></iframe></span>\n</figure>\n<h2>イベント概要</h2>\n<p>Azureリソース展開を実現するBicepと、AIの最先端技術である有料版のChatGPT(GPT-4)を組み合わせた一度限りのスペシャル勉強会へ、皆様をお招きします！ このユニークな勉強会では、実際にChatGPT(GPT-4)が書いたコードを使って、Bicepを利用したAzureリソースの展開方法をリアルタイムで体験いただけます。 成功するかどうかは分かりませんが、それも含めてChatGPTがクラウドへのリソース展開のコード生成に使えるかどうか検証しましょう！</p>\n<h2>勉強会のポイント</h2>\n<ul>\n<li>今話題のAI技術ChatGPTを使ったAzureリソース展開の実践方法を学べます。</li>\n<li>Bicepを使ったリソース展開方法を基本から学べます。</li>\n<li>実際にChatGPTが生成したコードの品質と有用性を検証できます。</li>\n<li>ChatGPTのGPT-4での会話には回数制限があるため、一緒にやってくれるChatGPT Plus課金者を募集します。</li>\n</ul>\n<h2>対象者</h2>\n<ul>\n<li>Azureやコードでのリソース展開に興味のある方</li>\n<li>Bicepを学びたい方</li>\n<li>ChatGPTの具体的な利用方法を知りたい方</li>\n</ul>\n<p></p>\n",
+      "source_url": "https://www.hccjp.org/2023/05/11/chatgpt-x-azure-bicep-%e8%a9%b1%e9%a1%8c%e3%81%aeai%e3%81%8c%e3%83%aa%e3%82%bd%e3%83%bc%e3%82%b9%e5%b1%95%e9%96%8b%e3%81%ab%e6%8c%91%e6%88%a6%ef%bc%81-hccjp%e3%83%8f%e3%82%a4%e3%83%96%e3%83%aa/",
+      "image_path": "assets/media/2d994a9e6adc-hcc-logo02f_300-300x277.png",
+      "kind": "post"
+    },
+    {
+      "title": "Microsoft Defender for Cloudで守るハイブリッドクラウドのセキュリティ/HCCJP(ハイブリッドクラウド研究会) 第40回勉強会",
+      "date": "2023-03-03",
+      "path": "2023/03/03/microsoft-defender-for-cloudで守るハイブリッドクラウドのセキュリテ",
+      "excerpt": "毎月第2金曜日14時からはHCCJPの勉強会！ 第40回勉強会のテーマは前回の勉強会の投票(今後の勉強会で取り上げてほしいサービス)で一番多かった「Microsoft Defender for Cloud」です。 Mic […]",
+      "content_html": "\n<p>毎月第2金曜日14時からはHCCJPの勉強会！ 第40回勉強会のテーマは前回の勉強会の投票(今後の勉強会で取り上げてほしいサービス)で一番多かった「Microsoft Defender for Cloud」です。</p>\n<p>Microsoft DefenderシリーズはM365の世界もAzureの世界も含めて様々なサービスがあり過去のサービスの名称変更も含めて何がどこまでカバーしているのか把握が難しい領域だと思います。全体の整理をしつつ、Azure上のシステムはもちろんオンプレミスや他クラウドに存在するシステムも含めてどのように保護していけるのか、わかりやすくお伝えできればと思います！</p>\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\">\n<span class=\"embed-youtube\"><iframe allowfullscreen=\"true\" height=\"707\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/lI2JYC6kjf4?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=ja&amp;autohide=2&amp;wmode=transparent\" width=\"1256\"></iframe></span>\n</figure>\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\">\n<span class=\"embed-youtube\"><iframe allowfullscreen=\"true\" height=\"707\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/SeEfdkAzuRI?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=ja&amp;autohide=2&amp;wmode=transparent\" width=\"1256\"></iframe></span>\n</figure>\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\">\n<span class=\"embed-youtube\"><iframe allowfullscreen=\"true\" height=\"707\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/Bm8o9XHJRhA?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=ja&amp;autohide=2&amp;wmode=transparent\" width=\"1256\"></iframe></span>\n</figure>\n",
+      "source_url": "https://www.hccjp.org/2023/03/03/microsoft-defender-for-cloud%e3%81%a7%e5%ae%88%e3%82%8b%e3%83%8f%e3%82%a4%e3%83%96%e3%83%aa%e3%83%83%e3%83%89%e3%82%af%e3%83%a9%e3%82%a6%e3%83%89%e3%81%ae%e3%82%bb%e3%82%ad%e3%83%a5%e3%83%aa%e3%83%86/",
+      "image_path": "assets/media/2d994a9e6adc-hcc-logo02f_300-300x277.png",
+      "kind": "post"
+    },
+    {
+      "title": "ハイブリッドクラウド利用シナリオ/HCCJP 第39回勉強会",
+      "date": "2023-02-03",
+      "path": "2023/02/03/ハイブリッドクラウド利用シナリオ-hccjp-第39回勉強会",
+      "excerpt": "2023年2月10日14時よりYoutube Liveにて第39回勉強会を実施します。 2023年2月13日の勉強会はちょっとイレギュラーなのですが、今後の勉強会のテーマ決め(順番決め)を行いたいと思います。 1月の勉強 […]",
+      "content_html": "\n<p>2023年2月10日14時よりYoutube Liveにて第39回勉強会を実施します。</p>\n<p>2023年2月13日の勉強会はちょっとイレギュラーなのですが、今後の勉強会のテーマ決め(順番決め)を行いたいと思います。</p>\n<p>1月の勉強会でMicrosoft高添さんが「ハイブリッドクラウドのあれこれを整理してみた」ということでハイブリッドクラウドの利用シナリオを整理してくれました。</p>\n<ul>\n<li>資料： <a href=\"https://www.slideshare.net/osamut/20230113hccjplthybridcloudpdf\" rel=\"noopener noreferrer\">https://www.slideshare.net/osamut/20230113hccjplthybridcloudpdf</a></li>\n</ul>\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\">\n<span class=\"embed-youtube\"><iframe allowfullscreen=\"true\" height=\"707\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/vqonPSyfrdA?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=ja&amp;autohide=2&amp;wmode=transparent\" width=\"1256\"></iframe></span>\n</figure>\n<p>1月の勉強会ではLTでしたので簡単な概要をザーッと紹介するだけでした。</p>\n<p>過去のHCCJPの勉強会で扱った内容も扱っていない内容もありましたが、改めてこれらの利用シナリオの1つ1つにフォーカスを当てて勉強会で取り上げたいと考えています。勉強会1回で1つあるいは2つ程度のシナリオにフォーカスして少し詳しく取り扱うイメージです。 もちろんその時々の注目トピックが入ればそちらをメインテーマに据える場合もあると思いますが、ある程度順番を決めておきたいと思います。</p>\n<p>その順番を今回の勉強会の時間を使って参加者の方にアンケートや希望もとりつつ決められればと思います。</p>\n<p>また、LT枠もいつも通りありますので是非LTも申し込みお願いします！</p>\n<a href=\"https://hybridcloud.connpass.com/event/274328/\" rel=\"noopener noreferrer\" title=\"ハイブリッドクラウド利用シナリオ (2023/02/10 14:00〜)\"><span class=\"fa\"></span><figure class=\"blogcard-thumbnail external-blogcard-thumbnail\"></figure>ハイブリッドクラウド利用シナリオ (2023/02/10 14:00〜)# ライブ配信 URL, ライブQ&amp;A URL    * ライブ配信URL(Youtube Live) -    * ライブQ&amp;A URL -   # HCCJP(ハイブリッドクラウド研究会) 39回勉強会  毎月第2金曜日14時からのHCCJPの勉強会は2023年も継続します！  2023年2月10日(金)の勉強会は...hybridcloud.connpass.com</a>\n",
+      "source_url": "https://www.hccjp.org/2023/02/03/%e3%83%8f%e3%82%a4%e3%83%96%e3%83%aa%e3%83%83%e3%83%89%e3%82%af%e3%83%a9%e3%82%a6%e3%83%89%e5%88%a9%e7%94%a8%e3%82%b7%e3%83%8a%e3%83%aa%e3%82%aa-hccjp-%e7%ac%ac39%e5%9b%9e%e5%8b%89%e5%bc%b7%e4%bc%9a/",
+      "image_path": "assets/media/2d994a9e6adc-hcc-logo02f_300-300x277.png",
+      "kind": "post"
+    },
+    {
+      "title": "Hybrid Azure Kubernetes Serviceって何だろう？/HCCJP(ハイブリッドクラウド研究会)第38回勉強会",
+      "date": "2023-01-04",
+      "path": "2023/01/04/hybrid-azure-kubernetes-serviceって何だろう？-hccjpハイブリッドクラウド研",
+      "excerpt": "毎月第2金曜日14時からのHCCJPの勉強会は2023年も継続します！ 2023年1月13日のテーマは「Hybrid Kubernetes」です。Public Previewで新しく登場した「Hybrid Azure K […]",
+      "content_html": "\n<p>毎月第2金曜日14時からのHCCJPの勉強会は2023年も継続します！</p>\n<p>2023年1月13日のテーマは「Hybrid Kubernetes」です。Public Previewで新しく登場した「Hybrid Azure Kubernetes」を中心にHybridなKubernetesについてまとめながら色々と勉強できるとよいなと思います！</p>\n<p>LT枠も用意しますし、Q&amp;Aもやりますので是非皆さんお気軽にご参加ください！</p>\n<a href=\"https://hybridcloud.connpass.com/event/271159/\" rel=\"noopener noreferrer\" title=\"ERROR: The request could not be satisfied\"><span class=\"fa\"></span><figure class=\"blogcard-thumbnail external-blogcard-thumbnail\"></figure>ERROR: The request could not be satisfiedhybridcloud.connpass.com</a>\n",
+      "source_url": "https://www.hccjp.org/2023/01/04/hybrid-azure-kubernetes-service%e3%81%a3%e3%81%a6%e4%bd%95%e3%81%a0%e3%82%8d%e3%81%86%ef%bc%9f-hccjp%e3%83%8f%e3%82%a4%e3%83%96%e3%83%aa%e3%83%83%e3%83%89%e3%82%af%e3%83%a9%e3%82%a6%e3%83%89%e7%a0%94/",
+      "image_path": "assets/media/2d994a9e6adc-hcc-logo02f_300-300x277.png",
+      "kind": "post"
+    },
+    {
+      "title": "Azure Stack HCIの検証環境を期間限定で自由に触れるチャンス！/HCCJP(ハイブリッドクラウド研究会) 第37回勉強会",
+      "date": "2022-12-23",
+      "path": "2022/12/23/azure-stack-hciの検証環境を期間限定で自由に触れるチャン",
+      "excerpt": "2022年12月9日(金)に2022年今年最後のHCCJP勉強会を実施しました！",
+      "content_html": "\n<p>2022年12月9日(金)に2022年今年最後のHCCJP勉強会を実施しました！</p>\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\">\n<span class=\"embed-youtube\"><iframe allowfullscreen=\"true\" height=\"707\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/EMOEq7rjY0E?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=ja&amp;autohide=2&amp;wmode=transparent\" width=\"1256\"></iframe></span>\n</figure>\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\">\n<span class=\"embed-youtube\"><iframe allowfullscreen=\"true\" height=\"707\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/IRlFq-bnePI?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=ja&amp;autohide=2&amp;wmode=transparent\" width=\"1256\"></iframe></span>\n</figure>\n",
+      "source_url": "https://www.hccjp.org/2022/12/23/azure-stack-hci%e3%81%ae%e6%a4%9c%e8%a8%bc%e7%92%b0%e5%a2%83%e3%82%92%e6%9c%9f%e9%96%93%e9%99%90%e5%ae%9a%e3%81%a7%e8%87%aa%e7%94%b1%e3%81%ab%e8%a7%a6%e3%82%8c%e3%82%8b%e3%83%81%e3%83%a3%e3%83%b3/",
+      "image_path": "assets/media/2d994a9e6adc-hcc-logo02f_300-300x277.png",
+      "kind": "post"
+    },
+    {
+      "title": "DevOpsライフサイクルを加速する「インフラ自動化」/HCCJP(ハイブリッドクラウド研究会) 第36回勉強会",
+      "date": "2022-12-23",
+      "path": "2022/12/23/devopsライフサイクルを加速する「インフラ自動化」-hccj",
+      "excerpt": "2022年11月11日(金)に第36回勉強会を実施しました！",
+      "content_html": "\n<p>2022年11月11日(金)に第36回勉強会を実施しました！</p>\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\">\n<span class=\"embed-youtube\"><iframe allowfullscreen=\"true\" height=\"707\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/znZTVZ4dcd8?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=ja&amp;autohide=2&amp;wmode=transparent\" width=\"1256\"></iframe></span>\n</figure>\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\">\n<span class=\"embed-youtube\"><iframe allowfullscreen=\"true\" height=\"707\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/hwyHyEK9Sxs?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=ja&amp;autohide=2&amp;wmode=transparent\" width=\"1256\"></iframe></span>\n</figure>\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\">\n<span class=\"embed-youtube\"><iframe allowfullscreen=\"true\" height=\"707\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/d0VnH6q_qoY?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=ja&amp;autohide=2&amp;wmode=transparent\" width=\"1256\"></iframe></span>\n</figure>\n",
+      "source_url": "https://www.hccjp.org/2022/12/23/devops%e3%83%a9%e3%82%a4%e3%83%95%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%82%92%e5%8a%a0%e9%80%9f%e3%81%99%e3%82%8b%e3%80%8c%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e8%87%aa%e5%8b%95%e5%8c%96%e3%80%8d-hccj/",
+      "image_path": "assets/media/2d994a9e6adc-hcc-logo02f_300-300x277.png",
+      "kind": "post"
+    },
+    {
+      "title": "MS担当者が語るAzureforOperators。Local5GをMS技術でどう実現するのか？/HCCJP(ハイブリッドクラウド研究会) 第35回勉強会",
+      "date": "2022-12-23",
+      "path": "2022/12/23/ms担当者が語るazureforoperators。local5gをms技術でどう実現するのか",
+      "excerpt": "2022年9月9日(金)に第35回勉強会を実施しました！",
+      "content_html": "\n<p>2022年9月9日(金)に第35回勉強会を実施しました！</p>\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\">\n<span class=\"embed-youtube\"><iframe allowfullscreen=\"true\" height=\"707\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/UiqLyHjwnbI?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=ja&amp;autohide=2&amp;wmode=transparent\" width=\"1256\"></iframe></span>\n</figure>\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\">\n<span class=\"embed-youtube\"><iframe allowfullscreen=\"true\" height=\"707\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/3y_E6d916GM?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=ja&amp;autohide=2&amp;start=281&amp;wmode=transparent\" width=\"1256\"></iframe></span>\n</figure>\n",
+      "source_url": "https://www.hccjp.org/2022/12/23/ms%e6%8b%85%e5%bd%93%e8%80%85%e3%81%8c%e8%aa%9e%e3%82%8bazureforoperators%e3%80%82local5g%e3%82%92ms%e6%8a%80%e8%a1%93%e3%81%a7%e3%81%a9%e3%81%86%e5%ae%9f%e7%8f%be%e3%81%99%e3%82%8b%e3%81%ae%e3%81%8b/",
+      "image_path": "assets/media/2d994a9e6adc-hcc-logo02f_300-300x277.png",
+      "kind": "post"
+    },
+    {
+      "title": "Azure Arcの様々なパターンを図で理解する！/HCCJP(ハイブリッドクラウド研究会) 第34回勉強会Azure Arcの様々なパターンを図で理解する！",
+      "date": "2022-12-23",
+      "path": "2022/12/23/azure-arcの様々なパターンを図で理解する！-hccjpハイブリ",
+      "excerpt": "2022年8月12日に第34回勉強会を実施しました！アーカイブをご覧いただけます！",
+      "content_html": "\n<p>2022年8月12日に第34回勉強会を実施しました！アーカイブをご覧いただけます！</p>\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\">\n<span class=\"embed-youtube\"><iframe allowfullscreen=\"true\" height=\"707\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/TlEFAWfCRwg?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=ja&amp;autohide=2&amp;wmode=transparent\" width=\"1256\"></iframe></span>\n</figure>\n",
+      "source_url": "https://www.hccjp.org/2022/12/23/azure-arc%e3%81%ae%e6%a7%98%e3%80%85%e3%81%aa%e3%83%91%e3%82%bf%e3%83%bc%e3%83%b3%e3%82%92%e5%9b%b3%e3%81%a7%e7%90%86%e8%a7%a3%e3%81%99%e3%82%8b%ef%bc%81-hccjp%e3%83%8f%e3%82%a4%e3%83%96%e3%83%aa/",
+      "image_path": "assets/media/2d994a9e6adc-hcc-logo02f_300-300x277.png",
+      "kind": "post"
+    },
+    {
+      "title": "【Microsoft Build Recap!】Azure Hybrid周りの注目Update/HCCJP(ハイブリッドクラウド研究会) 第33回勉強会",
+      "date": "2022-06-03",
+      "path": "2022/06/03/【microsoft-build-recap】azure-hybrid周りの注目update-hccjpハイブリッドクラウド",
+      "excerpt": "今月も第2金曜日の14時からオンラインで勉強会を開催します！ 先日行われたMicrosoft Build。皆さんご視聴されましたでしょうか？ 今回もHCCJPではMicrosoft Buildで発表されたHybrid関連 […]",
+      "content_html": "\n<p>今月も第2金曜日の14時からオンラインで勉強会を開催します！</p>\n<p>先日行われたMicrosoft Build。皆さんご視聴されましたでしょうか？ 今回もHCCJPではMicrosoft Buildで発表されたHybrid関連の注目トピックをまとめてお伝えします！</p>\n<p>LT枠もありますので、ご自身のBuildでの注目ポイントを話してもいいですし どのような内容でも大丈夫です。是非、LTで気軽にアウトプットしてみてください！</p>\n<p>是非ご参加ください！</p>\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\">\n<span class=\"embed-youtube\"><iframe allowfullscreen=\"true\" height=\"707\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/cX0SioBT3zQ?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=ja&amp;autohide=2&amp;wmode=transparent\" width=\"1256\"></iframe></span>\n</figure>\n",
+      "source_url": "https://www.hccjp.org/2022/06/03/%e3%80%90microsoft-build-recap%e3%80%91azure-hybrid%e5%91%a8%e3%82%8a%e3%81%ae%e6%b3%a8%e7%9b%aeupdate-hccjp%e3%83%8f%e3%82%a4%e3%83%96%e3%83%aa%e3%83%83%e3%83%89%e3%82%af%e3%83%a9%e3%82%a6%e3%83%89/",
+      "image_path": "assets/media/2d994a9e6adc-hcc-logo02f_300-300x277.png",
+      "kind": "post"
+    },
+    {
+      "title": "ArcBoxライブ構築デモ！Azure Arcをフル体験できる環境をAzure上に爆速で展開 ! / HCCJP(ハイブリッドクラウド研究会) 第32回勉強会",
+      "date": "2022-05-06",
+      "path": "2022/05/06/arcboxライブ構築デモ！azure-arcをフル体験できる環境をazure上",
+      "excerpt": "今月も第2金曜日の14時からオンラインで勉強会を開催します！ 今回はHCCJPでも度々紹介している「Azure Arc Jumpstart」をあらためて紹介しつつ、すぐにAzure Arcを体験できてしまう「Jumpst […]",
+      "content_html": "\n<p>今月も第2金曜日の14時からオンラインで勉強会を開催します！</p>\n<p>今回はHCCJPでも度々紹介している「<a href=\"https://azurearcjumpstart.io/\" rel=\"noopener noreferrer\">Azure Arc Jumpstart</a>」をあらためて紹介しつつ、すぐにAzure Arcを体験できてしまう「Jumpstart ArcBox」を実際に展開するところをライブでお見せしちゃいます。Azureさえあればとても簡単な操作で様々なAzure Arcの要素が体験できてしまう「ArcBox」。Azure環境をお持ちの方は一緒に操作して展開してみるもよし、見て勉強するもよし。もちろん毎回おなじみの匿名で質問できるシステムも使いますのでわからないことを質問するもよしです！</p>\n<p>是非ご参加ください！</p>\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio\">\n<span class=\"embed-youtube\"><iframe allowfullscreen=\"true\" height=\"707\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/Ng-scnALJIQ?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=ja&amp;autohide=2&amp;wmode=transparent\" width=\"1256\"></iframe></span>\n</figure>\n",
+      "source_url": "https://www.hccjp.org/2022/05/06/arcbox%e3%83%a9%e3%82%a4%e3%83%96%e6%a7%8b%e7%af%89%e3%83%87%e3%83%a2%ef%bc%81azure-arc%e3%82%92%e3%83%95%e3%83%ab%e4%bd%93%e9%a8%93%e3%81%a7%e3%81%8d%e3%82%8b%e7%92%b0%e5%a2%83%e3%82%92azure%e4%b8%8a/",
+      "image_path": "assets/media/6df29ab67cd4-HCCJP.png",
+      "kind": "post"
+    },
+    {
+      "title": "【日本初導入】AWSをオンプレで使う！？「AWS Outpostsを用いたIoT/MLシステム」/HCCJP(ハイブリッドクラウド研究会) 第31回勉強会",
+      "date": "2022-03-16",
+      "path": "2022/03/16/【日本初導入】awsをオンプレで使う！？「aws-outpostsを用",
+      "excerpt": "第31回目となる今回の勉強会はAWSをオンプレミスで使用可能な「AWS Outposts」の導入事例をNTTコミュニケーションズ 鈴ヶ嶺さんにお話しいただきます。 AWS Outpostsに関してはその発表当初からHCC […]",
+      "content_html": "\n<p>第31回目となる今回の勉強会はAWSをオンプレミスで使用可能な「AWS Outposts」の導入事例をNTTコミュニケーションズ 鈴ヶ嶺さんにお話しいただきます。 AWS Outpostsに関してはその発表当初からHCCJPでも話題にしてきましたが、今回ついに実機を導入した事例に関しての話を聞くことができます。 しかも、ハイブリッドクラウドでのIoT/MLシステムが題材です。</p>\n<p>HCCJP名物の匿名質問のシステムを使って基本的なことから、導入してみなければわからないことまでなんでも気軽に質問可能です。 どんどん質問をぶつけちゃってください！</p>\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio\">\n<span class=\"embed-youtube\"><iframe allowfullscreen=\"true\" height=\"707\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/7DgQaPxpdKM?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=ja&amp;autohide=2&amp;wmode=transparent\" width=\"1256\"></iframe></span>\n</figure>\n",
+      "source_url": "https://www.hccjp.org/2022/03/16/%e3%80%90%e6%97%a5%e6%9c%ac%e5%88%9d%e5%b0%8e%e5%85%a5%e3%80%91aws%e3%82%92%e3%82%aa%e3%83%b3%e3%83%97%e3%83%ac%e3%81%a7%e4%bd%bf%e3%81%86%ef%bc%81%ef%bc%9f%e3%80%8caws-outposts%e3%82%92%e7%94%a8/",
+      "image_path": "assets/media/10d9b229b329-HCCJP_31.png",
+      "kind": "post"
+    },
+    {
+      "title": "ハイブリッドクラウド〇×クイズとAzure Policyによるハイブリッド構成管理/HCCJP(ハイブリッドクラウド研究会) 第30回勉強会",
+      "date": "2022-03-16",
+      "path": "2022/03/16/ハイブリッドクラウド〇xクイズとazure-policyによるハイ",
+      "excerpt": "前回の勉強会からまだ日が浅いですが、HCCJP第30回勉強会はいつも通りの毎月第2金曜日14時開始に戻すべくライトにお届けします。 ハイブリッドクラウド〇×クイズでは、参加の皆さんにリアルタイムで〇×クイズに回答いただき […]",
+      "content_html": "\n<p>前回の勉強会からまだ日が浅いですが、HCCJP第30回勉強会はいつも通りの毎月第2金曜日14時開始に戻すべくライトにお届けします。</p>\n<p>ハイブリッドクラウド〇×クイズでは、参加の皆さんにリアルタイムで〇×クイズに回答いただきます。ぜひ腕試しにご参加ください。</p>\n<p>また、技術セッションではAzure PolicyやAzure Arc、PowerShell DSCを用いたハイブリッドクラウド、マルチクラウドでの構成管理に関してお届けします。</p>\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\">\n<span class=\"embed-youtube\"><iframe allowfullscreen=\"true\" height=\"707\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/Up6goTLSwfg?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=ja&amp;autohide=2&amp;wmode=transparent\" width=\"1256\"></iframe></span>\n</figure>\n",
+      "source_url": "https://www.hccjp.org/2022/03/16/%e3%83%8f%e3%82%a4%e3%83%96%e3%83%aa%e3%83%83%e3%83%89%e3%82%af%e3%83%a9%e3%82%a6%e3%83%89%e3%80%87x%e3%82%af%e3%82%a4%e3%82%ba%e3%81%a8azure-policy%e3%81%ab%e3%82%88%e3%82%8b%e3%83%8f%e3%82%a4/",
+      "image_path": "assets/media/8676d9910f48-HCCJP_30.png",
+      "kind": "post"
+    },
+    {
+      "title": "Azure Hybrid Dayコラボ！ イベントでは語りきれなかった裏話もあるよ / HCCJP(ハイブリッドクラウド研究会) 第29回勉強会",
+      "date": "2022-02-06",
+      "path": "2022/02/06/azure-hybrid-day前夜祭-イベントでは語りきれなかった裏話も",
+      "excerpt": "※もともと2月9日に開催予定でしたが、2月25日実施に変更になりました。申し込み済みだった皆さん申し訳ございませんでした。 HCCJP(ハイブリッドクラウド研究会) 29回勉強会 第29回目となる今回の勉強会はちょっと趣 […]",
+      "content_html": "\n<p><span class=\"marker\">※もともと2月9日に開催予定でしたが、2月25日実施に変更になりました。申し込み済みだった皆さん申し訳ございませんでした。</span></p>\nHCCJP(ハイブリッドクラウド研究会) 29回勉強会\n<p>第29回目となる今回の勉強会はちょっと趣向を変えて(開催時間も変えて)お届けします。</p>\n<p>2/10に日本マイクロソフト主催で実施されるAzure Hybrid Dayイベント(<a href=\"https://mktoevents.com/Microsoft+Even\" rel=\"noopener noreferrer\">https://mktoevents.com/Microsoft+Even</a>…) とのコラボ企画が実現しました！ イベントの登壇者でもあるMicrosoft 佐藤さん、高添さん、さらにイベントの仕掛け人である鈴木さんにも来てもらい、イベントでは語りきれなかった裏話を含め沢山語っていただきます。</p>\n<p>技術セッション(※調整中)にてAzure Hybrid Dayの主要トピック含めてAzure Hybridのおさらいをしつつ、日本マイクロソフトにてAzure Hybridの日本市場への展開を仕掛ける中心メンバーの本音も聞けちゃうとても貴重で豪華な回となります！さらにMicrosoft MVP for Azueである松本さん、そして胡田も会話に加わります。</p>\n<p>さらに、HCCJP名物の匿名での質問はもちろん今回も受け付けちゃいます。キーマンに何でも聞けちゃうこの機会をお見逃しなく！ 日本におけるAzure Hybridのキーマンたちにバンバン質問をぶつけちゃってください！</p>\nアジェンダ/タイムテーブル\n<figure class=\"wp-block-table\"><table><thead><tr><th>開始時刻</th><th>時間(分)</th><th>セッション</th><th>スピーカー</th></tr></thead><tbody><tr><td>14:00</td><td>5</td><td>オープニング</td><td></td></tr><tr><td>14:05</td><td>50</td><td>(調整中)Azure Hybrid 技術セッション</td><td>(調整中)</td></tr><tr><td>14:55</td><td>60</td><td>Azure Hybridクロストーク<br/>・Azure Hybrid Dayイベントの裏側<br/>・イベントでは触れられなかった技術話</td><td>日本マイクロソフト株式会社<br/>Azureビジネス本部<br/>プロダクトマネージャー Azure SME<br/>佐藤 壮一 氏<br/><br/>パートナー技術統括本部<br/>シニアクラウドソリューションアーキテクト<br/>高添 修 氏<br/><br/>セントラルマーケティング本部<br/>マーケティングコミュニケーションマネージャー<br/>鈴木 教之 氏<br/><br/>三井情報株式会社<br/>Microsoft MVP for Azure<br/>松本 雄介 氏<br/><br/>日本ビジネスシステムズ株式会社<br/>Microsoft MVP for Azure<br/>胡田 昌彦 氏</td></tr></tbody></table></figure>\n<p>※アジェンダ/タイムテーブルは予告なく変更になることがあります。</p>\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\">\n<span class=\"embed-youtube\"><iframe allowfullscreen=\"true\" height=\"707\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/daKEbs2lchU?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=ja&amp;autohide=2&amp;wmode=transparent\" width=\"1256\"></iframe></span>\n</figure>\n",
+      "source_url": "https://www.hccjp.org/2022/02/06/azure-hybrid-day%e5%89%8d%e5%a4%9c%e7%a5%ad-%e3%82%a4%e3%83%99%e3%83%b3%e3%83%88%e3%81%a7%e3%81%af%e8%aa%9e%e3%82%8a%e3%81%8d%e3%82%8c%e3%81%aa%e3%81%8b%e3%81%a3%e3%81%9f%e8%a3%8f%e8%a9%b1%e3%82%82/",
+      "image_path": "assets/media/a5ec4b1163e5-HCCJP_29.jpg",
+      "kind": "post"
+    },
+    {
+      "title": "VDIもハイブリッド!?最新のVDIについてMicrosoft高添さんにあれこれ聞いてみよう！/HCCJP(ハイブリッドクラウド研究会) 第28回勉強会",
+      "date": "2022-01-07",
+      "path": "2022/01/07/vdiもハイブリッド最新のvdiについてmicrosoft高添さんにあ",
+      "excerpt": "毎月第2金曜日の午後はHCCJPの勉強会！2022年も毎月開催は継続していきますのでよろしくお願いします！ 今回は13時開始です。いつもの14時開始ではありませんのでご注意ください！ 第28回目となる今回の勉強会はAzu […]",
+      "content_html": "\n<p>毎月第2金曜日の午後はHCCJPの勉強会！2022年も毎月開催は継続していきますのでよろしくお願いします！ 今回は13時開始です。いつもの14時開始ではありませんのでご注意ください！</p>\n<p>第28回目となる今回の勉強会はAzure Virtual Desktop for Azure Stack HCIがテーマです。Azure Virtual Desktopはクラウドで利用可能なVDIサービスですが、それをハイブリッドに拡張可能なAzure Virtual Desktop for Azure Stack HCIが登場しています。Microsoft 高添さんにメインスピーカーになってもらい、基本的な部分から解説してもらいます。</p>\n<p>そして、今回もいつも通り匿名のQ&amp;Aおよびアンケートシステムを用いながら進行しますので、知りたいことをなんでも沢山質問可能です！</p>\n<p>さらに、LT枠もあります。今回のテーマのイベントに限らず、どのような内容でも大丈夫なので、勉強がてらアウトプットにもお気軽に挑戦いただければと思います！</p>\n<p>登録は下記イベントページから！</p>\n<a href=\"https://hybridcloud.connpass.com/event/235568/\" rel=\"noopener noreferrer\" title=\"ERROR: The request could not be satisfied\"><span class=\"fa\"></span><figure class=\"blogcard-thumbnail external-blogcard-thumbnail\"></figure>ERROR: The request could not be satisfiedhybridcloud.connpass.com</a>\n",
+      "source_url": "https://www.hccjp.org/2022/01/07/vdi%e3%82%82%e3%83%8f%e3%82%a4%e3%83%96%e3%83%aa%e3%83%83%e3%83%89%e6%9c%80%e6%96%b0%e3%81%aevdi%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6microsoft%e9%ab%98%e6%b7%bb%e3%81%95%e3%82%93%e3%81%ab%e3%81%82/",
+      "image_path": "assets/media/cc73f6a0ff3b-HCCJP_28.jpg",
+      "kind": "post"
+    },
+    {
+      "title": "2021/11/12（金） 14:00〜 OpsRampを通じて学ぶ、Hybrid Cloud環境のための最新IT Operation HCCJP(ハイブリッドクラウド研究会) 第26回勉強会",
+      "date": "2021-10-25",
+      "path": "2021/10/25/2021-11-12（金）-1400〜-opsrampを通じて学ぶ、hybrid-cloud環境のための最",
+      "excerpt": "第26回目となる今回の勉強会は「OpsRamp」そして「IT Operation」がテーマです。OpsRam Senior Technology Evangelistの澤田氏、Advisor, Japan Busines […]",
+      "content_html": "\n<p>第26回目となる今回の勉強会は「OpsRamp」そして「IT Operation」がテーマです。OpsRam Senior Technology Evangelistの澤田氏、Advisor, Japan Business Developmentの三浦氏に登壇いただき説明いただきます。</p>\n<p>そして、今回もいつも通り匿名のQ&amp;Aおよびアンケートシステムを用いながら進行しますので、知りたいことをなんでも沢山質問可能です！</p>\n<p>さらに、LT枠もあります。今回のテーマのイベントに限らず、どのような内容でも大丈夫なので、勉強がてらアウトプットにもお気軽に挑戦いただければと思います！</p>\n<a href=\"https://hybridcloud.connpass.com/event/228438/\" rel=\"noopener noreferrer\" title=\"ERROR: The request could not be satisfied\"><span class=\"fa\"></span><figure class=\"blogcard-thumbnail external-blogcard-thumbnail\"></figure>ERROR: The request could not be satisfiedhybridcloud.connpass.com</a>\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\">\n<span class=\"embed-youtube\"><iframe allowfullscreen=\"true\" height=\"707\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/L3Wmw0XDugQ?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=ja&amp;autohide=2&amp;wmode=transparent\" width=\"1256\"></iframe></span>\n</figure>\n",
+      "source_url": "https://www.hccjp.org/2021/10/25/2021-11-12%ef%bc%88%e9%87%91%ef%bc%89-1400%e3%80%9c-opsramp%e3%82%92%e9%80%9a%e3%81%98%e3%81%a6%e5%ad%a6%e3%81%b6%e3%80%81hybrid-cloud%e7%92%b0%e5%a2%83%e3%81%ae%e3%81%9f%e3%82%81%e3%81%ae%e6%9c%80/",
+      "image_path": "assets/media/dfcedd26319f-HCCJP-768x432.png",
+      "kind": "post"
+    },
+    {
+      "title": "2021/10/08(金) 14:00 〜 Azure Hybridの中核! 進化を続けるAzure Arcの今をまとめてお届け！ / HCCJP 第25回勉強会",
+      "date": "2021-09-30",
+      "path": "2021/09/30/2021-10-08金-1400-〜-azure-hybridの中核-進化を続けるazure-arcの今をまとめ",
+      "excerpt": "毎月第2金曜日の午後はHCCJPの勉強会！今回もオンラインのライブイベントをお届けします！ 第25回目となる今回の勉強会は「Azure Arc」がテーマです。これまでもAzure Arcの話はお伝えしてきておりますが、正 […]",
+      "content_html": "\n<p>毎月第2金曜日の午後はHCCJPの勉強会！今回もオンラインのライブイベントをお届けします！</p>\n<p>第25回目となる今回の勉強会は「<span class=\"marker-under\">Azure Arc</span>」がテーマです。これまでもAzure Arcの話はお伝えしてきておりますが、正面から「Azure Arc」全体をきちんと扱ったことはありませんでした。Azure Arcとして様々なサービス群が登場し、進化し続けていますのでこのタイミングで改めてまとめてお届けしようと思います。</p>\n<p>そして、今回もいつも通り匿名のQ&amp;Aおよびアンケートシステムを用いながら進行しますので、知りたいことをなんでも沢山質問可能です！</p>\n<p>さらに、LT枠もあります。今回のテーマのイベントに限らず、どのような内容でも大丈夫なので、勉強がてらアウトプットにもお気軽に挑戦いただければと思います！</p>\n<p>イベントには下記からお申し込みください。今後の勉強会のお知らせも届くようになります。</p>\n<a href=\"https://hybridcloud.connpass.com/event/226528/\" rel=\"noopener noreferrer\" title=\"Azure Hybridの中核! 進化を続けるAzure Arcの今をまとめてお届け！ (2021/10/08 14:00〜)\"><span class=\"fa\"></span><figure class=\"blogcard-thumbnail external-blogcard-thumbnail\"></figure>Azure Hybridの中核! 進化を続けるAzure Arcの今をまとめてお届け！ (2021/10/08 14:00〜)# ライブ配信 URL, ライブQ&amp;A URL    * ライブ配信URL(Youtube Live) -    * ライブQ&amp;A URL -   # HCCJP(ハイブリッドクラウド研究会) 25回勉強会 (毎月第２金曜日14時～定期開催)  毎月第2金曜日の午後はHCCJPの勉強会！今回もオンラインのライブイベント...hybridcloud.connpass.com</a>\n<figure class=\"wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio\">\n<span class=\"embed-youtube\"><iframe allowfullscreen=\"true\" height=\"707\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/enIHSc-S0U0?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=ja&amp;autohide=2&amp;wmode=transparent\" width=\"1256\"></iframe></span>\n</figure>\n<p></p>\n",
+      "source_url": "https://www.hccjp.org/2021/09/30/2021-10-08%e9%87%91-1400-%e3%80%9c-azure-hybrid%e3%81%ae%e4%b8%ad%e6%a0%b8-%e9%80%b2%e5%8c%96%e3%82%92%e7%b6%9a%e3%81%91%e3%82%8bazure-arc%e3%81%ae%e4%bb%8a%e3%82%92%e3%81%be%e3%81%a8%e3%82%81/",
+      "image_path": "assets/media/ef02fbe2f5cd-hccjp25-768x432.png",
+      "kind": "post"
+    },
+    {
+      "title": "2021/9/10(金)14:00～　第24回勉強会「新しくなったAzure Stack HCIは以前と何が違うのか？もう一度ゼロからしっかり整理します！」を開催します！",
+      "date": "2021-09-03",
+      "path": "2021/09/03/2021-9-10金1400～　第24回勉強会「新しくなったazure-stack-hciは以前",
+      "excerpt": "毎月第2金曜日の午後はHCCJPの勉強会！今回もオンラインのライブイベントをお届けします！ 第24回目となる今回の勉強会は「Azure Stack HCI」がテーマです。2020年6月の第11回勉強会では「AzureSt […]",
+      "content_html": "\n<iframe allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\" height=\"315\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/xYjM1GFuQdw\" title=\"YouTube video player\" width=\"560\"></iframe>\n<p>毎月第2金曜日の午後はHCCJPの勉強会！今回もオンラインのライブイベントをお届けします！</p>\n<p>第24回目となる今回の勉強会は「Azure Stack HCI」がテーマです。2020年6月の第11回勉強会では「AzureStackHCI &amp; WindowsAdminCenter」をテーマに一度勉強会を行いましたし、その後もUpdateは継続的にお伝えしてきています。ですが、Azure Stack HCIは以前とは完全に新しく生まれ変わっており、あらためて『新しい』Azure Stack HCIはどのような位置づけでどのように使えるものなのかをあらてめてお伝えしようと思います。</p>\n<ul><li>以前のAzure Stack HCIとの違い</li><li>Windows Serverとの違い</li><li>Azure Stackファミリーの中での違い</li><li>Azure Arcとの関わり</li><li>Azureとの連携</li><li>これからどのように進化していくのか</li></ul>\n<p>この辺り、ゼロからしっかりと解説していきますので、ぜひご参加ください！</p>\n<p>そして、今回もいつも通り匿名のQ&amp;Aおよびアンケートシステムを用いながら進行しますので、知りたいことをなんでも沢山質問可能です！</p>\n<p>さらに、LT枠もあります。今回のテーマのイベントに限らず、どのような内容でも大丈夫なので、勉強がてらアウトプットにもお気軽に挑戦いただければと思います！</p>\n",
+      "source_url": "https://www.hccjp.org/2021/09/03/2021-9-10%e9%87%911400%ef%bd%9e%e3%80%80%e7%ac%ac24%e5%9b%9e%e5%8b%89%e5%bc%b7%e4%bc%9a%e3%80%8c%e6%96%b0%e3%81%97%e3%81%8f%e3%81%aa%e3%81%a3%e3%81%9fazure-stack-hci%e3%81%af%e4%bb%a5%e5%89%8d/",
+      "image_path": "assets/media/a2153e4b0178-new-azurestackhci-768x432.png",
+      "kind": "post"
+    },
+    {
+      "title": "第23回勉強会「Azure IoT Edge for Linux on Windows (EFLOW)を学ぶ！」",
+      "date": "2021-08-10",
+      "path": "2021/08/10/第23回勉強会「azure-iot-edge-for-linux-on-windows-eflowを学ぶ！」",
+      "excerpt": "第23回勉強会「Azure IoT Edge for Linux on Windows (EFLOW)を学ぶ！」は 2021/08/13 の14時からYoutubeにてオンラインライブ開催されます。ぜひ皆さんご覧ください […]",
+      "content_html": "\n<p>第23回勉強会「Azure IoT Edge for Linux on Windows (EFLOW)を学ぶ！」は 2021/08/13 の14時からYoutubeにてオンラインライブ開催されます。ぜひ皆さんご覧ください。</p>\n<iframe allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\" height=\"315\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/6djQ-7tdlgE\" title=\"YouTube video player\" width=\"560\"></iframe>\n<p>毎月第2金曜日の午後はHCCJPの勉強会！今回もオンラインのライブイベントをお届けします！</p>\n<p>第23回目となる今回の勉強会は「Azure IoT Edge for Linux on Windows (EFLOW)」がテーマです。 IoTでLinuxでWindowsなんです。何がどうなっているのか、何がメリットなのか、なかなかわかりにくいですよね。 今回のHCCJPの勉強会ではこのあたりを基礎から掘り下げていきたいと思いますので、ぜひご参加ください！</p>\n<p>今回もいつも通り匿名のQ&amp;Aおよびアンケートシステムを用いながら進行しますので、知りたいことをなんでも沢山質問可能ですよ！</p>\n<p>さらに、LT枠もあります。今回のテーマのイベントに限らず、どのような内容でも大丈夫なので、勉強がてらアウトプットにもお気軽に挑戦いただければと思います！</p>\n",
+      "source_url": "https://www.hccjp.org/2021/08/10/%e7%ac%ac23%e5%9b%9e%e5%8b%89%e5%bc%b7%e4%bc%9a%e3%80%8cazure-iot-edge-for-linux-on-windows-eflow%e3%82%92%e5%ad%a6%e3%81%b6%ef%bc%81%e3%80%8d/",
+      "image_path": "assets/media/cf86c906111c-eflow-768x432.png",
+      "kind": "post"
+    },
+    {
+      "title": "「2021/6/29に実施のAzureハイブリッドイベントの内容を日本語でまとめて知る！」を実施しました",
+      "date": "2021-08-10",
+      "path": "2021/08/10/「2021-6-29に実施のazureハイブリッドイベントの内容を日",
+      "excerpt": "第22回勉強会は無事に実施できました。参加いただいたみなさんありがとうございました。 イベントの様子はYoutubeの動画アーカイブにて見られますので、ぜひご覧ください。",
+      "content_html": "\n<p>第22回勉強会は無事に実施できました。参加いただいたみなさんありがとうございました。</p>\n<p>イベントの様子はYoutubeの動画アーカイブにて見られますので、ぜひご覧ください。</p>\n<iframe allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\" height=\"315\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/astNbSPs-t0\" title=\"YouTube video player\" width=\"560\"></iframe>\n",
+      "source_url": "https://www.hccjp.org/2021/08/10/%e3%80%8c2021-6-29%e3%81%ab%e5%ae%9f%e6%96%bd%e3%81%aeazure%e3%83%8f%e3%82%a4%e3%83%96%e3%83%aa%e3%83%83%e3%83%89%e3%82%a4%e3%83%99%e3%83%b3%e3%83%88%e3%81%ae%e5%86%85%e5%ae%b9%e3%82%92%e6%97%a5/",
+      "image_path": "assets/media/b08804046f94-HCCJP_StudyGroup07-768x349.jpg",
+      "kind": "post"
+    },
+    {
+      "title": "2021年7月9日の14時から第21回勉強会「2021/6/29に実施のAzureハイブリッドイベントの内容を日本語でまとめて知る！」を実施します！",
+      "date": "2021-06-29",
+      "path": "2021/06/29/2021年7月9日の14時から第21回勉強会「2021-6-29に実施のazureハイ",
+      "excerpt": "第21回勉強会のイベントページを公開しました。 2021/6/29に実施のAzureハイブリッドイベントの内容を日本語でまとめて知る！ – connpass 第22回目となる今回の勉強会は6/29日に行われる […]",
+      "content_html": "\n<p>第21回勉強会のイベントページを公開しました。</p>\n<p><a href=\"https://hybridcloud.connpass.com/event/217901/\" rel=\"noopener noreferrer\">2021/6/29に実施のAzureハイブリッドイベントの内容を日本語でまとめて知る！ – connpass</a></p>\n<p>第22回目となる今回の勉強会は6/29日に行われる「Azure Hybrid and Multicloud Digital Event」の内容まとめを日本語でお届けします！</p>\n<p>このイベントの内容はまだわかっていません(！)が、きっと興味深い内容であろうということと、イベントが日本時間の深夜1時～3時でありリアルタイムで視聴するのは日本人にはなかなか難しいということがあります。最新の情報を日本の皆さんに日本語でお届けすることには意味があると思いますので、頑張って眠い目をこすってイベントにリアルタイム参加し、内容をサマリーしてお届けしようと思います。</p>\n<p>LT枠もあります。今回のテーマのイベントに限らず、どのような内容でも大丈夫なので、勉強がてらアウトプットにもお気軽に挑戦いただければと思います！</p>\n<p>そして、今回もいつも通り匿名のQ&amp;Aおよびアンケートシステムを用いながら進行しますので、知りたいことをなんでも沢山質問してください！</p>\n",
+      "source_url": "https://www.hccjp.org/2021/06/29/2021%e5%b9%b47%e6%9c%889%e6%97%a5%e3%81%ae14%e6%99%82%e3%81%8b%e3%82%89%e7%ac%ac21%e5%9b%9e%e5%8b%89%e5%bc%b7%e4%bc%9a%e3%80%8c2021-6-29%e3%81%ab%e5%ae%9f%e6%96%bd%e3%81%aeazure%e3%83%8f%e3%82%a4/",
+      "image_path": "assets/media/e457c3eb700f-hcc-logo03f_521_200_bgwhite-300x115.png",
+      "kind": "post"
+    },
+    {
+      "title": "第21回勉強会を実施しました！",
+      "date": "2021-06-29",
+      "path": "2021/06/29/第21回勉強会を実施しました！",
+      "excerpt": "Youtubeにてアーカイブを公開していますので是非御覧ください！",
+      "content_html": "\n<p>Youtubeにてアーカイブを公開していますので是非御覧ください！</p>\n<iframe allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\" height=\"315\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/uC1Dg-dhqJs\" title=\"YouTube video player\" width=\"560\"></iframe>\n",
+      "source_url": "https://www.hccjp.org/2021/06/29/%e7%ac%ac21%e5%9b%9e%e5%8b%89%e5%bc%b7%e4%bc%9a%e3%82%92%e5%ae%9f%e6%96%bd%e3%81%97%e3%81%be%e3%81%97%e3%81%9f%ef%bc%81/",
+      "image_path": "assets/media/e457c3eb700f-hcc-logo03f_521_200_bgwhite-300x115.png",
+      "kind": "post"
+    },
+    {
+      "title": "Tech+にて連載記事【第24回】が公開されました。",
+      "date": "2021-06-10",
+      "path": "2021/06/10/techにて連載記事【第24回】が公開されました。",
+      "excerpt": "Tech+にて連載記事【第24回】が公開されました。 Azure Stack Hub with GPU をメインテーマとした第18回勉強会レポートです。 【連載】徹底研究! ハイブリッドクラウド[24] Azure St […]",
+      "content_html": "\n<p>Tech+にて連載記事【第24回】が公開されました。 </p>\n<p>Azure Stack Hub with GPU をメインテーマとした第18回勉強会レポートです。</p>\n<p><a href=\"https://news.mynavi.jp/itsearch/article/cloud/5562\" rel=\"noopener noreferrer\">【連載】徹底研究! ハイブリッドクラウド[24] Azure Stack Hub with GPUに見るエッジコンピューティングの未来像</a></p>\n",
+      "source_url": "https://www.hccjp.org/2021/06/10/tech%e3%81%ab%e3%81%a6%e9%80%a3%e8%bc%89%e8%a8%98%e4%ba%8b%e3%80%90%e7%ac%ac24%e5%9b%9e%e3%80%91%e3%81%8c%e5%85%ac%e9%96%8b%e3%81%95%e3%82%8c%e3%81%be%e3%81%97%e3%81%9f%e3%80%82/",
+      "image_path": "assets/media/e2fb0c275229-HC_300-250-300x250.jpg",
+      "kind": "post"
+    },
+    {
+      "title": "第20回勉強会「【オンライン開催】改めて学ぶAzure IoT Edge, Azure Stack Edge」のイベントページを公開しました！ぜひご登録ください！",
+      "date": "2021-04-23",
+      "path": "2021/04/23/第20回勉強会「【オンライン開催】改めて学ぶazure-iot-edge-az",
+      "excerpt": "【オンライン開催】改めて学ぶAzure IoT Edge, Azure Stack Edge – connpass 第20回目となる今回の勉強会は「改めてAzure IoT Edge, Azure Stack […]",
+      "content_html": "\n<ul><li> <a href=\"https://hybridcloud.connpass.com/event/211509/\" rel=\"noopener noreferrer\">【オンライン開催】改めて学ぶAzure IoT Edge, Azure Stack Edge – connpass</a> </li></ul>\n<p>第20回目となる今回の勉強会は「改めてAzure IoT Edge, Azure Stack Edgeを学ぶ」ということをテーマにします。</p>\n<p>ハイブリッドクラウド研究会ではIoT Edgeを正面から取り扱ったことはありませんでした。「仮想マシン管理ならイメージ湧くけど、IoT Edgeといわれてもな？IoT Hubとつながるらしいけどそのあたりはアプリケーション開発者の領域だよね？Azure Stack EdgeでもIoT Edgeが動くらしい？でも、このあたり知っておかないとそろそろまずいよなぁ～。」というような方に送る勉強会にしたいと思います。</p>\n<p>そして、今回もいつも通り匿名のQ&amp;Aおよびアンケートシステムを用いながら進行しますので、知りたいことをなんでも沢山質問してください！</p>\n<figure class=\"wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio\">\n<span class=\"embed-youtube\"><iframe allowfullscreen=\"true\" height=\"707\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/wJs_5caLHWY?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=ja&amp;autohide=2&amp;wmode=transparent\" width=\"1256\"></iframe></span>\n</figure>\n",
+      "source_url": "https://www.hccjp.org/2021/04/23/%e7%ac%ac20%e5%9b%9e%e5%8b%89%e5%bc%b7%e4%bc%9a%e3%80%8c%e3%80%90%e3%82%aa%e3%83%b3%e3%83%a9%e3%82%a4%e3%83%b3%e9%96%8b%e5%82%ac%e3%80%91%e6%94%b9%e3%82%81%e3%81%a6%e5%ad%a6%e3%81%b6azure-iot-edge-az/",
+      "image_path": "assets/media/2d994a9e6adc-hcc-logo02f_300-300x277.png",
+      "kind": "post"
+    },
+    {
+      "title": "第19回勉強会実施しました！",
+      "date": "2021-04-23",
+      "path": "2021/04/23/第19回勉強会実施しました！",
+      "excerpt": "第19回の勉強会を実施しました！アーカイブ公開もしていますので、ぜひご覧ください！",
+      "content_html": "\n<p>第19回の勉強会を実施しました！アーカイブ公開もしていますので、ぜひご覧ください！</p>\n<figure class=\"wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\">\n<span class=\"embed-youtube\"><iframe allowfullscreen=\"true\" height=\"707\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/TVBnnPmXedo?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=ja&amp;autohide=2&amp;wmode=transparent\" width=\"1256\"></iframe></span>\n</figure>\n",
+      "source_url": "https://www.hccjp.org/2021/04/23/%e7%ac%ac19%e5%9b%9e%e5%8b%89%e5%bc%b7%e4%bc%9a%e5%ae%9f%e6%96%bd%e3%81%97%e3%81%be%e3%81%97%e3%81%9f%ef%bc%81/",
+      "image_path": "assets/media/2d994a9e6adc-hcc-logo02f_300-300x277.png",
+      "kind": "post"
+    },
+    {
+      "title": "第18回勉強会実施しました！",
+      "date": "2021-04-23",
+      "path": "2021/04/23/第18回勉強会実施しました！",
+      "excerpt": "第18回勉強会実施しました。アーカイブ公開していますので、ぜひご覧ください！",
+      "content_html": "\n<p>第18回勉強会実施しました。アーカイブ公開していますので、ぜひご覧ください！</p>\n<figure class=\"wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\">\n<span class=\"embed-youtube\"><iframe allowfullscreen=\"true\" height=\"707\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/NCFIQN118fw?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=ja&amp;autohide=2&amp;wmode=transparent\" width=\"1256\"></iframe></span>\n</figure>\n",
+      "source_url": "https://www.hccjp.org/2021/04/23/%e7%ac%ac18%e5%9b%9e%e5%8b%89%e5%bc%b7%e4%bc%9a%e5%ae%9f%e6%96%bd%e3%81%97%e3%81%be%e3%81%97%e3%81%9f%ef%bc%81/",
+      "image_path": "assets/media/2d994a9e6adc-hcc-logo02f_300-300x277.png",
+      "kind": "post"
+    },
+    {
+      "title": "第18回勉強会は3月12日(金)14時からです！Azure Stack Hub with GPUの話がたくさん聞けます！",
+      "date": "2021-03-05",
+      "path": "2021/03/05/第18回勉強会は3月12日金14時からです！azure-stack-hub-with-gpuの話が",
+      "excerpt": "第18回に関してはNTTコミュニケーションズ株式会社の鈴ケ嶺さんにAzure Stack Hub with GPUに関して下記内容で登壇いただけることになりました。40分でメインセッションとして話をしてもらいます。待望の […]",
+      "content_html": "\n<p>第18回に関してはNTTコミュニケーションズ株式会社の鈴ケ嶺さんにAzure Stack Hub with GPUに関して下記内容で登壇いただけることになりました。40分でメインセッションとして話をしてもらいます。待望のGPUが搭載されたAzure Stack Hubのユースケース、ベンチマーク等一緒に知りましょう。</p>\n<p>もちろん今回もいつも通り匿名のQ&amp;Aおよびアンケートシステムを用いながら進行しますので、知りたいことをなんでも沢山質問しましょう！</p>\n<h3>セッション概要</h3>\n<p> 2020年9月にGAとなったAzure Stack Hub with GPUを先行で導入し検証を行っています。本セッションでは、実際に利用している立場からデモを交えつつAzure Stack Hub with GPUのユースケースをお話すると共に、GPUのベンチマークを含む他社クラウドとの性能比較結果について情報共有をいたします。 </p>\n<h3>スピーカー</h3>\n<p> NTTコミュニケーションズ株式会社<br/>イノベーションセンタ―テクノロジー部門<br/>鈴ケ嶺 聡哲 氏</p>\n<h3>LT</h3>\n<p>今回はLTも豪華です！</p>\n<p>\n\nエヌビディア合同会社<br/>田上 英昭氏<br/>(仮) NVIDIA GPU にまつわるお話</p>\n<p>三井情報株式会社<br/>Microsoft MVP for Azure<br/>松本 雄介氏</p>\n<p>レノボ・エンタープライズ・ソリューションズ合同会社<br/>Microsoft アライアンスマネージャー<br/>米津 直樹氏</p>\n<p>日本ヒューレット・パッカード株式会社<br/>原 聖氏</p>\n<p>デル・テクノロジーズ株式会社<br/>松本 裕志氏</p>\n<p>Azure Stack Hubのオペレーションの話、GPUの話、HWの話など色々と聞けそうですね！\n\n</p>\n<h3>登録</h3>\n<p>イベント登録は下記URLからお願いします！</p>\n<ul><li> <a href=\"https://hybridcloud.connpass.com/event/204287/\" rel=\"noopener noreferrer\">ついにGPU搭載! Azure Stack Hub with GPUの実力は?! – connpass</a> </li></ul>\n",
+      "source_url": "https://www.hccjp.org/2021/03/05/%e7%ac%ac18%e5%9b%9e%e5%8b%89%e5%bc%b7%e4%bc%9a%e3%81%af3%e6%9c%8812%e6%97%a5%e9%87%9114%e6%99%82%e3%81%8b%e3%82%89%e3%81%a7%e3%81%99%ef%bc%81azure-stack-hub-with-gpu%e3%81%ae%e8%a9%b1%e3%81%8c/",
+      "image_path": "assets/media/2d994a9e6adc-hcc-logo02f_300-300x277.png",
+      "kind": "post"
+    },
+    {
+      "title": "ITSearch+にて連載記事【第23回】が公開されました。",
+      "date": "2021-03-04",
+      "path": "2021/03/04/itsearchにて連載記事【第23回】が公開されました。",
+      "excerpt": "ITSearch+にて連載記事【第23回】が公開されました。 2月に開催された第17回勉強会のレポートをお伝えしています。 【連載】徹底研究! ハイブリッドクラウド[23]Kubernetes／コンテナ統合に最適化された […]",
+      "content_html": "<p>ITSearch+にて連載記事【第23回】が公開されました。<br/></p>\n<p>2月に開催された第17回勉強会のレポートをお伝えしています。  </p>\n<p><a href=\"https://news.mynavi.jp/itsearch/article/cloud/5376\" rel=\"noopener noreferrer\">【連載】徹底研究! ハイブリッドクラウド[23]Kubernetes／コンテナ統合に最適化されたベアメタルコンテナプラットフォーム「Diamanti」を知る</a><br/><br/></p>",
+      "source_url": "https://www.hccjp.org/2021/03/04/itsearch%e3%81%ab%e3%81%a6%e9%80%a3%e8%bc%89%e8%a8%98%e4%ba%8b%e3%80%90%e7%ac%ac23%e5%9b%9e%e3%80%91%e3%81%8c%e5%85%ac%e9%96%8b%e3%81%95%e3%82%8c%e3%81%be%e3%81%97%e3%81%9f%e3%80%82/",
+      "image_path": "assets/media/e2fb0c275229-HC_300-250-300x250.jpg",
+      "kind": "post"
+    },
+    {
+      "title": "第17回勉強会を実施しました(動画あり)",
+      "date": "2021-02-15",
+      "path": "2021/02/15/第17回勉強会を実施しました動画あり",
+      "excerpt": "先日第17回勉強会を実施しました。登壇いただいたみなさん、ご視聴、ご参加いただいた皆さんありがとうございました。 アーカイブも公開されていますので、ぜひご覧いただければと思います。",
+      "content_html": "\n<p>先日第17回勉強会を実施しました。登壇いただいたみなさん、ご視聴、ご参加いただいた皆さんありがとうございました。</p>\n<p>アーカイブも公開されていますので、ぜひご覧いただければと思います。</p>\n<iframe allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\" height=\"315\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/7o4JX__v7lc\" width=\"560\"></iframe>\n",
+      "source_url": "https://www.hccjp.org/2021/02/15/%e7%ac%ac17%e5%9b%9e%e5%8b%89%e5%bc%b7%e4%bc%9a%e3%82%92%e5%ae%9f%e6%96%bd%e3%81%97%e3%81%be%e3%81%97%e3%81%9f%e5%8b%95%e7%94%bb%e3%81%82%e3%82%8a/",
+      "image_path": null,
+      "kind": "post"
+    },
+    {
+      "title": "ITSearch+にて連載記事【第22回】が公開されました。",
+      "date": "2021-02-08",
+      "path": "2021/02/08/itsearchにて連載記事【第22回】が公開されました。",
+      "excerpt": "ITSearch+にて連載記事【第22回】が公開されました。 昨年12月に開催された第15回勉強会のレポートをお伝えしています。 【連載】徹底研究! ハイブリッドクラウド[22]統合管理を実現する「Azure Arc」と […]",
+      "content_html": "<p>ITSearch+にて連載記事【第22回】が公開されました。<br/></p>\n<p>\n\n昨年12月に開催された第15回勉強会のレポートをお伝えしています。 \n\n</p>\n<p><a href=\"https://news.mynavi.jp/itsearch/article/cloud/5335\" rel=\"noopener noreferrer\">【連載】徹底研究! ハイブリッドクラウド[22]統合管理を実現する「Azure Arc」と更新管理機能「Azure Update Management」</a></p>\n",
+      "source_url": "https://www.hccjp.org/2021/02/08/itsearch%e3%81%ab%e3%81%a6%e9%80%a3%e8%bc%89%e8%a8%98%e4%ba%8b%e3%80%90%e7%ac%ac22%e5%9b%9e%e3%80%91%e3%81%8c%e5%85%ac%e9%96%8b%e3%81%95%e3%82%8c%e3%81%be%e3%81%97%e3%81%9f%e3%80%82/",
+      "image_path": "assets/media/e2fb0c275229-HC_300-250-300x250.jpg",
+      "kind": "post"
+    },
+    {
+      "title": "ITSearch+にて連載記事【第21回】が公開されました。",
+      "date": "2021-02-04",
+      "path": "2021/02/04/itsearchにて連載記事【第21回】が公開されました。",
+      "excerpt": "ITSearch+にて連載記事【第21回】が公開されました。 昨年11月に開催された第14回勉強会のレポートをお伝えしています。 【連載】徹底研究! ハイブリッドクラウド[21]リフト＆シフトをシンプルに実現する「Azu […]",
+      "content_html": "\n<p> ITSearch+にて連載記事【第21回】が公開されました。</p>\n<p>昨年11月に開催された第14回勉強会のレポートをお伝えしています。 </p>\n<p><a href=\"https://news.mynavi.jp/itsearch/article/cloud/5333\" rel=\"noopener noreferrer\">【連載】徹底研究! ハイブリッドクラウド[21]リフト＆シフトをシンプルに実現する「Azure VMware Solution」</a></p>\n",
+      "source_url": "https://www.hccjp.org/2021/02/04/itsearch%e3%81%ab%e3%81%a6%e9%80%a3%e8%bc%89%e8%a8%98%e4%ba%8b%e3%80%90%e7%ac%ac21%e5%9b%9e%e3%80%91%e3%81%8c%e5%85%ac%e9%96%8b%e3%81%95%e3%82%8c%e3%81%be%e3%81%97%e3%81%9f%e3%80%82/",
+      "image_path": "assets/media/e2fb0c275229-HC_300-250-300x250.jpg",
+      "kind": "post"
+    },
+    {
+      "title": "毎月のオンライン勉強会を継続実施しています！",
+      "date": "2021-01-20",
+      "path": "2021/01/20/毎月のオンライン勉強会を継続実施しています！",
+      "excerpt": "皆さんこんにちはHCCJPの胡田です。すっかりこちらの公式ブログの執筆がおろそかになってしまいました。申し訳ありません。 新型コロナの影響を受けてHCCJPも活動の主軸をオンライン活動に移しております。「毎月第2金曜日の […]",
+      "content_html": "\n<p>皆さんこんにちはHCCJPの胡田です。すっかりこちらの公式ブログの執筆がおろそかになってしまいました。申し訳ありません。</p>\n<p>新型コロナの影響を受けてHCCJPも活動の主軸をオンライン活動に移しております。「<span class=\"marker\">毎月第2金曜日の14時から</span>」というペースを作って毎月オンラインの勉強会を行っています。</p>\n<p>勉強会は「<span class=\"marker-red\">危ない部分はカットしたうえで</span>」Youtube上でアーカイブ公開も行っております。※危ない部分も聞きたい方はぜひ直接勉強会に登録の上で、Youtube LiveではなくTeams会議側に参加いただければと思います。</p>\n<figure class=\"wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\">\n<span class=\"embed-youtube\"><iframe allowfullscreen=\"true\" height=\"707\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/ib7jEMze2dU?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=ja&amp;autohide=2&amp;wmode=transparent\" width=\"1256\"></iframe></span>\n</figure>\n<iframe allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\" height=\"315\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/JlQ-QSkL_58\" width=\"560\"></iframe>\n<iframe allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\" height=\"315\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/Tp-O9JqA5z8\" width=\"560\"></iframe>\n<p>P.S.<br/>どのようにTeams会議をYoutube Liveに配信しているのか？ということに関しては下記のYoutube Liveにて撮影しておきましたので、興味ある方は参考にしてみてください。</p>\n<iframe allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\" height=\"315\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/kyzEOuE1HTM\" width=\"560\"></iframe>\n",
+      "source_url": "https://www.hccjp.org/2021/01/20/%e6%af%8e%e6%9c%88%e3%81%ae%e3%82%aa%e3%83%b3%e3%83%a9%e3%82%a4%e3%83%b3%e5%8b%89%e5%bc%b7%e4%bc%9a%e3%82%92%e7%b6%99%e7%b6%9a%e5%ae%9f%e6%96%bd%e3%81%97%e3%81%a6%e3%81%84%e3%81%be%e3%81%99%ef%bc%81/",
+      "image_path": null,
+      "kind": "post"
+    },
+    {
+      "title": "ITSearch+にて連載記事【第20回】が公開されました。",
+      "date": "2020-10-23",
+      "path": "2020/10/23/itsearchにて連載記事【第20回】が公開されました。",
+      "excerpt": "ITSearch+にて連載記事【第20回】が公開されました。 10/9(金)に開催された第13回勉強会のレポートをお伝えしています。 【連載】徹底研究! ハイブリッドクラウド[20]「Microsoft Ignite 2 […]",
+      "content_html": "\n<p>ITSearch+にて連載記事【第20回】が公開されました。</p>\n<p>10/9(金)に開催された第13回勉強会のレポートをお伝えしています。</p>\n<p><a href=\"https://news.mynavi.jp/itsearch/article/solution/5193\" rel=\"noopener noreferrer\">【連載】徹底研究! ハイブリッドクラウド[20]「Microsoft Ignite 2020」で発表された最新ハイブリッド関連情報</a></p>",
+      "source_url": "https://www.hccjp.org/2020/10/23/itsearch%e3%81%ab%e3%81%a6%e9%80%a3%e8%bc%89%e8%a8%98%e4%ba%8b%e3%80%90%e7%ac%ac20%e5%9b%9e%e3%80%91%e3%81%8c%e5%85%ac%e9%96%8b%e3%81%95%e3%82%8c%e3%81%be%e3%81%97%e3%81%9f%e3%80%82/",
+      "image_path": "assets/media/e2fb0c275229-HC_300-250-300x250.jpg",
+      "kind": "post"
+    },
+    {
+      "title": "第13回勉強会を実施しました！アーカイブも公開しています！",
+      "date": "2020-10-14",
+      "path": "2020/10/14/第13回勉強会を実施しました！アーカイブも公開し",
+      "excerpt": "先日第13回勉強会を実施しました。参加いただいた皆さんありがとうございました。 勉強会の様子はYoutubeでアーカイブ公開していますので是非ご覧ください。 次回以降の勉強会でセッションを持ちたい方、LT参加したい方、大 […]",
+      "content_html": "\n<p>先日第13回勉強会を実施しました。参加いただいた皆さんありがとうございました。</p>\n<p>勉強会の様子はYoutubeでアーカイブ公開していますので是非ご覧ください。</p>\n<iframe allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\" height=\"315\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/wiBpI7Gg-RA\" width=\"560\"></iframe>\n<p>次回以降の勉強会でセッションを持ちたい方、LT参加したい方、大募集中ですので下記のどちらかまで連絡いただければと思います。</p>\n<ul><li>Twitter: @ebi <a href=\"https://twitter.com/ebi%3Cbr%3EFacebook\" rel=\"noopener noreferrer\">https://twitter.com/ebi</a></li><li>Facebook Group: ハイブリッドクラウド研究会 <ul><li><a href=\"https://www.facebook.com/groups/hybridcloud/\" rel=\"noopener noreferrer\">https://www.facebook.com/groups/hybridcloud/</a></li></ul></li></ul>\n<p></p>\n",
+      "source_url": "https://www.hccjp.org/2020/10/14/%e7%ac%ac13%e5%9b%9e%e5%8b%89%e5%bc%b7%e4%bc%9a%e3%82%92%e5%ae%9f%e6%96%bd%e3%81%97%e3%81%be%e3%81%97%e3%81%9f%ef%bc%81%e3%82%a2%e3%83%bc%e3%82%ab%e3%82%a4%e3%83%96%e3%82%82%e5%85%ac%e9%96%8b%e3%81%97/",
+      "image_path": null,
+      "kind": "post"
+    },
+    {
+      "title": "ITSearch+にて連載記事【第19回】が公開されました。",
+      "date": "2020-09-22",
+      "path": "2020/09/22/itsearchにて連載記事【第19回】が公開されました。",
+      "excerpt": "ITSearch+にて連載記事【第19回】が公開されました。 9/11(金)に開催された勉強会のレポートをお伝えしています。また、9/26(土)に開催される「Azure Rock Star Community Day」に […]",
+      "content_html": "\n<p>ITSearch+にて連載記事【第19回】が公開されました。</p>\n<p>9/11(金)に開催された勉強会のレポートをお伝えしています。また、9/26(土)に開催される「Azure Rock Star Community Day」についてもご紹介しております。</p>\n<p><a href=\"https://news.mynavi.jp/itsearch/article/cloud/5146\" rel=\"noopener noreferrer\">【連載】徹底研究! ハイブリッドクラウド[19]Infrastructure as Codeを活用したハイブリッドクラウドジャーニー</a></p>\n",
+      "source_url": "https://www.hccjp.org/2020/09/22/itsearch%e3%81%ab%e3%81%a6%e9%80%a3%e8%bc%89%e8%a8%98%e4%ba%8b%e3%80%90%e7%ac%ac19%e5%9b%9e%e3%80%91%e3%81%8c%e5%85%ac%e9%96%8b%e3%81%95%e3%82%8c%e3%81%be%e3%81%97%e3%81%9f%e3%80%82/",
+      "image_path": "assets/media/e2fb0c275229-HC_300-250-300x250.jpg",
+      "kind": "post"
+    },
+    {
+      "title": "9月26日(土)13:00から「Azure Rock Star Community Day #1 – Hello World!」が開催されます",
+      "date": "2020-09-18",
+      "path": "2020/09/18/9月26日土1300から「azure-rock-star-community-day-1-hello-world」が開催されます",
+      "excerpt": "9月26日(土)13:00から「Azure Rock Star Community Day #1 – Hello World!」が開催されます。 Azure Rock Star Community Day # […]",
+      "content_html": "\n<p>9月26日(土)13:00から「Azure Rock Star Community Day #1 – Hello World!」が開催されます。</p>\n<ul><li> <a href=\"https://azurerockstar.connpass.com/event/186812/\" rel=\"noopener noreferrer\">Azure Rock Star Community Day #1 – Hello World!</a> </li></ul>\n<p> <a href=\"https://www.microsoft.com/ja-jp/events/top/azure-rock-star.aspx\" rel=\"noopener noreferrer\">Azure Rock Starプログラム</a> は様々なAzureサービスについてユニークな形で幅広いユーザーを対象に活動する日本のMicrosoft Azureコミュニティを繋ぐプログラムです。  HCCJPもメンバーとなっています。</p>\n<p>ぜひこちらのイベントご参加下さい！</p>\n",
+      "source_url": "https://www.hccjp.org/2020/09/18/9%e6%9c%8826%e6%97%a5%e5%9c%9f1300%e3%81%8b%e3%82%89%e3%80%8cazure-rock-star-community-day-1-hello-world%e3%80%8d%e3%81%8c%e9%96%8b%e5%82%ac%e3%81%95%e3%82%8c%e3%81%be%e3%81%99/",
+      "image_path": "assets/media/2d994a9e6adc-hcc-logo02f_300-300x277.png",
+      "kind": "post"
+    },
+    {
+      "title": "9月11日(金)14時から第12回勉強会をオンラインで実施します！",
+      "date": "2020-08-28",
+      "path": "2020/08/28/9月11日金14時から第12回勉強会をオンラインで実施し",
+      "excerpt": "皆さんこんにちは。HCCJPの胡田です。 今回は第12回勉強会のお知らせです。すでにConnpassのイベントページを公開しています！ 【オンライン開催】ゼロからわかるHashiCorpでのハイブリッドクラウドジャーニー […]",
+      "content_html": "\n<p>皆さんこんにちは。HCCJPの胡田です。</p>\n<p>今回は第12回勉強会のお知らせです。すでにConnpassのイベントページを公開しています！</p>\n<ul><li> 【オンライン開催】ゼロからわかるHashiCorpでのハイブリッドクラウドジャーニー – <a href=\"https://hybridcloud.connpass.com/event/186734/\" rel=\"noopener noreferrer\">https://hybridcloud.connpass.com/event/186734/ </a></li></ul>\n<p>今回はHashiCorpさんのプロダクトをテーマにお届けします。HashiCorpさんといえばTerraformが有名ですがほかのプロダクトも合わせて紹介いただけると思います。</p>\n<p>そして、やはりTerraformを使ってコードをでインフラ環境を記述、展開するというのはとても素敵ですよね。まだ「やりたいけれどもできていない」という方は是非勉強会に参加していただければと思います。</p>\n",
+      "source_url": "https://www.hccjp.org/2020/08/28/9%e6%9c%8811%e6%97%a5%e9%87%9114%e6%99%82%e3%81%8b%e3%82%89%e7%ac%ac12%e5%9b%9e%e5%8b%89%e5%bc%b7%e4%bc%9a%e3%82%92%e3%82%aa%e3%83%b3%e3%83%a9%e3%82%a4%e3%83%b3%e3%81%a7%e5%ae%9f%e6%96%bd%e3%81%97/",
+      "image_path": "assets/media/2d994a9e6adc-hcc-logo02f_300-300x277.png",
+      "kind": "post"
+    },
+    {
+      "title": "第11回勉強会を実施しました。",
+      "date": "2020-06-15",
+      "path": "2020/06/15/第11回勉強会を実施しました。",
+      "excerpt": "ずっと延期になってしまっていたHCCPの第11回勉強会を先日完全オンラインで実施しました。今回はTeams会議をYoutube Liveに配信する形での実施となりましたが、きちんと大きなトラブル無く開催することができまし […]",
+      "content_html": "\n<p>ずっと延期になってしまっていたHCCPの第11回勉強会を先日完全オンラインで実施しました。今回はTeams会議をYoutube Liveに配信する形での実施となりましたが、きちんと大きなトラブル無く開催することができました。</p>\n<p>登壇してくれた皆さん、準備および開催を手伝ってくれた皆さん、そして参加いただいた皆さん本当にありがとうございました。</p>\n<p>各種資料は下記のConnpassのイベントページにまとまっていますのでチェックしてみてください。</p>\n<p><a href=\"https://hybridcloud.connpass.com/event/177887/\" rel=\"noopener noreferrer\">【オンライン開催】AzureStackHCI &amp; WindowsAdminCenter – connpass</a></p>\n<p>そして今回は動画のアーカイブも公開しています。当日参加できなかった方も、是非ご覧になってみてください。かなり時間が長いため、コメントでインデックスをつけてありますのでそちらもご活用ください。</p>\n<figure class=\"wp-block-embed-youtube wp-block-embed\">\n<span class=\"embed-youtube\"><iframe allowfullscreen=\"true\" height=\"707\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.youtube.com/embed/PKDq8Se7vbU?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=ja&amp;autohide=2&amp;wmode=transparent\" width=\"1256\"></iframe></span>\n</figure>\n",
+      "source_url": "https://www.hccjp.org/2020/06/15/%e7%ac%ac11%e5%9b%9e%e5%8b%89%e5%bc%b7%e4%bc%9a%e3%82%92%e5%ae%9f%e6%96%bd%e3%81%97%e3%81%be%e3%81%97%e3%81%9f%e3%80%82/",
+      "image_path": "assets/media/2d994a9e6adc-hcc-logo02f_300-300x277.png",
+      "kind": "post"
+    },
+    {
+      "title": "【完全オンライン】【6月11日14時開始】第11回勉強会「AzureStackHCI & WindowsAdminCenter」を開催します！",
+      "date": "2020-06-03",
+      "path": "2020/06/03/【完全オンライン】【6月11日14時開始】第11回勉強会",
+      "excerpt": "新型コロナウイルスの影響で延期になっていたHCCJPの勉強会ですが完全オンラインに切り替えて再始動します！ 第11回目となる今回の勉強会のテーマは「Azure Stack HCI & Windows Admin  […]",
+      "content_html": "\n<p>新型コロナウイルスの影響で延期になっていたHCCJPの勉強会ですが完全オンラインに切り替えて再始動します！</p>\n<p>第11回目となる今回の勉強会のテーマは「Azure Stack HCI &amp; Windows Admin Center」です。</p>\n<p>Windows Serverのみで構築できるHCIであるAzure Stack HCI、そしてそれを簡単にWebブラウザから管理できるWindows Admin Center。さらにWindows Admin Centerから簡単に利用できるAzureのサービス群。Windows Serverを使っている組織であれば是非抑えておきたい内容となっております。</p>\n<p>いつもどおり匿名のQ&amp;Aおよびアンケートシステムを用いながら進行しますので、知りたいことを沢山質問してください！</p>\n<p>全世界どこからでも参加できますので是非今まで現地参加できなかったお知り合いの方にも教えてあげてください！</p>\n<p>タイムテーブルの確認および参加登録は下記Connpassサイトよりお願いします！</p>\n<a href=\"https://hybridcloud.connpass.com/event/177887/\" rel=\"noopener noreferrer\" title=\"ERROR: The request could not be satisfied\"><span class=\"fa\"></span><figure class=\"blogcard-thumbnail external-blogcard-thumbnail\"></figure>ERROR: The request could not be satisfiedhybridcloud.connpass.com</a>\n",
+      "source_url": "https://www.hccjp.org/2020/06/03/%e3%80%90%e5%ae%8c%e5%85%a8%e3%82%aa%e3%83%b3%e3%83%a9%e3%82%a4%e3%83%b3%e3%80%91%e3%80%906%e6%9c%8811%e6%97%a514%e6%99%82%e9%96%8b%e5%a7%8b%e3%80%91%e7%ac%ac11%e5%9b%9e%e5%8b%89%e5%bc%b7%e4%bc%9a/",
+      "image_path": "assets/media/2d994a9e6adc-hcc-logo02f_300-300x277.png",
+      "kind": "post"
+    },
+    {
+      "title": "第10回勉強会を開催しました",
+      "date": "2020-02-09",
+      "path": "2020/02/09/第10回勉強会を開催しました",
+      "excerpt": "2020年1月29日に第10回勉強会を開催しました。 Cloud Native市場動向とKubernetes活用/Edge Serverで何を動かすか? – connpass 今回は会場に30名程度、リモート […]",
+      "content_html": "\n<p>2020年1月29日に第10回勉強会を開催しました。</p>\n<ul><li> <a href=\"https://hybridcloud.connpass.com/event/162514/\" rel=\"noopener noreferrer\">Cloud Native市場動向とKubernetes活用/Edge Serverで何を動かすか? – connpass</a> </li></ul>\n<p>今回は会場に30名程度、リモートからは40～50名程度の方に参加いただきました。ご参加有難うございました。 初のYoutube Liveでのライブ配信でしたがきちんと配信に成功してよかったです。ライブ配信はこれからも継続実施予定です。遠隔地の方も気軽に参加いただけますので、ぜひより多くの方に知っていただき、参加いただければと考えています。</p>\n<figure class=\"wp-block-image\"><img alt=\"\" class=\"wp-image-236\" height=\"269\" loading=\"lazy\" src=\"/assets/media/fd314698fc2f-2020-02-09_15h58_43.png\" width=\"605\"/></figure>\n<p>下記がHCCJPのYoutubeチャンネルになりますので、ぜひチャンネル登録をお願いします。</p>\n<ul><li> <a href=\"https://www.youtube.com/channel/UCrf4bEl7yJnkGYo3F67gA7w\" rel=\"noopener noreferrer\">HCCJP – ハイブリッドクラウド研究会 – YouTube</a> </li></ul>\n<p>頂いたフィードバックや当日のアンケート結果をこのブログでも公開させていただきます。</p>\n<figure class=\"wp-block-image\"><img alt=\"\" class=\"wp-image-229\" height=\"576\" loading=\"lazy\" src=\"/assets/media/237fa3941f41-17--1024x576.jpg\" width=\"1024\"/></figure>\n<figure class=\"wp-block-image\"><img alt=\"\" class=\"wp-image-230\" height=\"576\" loading=\"lazy\" src=\"/assets/media/e08823b4c877-18--1024x576.jpg\" width=\"1024\"/></figure>\n<figure class=\"wp-block-image\"><img alt=\"\" class=\"wp-image-231\" height=\"576\" loading=\"lazy\" src=\"/assets/media/a14c0bc46a84-21-kubernetes-1024x576.jpg\" width=\"1024\"/></figure>\n<figure class=\"wp-block-image\"><img alt=\"\" class=\"wp-image-232\" height=\"576\" loading=\"lazy\" src=\"/assets/media/e5f3867315c5-32--1024x576.jpg\" width=\"1024\"/></figure>\n<figure class=\"wp-block-image\"><img alt=\"\" class=\"wp-image-233\" height=\"576\" loading=\"lazy\" src=\"/assets/media/df66ac5f1c82-33-welcome-1-1024x576.jpg\" width=\"1024\"/></figure>\n<figure class=\"wp-block-image\"><img alt=\"\" class=\"wp-image-234\" height=\"576\" loading=\"lazy\" src=\"/assets/media/65d708c8a1f5-33-welcome-2-1024x576.jpg\" width=\"1024\"/></figure>\n<figure class=\"wp-block-image\"><img alt=\"\" class=\"wp-image-235\" height=\"576\" loading=\"lazy\" src=\"/assets/media/6ad0b2fac13a-34-hccjp-1-1024x576.jpg\" width=\"1024\"/></figure>\n<p>次回勉強会は2020年2月21日午後ですので、ぜひ予定をあけてお待ち下さい！</p>\n",
+      "source_url": "https://www.hccjp.org/2020/02/09/%e7%ac%ac10%e5%9b%9e%e5%8b%89%e5%bc%b7%e4%bc%9a%e3%82%92%e9%96%8b%e5%82%ac%e3%81%97%e3%81%be%e3%81%97%e3%81%9f/",
+      "image_path": "assets/media/b08804046f94-HCCJP_StudyGroup07-768x349.jpg",
+      "kind": "post"
+    },
+    {
+      "title": "ITSearch+にて連載記事【第18回】が公開されました。",
+      "date": "2020-01-17",
+      "path": "2020/01/17/itsearchにて連載記事【第18回】が公開されました。",
+      "excerpt": "ITSearch+にて連載記事【第18回】が公開されました。 今回は昨年11月、12月に開催された勉強会ならびにハンズオンのレポートをお伝えしています。また、2019年のハイブリッドクラウド動向を振り返る内容となっていま […]",
+      "content_html": "\n<p>ITSearch+にて連載記事【第18回】が公開されました。</p>\n<p>今回は昨年11月、12月に開催された勉強会ならびにハンズオンのレポートをお伝えしています。また、2019年のハイブリッドクラウド動向を振り返る内容となっています。</p>\n<p><a href=\"https://news.mynavi.jp/itsearch/article/cloud/4802\" rel=\"noopener noreferrer\">【連載】徹底研究! ハイブリッドクラウド[18] 2020年の潮流は? 2019年の総括に見るハイブリッドクラウドの進化</a></p>\n",
+      "source_url": "https://www.hccjp.org/2020/01/17/itsearch%e3%81%ab%e3%81%a6%e9%80%a3%e8%bc%89%e8%a8%98%e4%ba%8b%e3%80%90%e7%ac%ac18%e5%9b%9e%e3%80%91%e3%81%8c%e5%85%ac%e9%96%8b%e3%81%95%e3%82%8c%e3%81%be%e3%81%97%e3%81%9f%e3%80%82/",
+      "image_path": "assets/media/e2fb0c275229-HC_300-250-300x250.jpg",
+      "kind": "post"
+    },
+    {
+      "title": "【ハンズオン&勉強会告知】2019年12月9日 Azure Stack Hubを触って学べる1日",
+      "date": "2019-11-21",
+      "path": "2019/11/21/【ハンズオン勉強会告知】2019年12月9日-azure-stack-hubを触って",
+      "excerpt": "12月9日(月)の2つのイベントを公開しました！ Azure Stack Hubオペレーターの気持ちがわかる勉強会！ – connpass 【ハンズオン】【初心者向け】AzureとAzureStackを用いた […]",
+      "content_html": "\n<p>12月9日(月)の2つのイベントを公開しました！</p>\n<ul><li><a href=\"https://hybridcloud.connpass.com/event/156781/\" rel=\"noopener noreferrer\">Azure Stack Hubオペレーターの気持ちがわかる勉強会！ – connpass</a></li><li><a href=\"https://hybridcloud.connpass.com/event/156765/\" rel=\"noopener noreferrer\">【ハンズオン】【初心者向け】AzureとAzureStackを用いたIaaS,PaaS,FaaS体験 – connpass</a></li></ul>\n<p>※両方に参加される方は2つ申し込み必要です<br/>※もちろんどちらか1つだけの申し込みもできます</p>\n<h3>テーマはAzure Stack Hub!</h3>\n<p>毎回好評を頂いているHCCJPの勉強会。第2回ハンズオンと第9回勉強会のテーマはズバリ「Azure Stack Hub」です。</p>\n<p>発売から2年、Azure StackからAzure Stack Hubと名称変更、Azure Stack HCI, Azure Stack EdgeとAzure Stackファミリーが増えるなど色々と変化がありましたが、やはりデータセンターに導入できる「本当のクラウド環境」という意味ではAzure Stack Hubは現在でも唯一無二の存在です。そして先進的過ぎてまだまだ正しく理解されていないのが現状です。</p>\n<p>今回は概要を理解した上で実際に触って体験いただき、さらにAzure Stack Hubを導入および運用する「Azure Stackオペレーター」のためのノウハウも知ることができる構成となっています。</p>\n<h3>ハンズオン</h3>\n<p>今回のハンズオンではAzureおよびAzure StackをもちいてIaaS, PaaS, FaaSの概要を体験してもらいます。<br/> 下記のような方を主な対象として考えています。</p>\n<ul><li>クラウド未体験の方</li><li>Azure / Azure Stackをまだ活用できていない方</li><li>Azure Stackに触ってみたい方</li><li>クラウドを利用していたとしても仮想マシンをポータルから手作業で作成している方</li><li>クラウド基盤を活用する方法を体験いただければと思います。</li></ul>\n<p>※第1回ハンズオンの内容と基本的に同一ですので、第1回に参加された方は是非サポート役に回っていただければと思います。</p>\n<p>ハンズオンサポートはHCCJPの幹事企業関係者の方に限らずどなたでもボランティアとして参加いただけます。サポートの方は実際のハンズオンには参加いただかずサポートに専念して頂く形になりますのでその点はご了承ください。</p>\n<p>ハンズオン実施は先着10名様のみ可能ですのでお早めにお申し込みください。</p>\n<h3>勉強会</h3>\n<p>今回の勉強会はAzure Stack Hubの概要にとどまらず、実際の導入を経験し、現在進行系で運用を行っているエンジニアだからこそできる話をMKI松本さんにしていただきます。</p>\n<p>実際に運用してみてどうなのかという生の声も聞けます。いつもどおり匿名での質問も可能ですので普通のセミナーでは聞けないあんな事やこんな事を聞いちゃってください。</p>\n<p>さらに、皆さんが聞きたい話を伝えたいという松本さんの心意気があり、HCCJPのFacebookグループ(<a href=\"https://www.facebook.com/groups/hybridcloud/\" rel=\"noopener noreferrer\">https://www.facebook.com/groups/hybridcloud/</a>)にて「聞きたいこと」を事前に伝えることができます。リクエストに必ず答えられるわけではありませんが、是非リクエストをいただければと思います。</p>\n<h3>懇親会</h3>\n<p>懇親会は勉強会会場から移動時間30秒のJBS社員専用カフェLucy’sです。おしゃれで美味しくて安いと評判のLucy’sで一人2800円で飲み放題もついてきます。会費(2800円)は当日現金で集金させていただきます。</p>\n<p>先着20名様のみですのでお早めにお申し込みください。</p>\n<p>では、2019年最後のイベント、丸1日になりますが皆さんと一緒に楽しみたいと思いますので是非ご参加ください！よろしくお願いします！</p>\n<h3>参加申し込み</h3>\n<p>お申し込みは以下からお願いします！</p>\n<ul><li><a href=\"https://hybridcloud.connpass.com/event/156781/\" rel=\"noopener noreferrer\">Azure Stack Hubオペレーターの気持ちがわかる勉強会！ – connpass</a></li><li><a href=\"https://hybridcloud.connpass.com/event/156765/\" rel=\"noopener noreferrer\">【ハンズオン】【初心者向け】AzureとAzureStackを用いたIaaS,PaaS,FaaS体験 – connpass</a></li></ul>\n",
+      "source_url": "https://www.hccjp.org/2019/11/21/%e3%80%90%e3%83%8f%e3%83%b3%e3%82%ba%e3%82%aa%e3%83%b3%e5%8b%89%e5%bc%b7%e4%bc%9a%e5%91%8a%e7%9f%a5%e3%80%912019%e5%b9%b412%e6%9c%889%e6%97%a5-azure-stack-hub%e3%82%92%e8%a7%a6%e3%81%a3%e3%81%a6/",
+      "image_path": "assets/media/b08804046f94-HCCJP_StudyGroup07-768x349.jpg",
+      "kind": "post"
+    },
+    {
+      "title": "ITSearch+にて連載記事【第17回】が公開されました。",
+      "date": "2019-11-05",
+      "path": "2019/11/05/itsearchにて連載記事【第17回】が公開されました。",
+      "excerpt": "ITSearch+にて連載記事【第17回】が公開されました。 今回はマイクロソフト北米本社の”インテリジェントエッジ” 担当者を招いて開催された第7回勉強会の様子をお伝えしています。 【連載】徹底研究! ハイブリッドクラ […]",
+      "content_html": "\n<p>ITSearch+にて連載記事【第17回】が公開されました。</p>\n<p>今回は<strong>マイクロソフト北米本社の”インテリジェントエッジ” 担当者</strong>を招いて開催された第7回勉強会の様子をお伝えしています。</p>\n<p><a href=\"https://news.mynavi.jp/itsearch/article/cloud/4701\" rel=\"noopener noreferrer\">【連載】徹底研究! ハイブリッドクラウド [17] 「ハイブリッドクラウド研究会 第7回勉強会」レポート</a><br/></p>\n",
+      "source_url": "https://www.hccjp.org/2019/11/05/itsearch%e3%81%ab%e3%81%a6%e9%80%a3%e8%bc%89%e8%a8%98%e4%ba%8b%e3%80%90%e7%ac%ac17%e5%9b%9e%e3%80%91%e3%81%8c%e5%85%ac%e9%96%8b%e3%81%95%e3%82%8c%e3%81%be%e3%81%97%e3%81%9f%e3%80%82/",
+      "image_path": "assets/media/e2fb0c275229-HC_300-250-300x250.jpg",
+      "kind": "post"
+    },
+    {
+      "title": "【開催報告】「【米国本社の担当者から直接聞ける！】同時通訳付き　マイクロソフトのインテリジェントエッジ最新動向」",
+      "date": "2019-10-08",
+      "path": "2019/10/08/【開催報告】「【米国本社の担当者から直接聞け",
+      "excerpt": "10月3日に日本ビジネスシステムズのセミナールームにてHCCJP第7回勉強会「【米国本社の担当者から直接聞ける！】同時通訳付き　マイクロソフトのインテリジェントエッジ最新動向」を実施しました。 大変多くの方に参加いただき […]",
+      "content_html": "\n<p>10月3日に日本ビジネスシステムズのセミナールームにてHCCJP第7回勉強会「【米国本社の担当者から直接聞ける！】同時通訳付き　マイクロソフトのインテリジェントエッジ最新動向」を実施しました。</p>\n<p>大変多くの方に参加いただき、同時通訳も行いながら米国本社の担当者より直接話を聞くことができました。</p>\n<figure class=\"wp-block-image\"><img alt=\"\" class=\"wp-image-209\" height=\"465\" loading=\"lazy\" src=\"/assets/media/2eca8344bbf8-HCCJP_StudyGroup07.jpg\" width=\"1024\"/></figure>\n<p>今回もいつもどおり質問も多数(40件)いただきました。聞きたいことを実際に製品を作っている方からすぐに聞けるというのは非常に貴重なことであり、大変盛り上がりました。</p>\n<p>実際に参加した皆さんからも高い満足を頂きました。</p>\n<figure class=\"wp-block-image\"><img alt=\"\" class=\"wp-image-210\" height=\"545\" loading=\"lazy\" src=\"/assets/media/f894ffe75637-2019-10-08_15h29_01.png\" width=\"976\"/></figure>\n<p>次回のHCCJP第8回の勉強会は11月14日を予定しています。まだ申し込みサイトはオープンしていませんが、是非今のうちから予定を開けておいていただければと思います。</p>\n",
+      "source_url": "https://www.hccjp.org/2019/10/08/%e3%80%90%e9%96%8b%e5%82%ac%e5%a0%b1%e5%91%8a%e3%80%91%e3%80%8c%e3%80%90%e7%b1%b3%e5%9b%bd%e6%9c%ac%e7%a4%be%e3%81%ae%e6%8b%85%e5%bd%93%e8%80%85%e3%81%8b%e3%82%89%e7%9b%b4%e6%8e%a5%e8%81%9e%e3%81%91/",
+      "image_path": "assets/media/b08804046f94-HCCJP_StudyGroup07-768x349.jpg",
+      "kind": "post"
+    },
+    {
+      "title": "ITSearch+にて連載記事【第16回】が公開されました。#hccjp",
+      "date": "2019-09-25",
+      "path": "2019/09/25/itsearchにて連載記事【第16回】が公開されました。hccjp",
+      "excerpt": "ITSearch+にて連載記事【第16回】が公開されました。 今回は「ビッグデータ活用、AWS互換オンプレミスクラウド」をテーマに掲げた第6回勉強会の様子をお伝えしています。 【連載】徹底研究! ハイブリッドクラウド [ […]",
+      "content_html": "\n<p>ITSearch+にて連載記事【第16回】が公開されました。</p>\n<p>今回は「ビッグデータ活用、AWS互換オンプレミスクラウド」をテーマに掲げた第6回勉強会の様子をお伝えしています。</p>\n<p><a href=\"https://news.mynavi.jp/itsearch/article/cloud/4640\" rel=\"noopener noreferrer\">【連載】徹底研究! ハイブリッドクラウド [16] 「ハイブリッドクラウド研究会 第6回勉強会」レポート</a></p>\n",
+      "source_url": "https://www.hccjp.org/2019/09/25/itsearch%e3%81%ab%e3%81%a6%e9%80%a3%e8%bc%89%e8%a8%98%e4%ba%8b%e3%80%90%e7%ac%ac16%e5%9b%9e%e3%80%91%e3%81%8c%e5%85%ac%e9%96%8b%e3%81%95%e3%82%8c%e3%81%be%e3%81%97%e3%81%9f%e3%80%82hccjp/",
+      "image_path": "assets/media/e2fb0c275229-HC_300-250-300x250.jpg",
+      "kind": "post"
+    },
+    {
+      "title": "HCCJP 第6回勉強会　【初心者歓迎】コネクティッド時代のビックデータ活用サービス / AWS互換オンプレミスクラウド環境",
+      "date": "2019-08-13",
+      "path": "2019/08/13/hccjp-第6回勉強会　【初心者歓迎】コネクティッド時",
+      "excerpt": "Connpassにて第6回勉強会のイベントを公開しました！皆さんぜひお申し込みいただければと思います。 【初心者歓迎】コネクティッド時代のビックデータ活用サービス / AWS互換オンプレミスクラウド環境 –  […]",
+      "content_html": "\n<p>Connpassにて第6回勉強会のイベントを公開しました！皆さんぜひお申し込みいただければと思います。</p>\n<ul><li><a href=\"https://hybridcloud.connpass.com/event/142837/\" rel=\"noopener noreferrer\">【初心者歓迎】コネクティッド時代のビックデータ活用サービス / AWS互換オンプレミスクラウド環境 – connpass</a></li></ul>\n<h2>勉強会内容</h2>\n<p>毎回好評を頂いているHCCJPの勉強会。第6回目は2つのトピックでお届けします。</p>\n<p>1つ目のトピックはコネクティッド時代のビッグデータ活用サービス。自動車業界出身のテラデータ野村氏より、自動車業界のクラウド事例紹介も交えながら自動車も含め多くのものがネットワークに接続され大量にデータが生み出される現在において、そのデータの活用にける問題提起と解決手法についてお話しいただきます。</p>\n<p>2つ目のトピックはAWS互換のクラウドをオンプレミスで実現するStratoscale。ネットワールド工藤氏よりデモを交えながら製品の概要を紹介いただきます。AWS互換のクラウドをオンプレミスに構築することがどのような意味を持つのか、その背景にある思想や他のハイブリッドクラウドソリューションとの違い等も含めてハイブリッドクラウド研究会らしく議論したいと思います。</p>\n<p>2つのセッション共に45分のセッション後にQ&amp;Aを30分づつ設けます。そして、HCCJPの勉強会では毎度おなじみのmentimeter利用による匿名の質問投稿システムも活用します。ぜひ勉強会に「参加」して「質問」し、疑問点を参加者全員でディスカッションしましょう。</p>\n<p>懇親会(前払い2000円)も実施します。同じ悩みを抱える他社の担当者や各メーカーのキーマン、Microsoft MVP等とお酒を飲みながら気軽に会話できる貴重な機会ですのでこちらも奮ってご参加下さい。</p>\n<h2>アジェンダ</h2>\n<table><thead><tr><th>開始時刻</th><th>時間(分)</th><th>セッション</th><th>スピーカー</th></tr></thead><tbody><tr><td>13:30</td><td>30</td><td>開場・受付</td></tr><tr><td>14:00</td><td>15</td><td>挨拶 / 会場ファシリティ説明<br/>HCCJP取り組み紹介と第6回勉強会について<br/><br/>HCCJPの活動の紹介とともに、今回の第6回勉強会全体の位置づけ等に関して説明させていただきます。</td><td>日本ビジネスシステムズ株式会社<br/>事業企画本部 ビジネスインキュベーション部<br/>(Microsoft MVP for Microsoft AzureMicrosoft MVP for Cloud and Datacenter Management)<br/>胡田 昌彦 氏</td></tr><tr><td>14:15</td><td>45</td><td>コネクティッド時代のマルチビッグデータ事業化に向けたクラウドサービス活用 － 自動車業界出身者によるクラウド事例紹介と提案<br/><br/>業界横断でのデータ活用をクラウドで実現する現実的課題について経験上から問題提議を行い、その解決の一手法として、Azureで使えるテラデータソリューションを提案</td><td>日本テラデータ株式会社<br/>ビジネスコンサルティング事業部<br/>シニアビジネスコンサルタント<br/>野村 正和 氏<br/><br/>エンタープライズ・テクノロジーセールス事業部<br/>プリンシパル・ソリューション・エンジニア<br/>富高 弘之 氏</td></tr><tr><td>15:00</td><td>10</td><td>休憩</td></tr><tr><td>15:10</td><td>30</td><td>Q&amp;A 1<br/>(※参加者全員でディスカッション)</td></tr><tr><td>15:40</td><td>15</td><td>休憩</td></tr><tr><td>15:55</td><td>45</td><td>AWS API互換クラウドをオンプレミスに！Stratoscale Cloud Platformが実現する、マルチクラウド時代のハイブリッド構成<br/><br/>EC2,RDS,VPCなどAWS API互換のプライベートクラウドを実現するStratoscale社のStratoscale Cloud PlatformがどんなAWS互換のサービスを提供するか紹介します</td><td>株式会社ネットワールド<br/>SI技術本部<br/>ソリューションアーキテクト<br/>工藤真臣 氏</td></tr><tr><td>16:40</td><td>10</td><td>休憩</td></tr><tr><td>16:50</td><td>30</td><td>Q&amp;A 2<br/>(※参加者全員でディスカッション)</td></tr><tr><td>17:20</td><td>20</td><td>クロージング</td></tr><tr><td>17:40</td><td>120</td><td>懇親会(※前払い会費制 2000円)</td></tr></tbody></table>\n<p>※タイムテーブルは予告なく変更する可能性がございます。ご了承ください。</p>\n<h2>申し込み</h2>\n<p>下記Connpassページよりお申し込みください！</p>\n<ul><li><a href=\"https://hybridcloud.connpass.com/event/142837/\" rel=\"noopener noreferrer\">【初心者歓迎】コネクティッド時代のビックデータ活用サービス / AWS互換オンプレミスクラウド環境 – connpass</a></li></ul>\n",
+      "source_url": "https://www.hccjp.org/2019/08/13/hccjp-%e7%ac%ac6%e5%9b%9e%e5%8b%89%e5%bc%b7%e4%bc%9a%e3%80%80%e3%80%90%e5%88%9d%e5%bf%83%e8%80%85%e6%ad%93%e8%bf%8e%e3%80%91%e3%82%b3%e3%83%8d%e3%82%af%e3%83%86%e3%82%a3%e3%83%83%e3%83%89%e6%99%82/",
+      "image_path": "assets/media/2d994a9e6adc-hcc-logo02f_300-300x277.png",
+      "kind": "post"
+    },
+    {
+      "title": "第1回ハンズオンイベントを開催しました",
+      "date": "2019-08-02",
+      "path": "2019/08/02/第1回ハンズオンイベントを開催しました",
+      "excerpt": "皆さんこんにちはHCCJPの胡田です。 先日、第1回となるハンズオンイベントを開催しました。参加頂いた皆さん、サポート頂いた皆さん、見学におこしいただいた皆さん、ありがとうございました。 【ハンズオン】【初心者向け】Az […]",
+      "content_html": "\n<p>皆さんこんにちはHCCJPの胡田です。</p>\n<p>先日、第1回となるハンズオンイベントを開催しました。参加頂いた皆さん、サポート頂いた皆さん、見学におこしいただいた皆さん、ありがとうございました。</p>\n<ul><li><a href=\"https://hybridcloud.connpass.com/event/140648/\" rel=\"noopener noreferrer\">【ハンズオン】【初心者向け】AzureとAzureStackを用いたIaaS,PaaS,FaaS体験 – connpass</a></li><li></li></ul>\n<p>アジェンダとしては下記のように広く概要を体験できるものとして構成しました。</p>\n<h3>アジェンダ</h3>\n<ol><li>サブスクリプション準備</li><li>仮想マシン展開 – ブラウザ</li><li>展開後のWindows Server 2016の確認</li><li>仮想マシン展開 – PowerShell</li><li>テンプレート展開</li><li>コンテナ基盤展開</li><li>Webサイト作成</li><li>Teamsにメッセージを送信するWebサービス作成</li></ol>\n<p>当日利用したハンズオン資料は下記でご覧いただけます。</p>\n<ul><li><a href=\"https://gitpitch.com/hccjp/hybridcloudhandson1\" rel=\"noopener noreferrer\">GitPitch Slide Deck</a></li></ul>\n<p>上記はGitHubのレポジトリを元にスライド表示してくれるWebサービス(GitPitch)を利用しています。オリジナルのレポジトリは下記です。</p>\n<ul><li> <a href=\"https://github.com/hccjp/hybridcloudhandson1\" rel=\"noopener noreferrer\">hccjp/HybridCloudHandsOn1</a> </li></ul>\n<p>GitHub上のレポジトリですのでなにかフィードバック等あればIssue登録、PullRequest等いただければ幸いです。</p>\n<p>参加頂いた皆さんへのアンケート結果は下記のようになりました。</p>\n<figure class=\"wp-block-image\"><img alt=\"\" class=\"wp-image-197\" height=\"508\" loading=\"lazy\" src=\"/assets/media/d8a03c87565c-2019-08-02_11h47_24-1024x508.png\" width=\"1024\"/></figure>\n<p>平均的に高い満足をいただけたのですが、コンテナ基盤作成、Webサイト作成、Teamsにメッセージを送信するWebサービス作成に関しては相対的に低い満足度を頂いています。これは当日、参加者の方に用意頂いた環境で手順通りにAKSが展開できない等のトラブルがあったり、Azure自体が意図したとおりに動作しない等の状況があった影響が大きいです。</p>\n<p>特に「Azureサブスクリプションには権限を保持しているが、Azure ADにサービスプリンシパルを作成する権限は無い」という状況のなかで失敗するケースが続出してしまいました。これは事前のリハーサルでも失敗するかたがいたので失敗する方がでる想定自体はしていたのですがその発生率がほぼ100%になってしまったのは想定外でした。</p>\n<p>このあたりは次回以降改善したいと思います。</p>\n<p>今回は初回ということで実験的な取り組みとなりました。今後も同じ内容で継続するかどうか含めて幹事会メンバーと相談することになりますが、できれば勉強会とハンズオンを交互に実施していけると良いなと現段階では考えています。</p>\n<p>要望、希望等ありましたが、ぜひ下記Facebookグループに参加いただきリクエストいただけるとありがたいです。</p>\n<ul><li><a href=\"https://www.facebook.com/groups/hybridcloud/\" rel=\"noopener noreferrer\">https://www.facebook.com/groups/hybridcloud/</a></li></ul>\n<p>よろしくお願いします！</p>\n",
+      "source_url": "https://www.hccjp.org/2019/08/02/%e7%ac%ac1%e5%9b%9e%e3%83%8f%e3%83%b3%e3%82%ba%e3%82%aa%e3%83%b3%e3%82%a4%e3%83%99%e3%83%b3%e3%83%88%e3%82%92%e9%96%8b%e5%82%ac%e3%81%97%e3%81%be%e3%81%97%e3%81%9f/",
+      "image_path": null,
+      "kind": "post"
+    },
+    {
+      "title": "ITSearch+にて連載記事【第15回】が公開されました。#hccjp",
+      "date": "2019-07-25",
+      "path": "2019/07/25/itsearchにて連載記事【第15回】が公開されました。hccjp",
+      "excerpt": "ITSearch+にて連載記事【第15回】が公開されました。 今回は「クラウドネイティブ」をテーマに掲げた第5回勉強会の様子をお伝えしています。 【連載】徹底研究! ハイブリッドクラウド [15] ハイブリッドクラウド研 […]",
+      "content_html": "\n<p>ITSearch+にて連載記事【第15回】が公開されました。</p>\n<p>今回は「クラウドネイティブ」をテーマに掲げた第5回勉強会の様子をお伝えしています。<br/></p>\n<p><a href=\"https://news.mynavi.jp/itsearch/article/cloud/4540\" rel=\"noopener noreferrer\">【連載】徹底研究! ハイブリッドクラウド [15] ハイブリッドクラウド研究会「第5回勉強会」レポート｜クラウド｜IT製品の事例・解説記事</a></p>\n",
+      "source_url": "https://www.hccjp.org/2019/07/25/itsearch%e3%81%ab%e3%81%a6%e9%80%a3%e8%bc%89%e8%a8%98%e4%ba%8b%e3%80%90%e7%ac%ac15%e5%9b%9e%e3%80%91%e3%81%8c%e5%85%ac%e9%96%8b%e3%81%95%e3%82%8c%e3%81%be%e3%81%97%e3%81%9f%e3%80%82hccjp/",
+      "image_path": "assets/media/e2fb0c275229-HC_300-250-300x250.jpg",
+      "kind": "post"
+    },
+    {
+      "title": "ITSearch+にて連載記事【第14回】が公開されました。#hccjp",
+      "date": "2019-05-27",
+      "path": "2019/05/27/itsearchにて連載記事【第14回】が公開されました。hccjp",
+      "excerpt": "ITSearch+にて連載記事【第14回】が公開されました。 今回は、5/15に開催された第4回勉強会の様子をお伝えしています。 【連載】徹底研究! ハイブリッドクラウド [14] ハイブリッドクラウド研究会「第4回勉強 […]",
+      "content_html": "\n<p>ITSearch+にて連載記事【第14回】が公開されました。 </p>\n<p>今回は、5/15に開催された第4回勉強会の様子をお伝えしています。 </p>\n<p><a href=\"https://news.mynavi.jp/itsearch/article/cloud/4450\" rel=\"noopener noreferrer\">【連載】徹底研究! ハイブリッドクラウド [14] ハイブリッドクラウド研究会「第4回勉強会」レポート｜クラウド｜IT製品の事例・解説記事 </a></p>\n",
+      "source_url": "https://www.hccjp.org/2019/05/27/itsearch%e3%81%ab%e3%81%a6%e9%80%a3%e8%bc%89%e8%a8%98%e4%ba%8b%e3%80%90%e7%ac%ac14%e5%9b%9e%e3%80%91%e3%81%8c%e5%85%ac%e9%96%8b%e3%81%95%e3%82%8c%e3%81%be%e3%81%97%e3%81%9f%e3%80%82hccjp/",
+      "image_path": "assets/media/e2fb0c275229-HC_300-250-300x250.jpg",
+      "kind": "post"
+    },
+    {
+      "title": "第4回勉強会「ゼロから分かるMicrosoftの最新のプラットフォーム戦略！超初心者歓迎！」を開催しました",
+      "date": "2019-05-17",
+      "path": "2019/05/17/第4回勉強会「ゼロから分かるmicrosoftの最新のプラット",
+      "excerpt": "2019年5月15日に第4回勉強会「ゼロから分かるMicrosoftの最新のプラットフォーム戦略！超初心者歓迎！ 」を実施しました。 今回は会場に約50名の方にお越しいただき、賑やかに勉強会を開催することができました。  […]",
+      "content_html": "\n<p>2019年5月15日に第4回勉強会「<a href=\"https://hybridcloud.connpass.com/event/127301/\" rel=\"noopener noreferrer\">ゼロから分かるMicrosoftの最新のプラットフォーム戦略！超初心者歓迎！</a> 」を実施しました。</p>\n<p>今回は会場に約50名の方にお越しいただき、賑やかに勉強会を開催することができました。</p>\n<figure class=\"wp-block-image\"><img alt=\"\" class=\"wp-image-181\" height=\"478\" loading=\"lazy\" src=\"/assets/media/50f91b3afe1d-2019-05-17_11h24_11-1024x478.jpg\" width=\"1024\"/></figure>\n<p>今回の勉強会は、Microsoft高添さんから60分間で「Microsoftのハイブリッドクラウド戦略」を解説いただき、その後のディスカッションパートでは<span class=\"marker\">90分間(!)</span>を使って参加者の皆さんからもらった<span class=\"marker\">39件(!!)</span>の質問を軸に色々と会話させていただきました。</p>\n<p>多くのセミナーやコミュニティミートアップがありますが、きっと質問の数ではHCCJPがトップレベルだろうと思っています。皆さんありがとうございます。</p>\n<p>ただ、質問を頂きすぎて90分では消化しきれず13件について触れることができませんでした。</p>\n<p>延長戦はHCCJPのFacebookグループで行いますのでぜひこちらにもご参加ください。</p>\n<ul><li> <a href=\"https://www.facebook.com/groups/hybridcloud/\" rel=\"noopener noreferrer\">ハイブリッドクラウド研究会</a> – Facebookグループ <a href=\"https://www.facebook.com/groups/hybridcloud/\" rel=\"noopener noreferrer\"></a></li></ul>\n<p>そして、勉強会に参加頂いた皆さんからは高い評価をいただくことができました。</p>\n<figure class=\"wp-block-image\"><img alt=\"\" class=\"wp-image-182\" height=\"350\" loading=\"lazy\" src=\"/assets/media/e4f8f61965ad-2019-05-17_12h37_03.png\" width=\"626\"/><figcaption><br/></figcaption></figure>\n<p>さらに、今後より良くするための意見も多数いただくことができました。</p>\n<figure class=\"wp-block-image\"><img alt=\"\" class=\"wp-image-183\" height=\"525\" loading=\"lazy\" src=\"/assets/media/3f2d59db8b76-2019-05-17_13h28_07.jpg\" width=\"941\"/></figure>\n<figure class=\"wp-block-image\"><img alt=\"\" class=\"wp-image-184\" height=\"525\" loading=\"lazy\" src=\"/assets/media/f338ef6085df-2019-05-17_13h28_25.jpg\" width=\"941\"/></figure>\n<figure class=\"wp-block-image\"><img alt=\"\" class=\"wp-image-185\" height=\"525\" loading=\"lazy\" src=\"/assets/media/facda5cddc6b-2019-05-17_13h28_40.jpg\" width=\"941\"/></figure>\n<p>頂いた意見も参考にしながらこれからも活動していきたいと思います。引き続きよろしくおねがいします！</p>\n",
+      "source_url": "https://www.hccjp.org/2019/05/17/%e7%ac%ac4%e5%9b%9e%e5%8b%89%e5%bc%b7%e4%bc%9a%e3%80%8c%e3%82%bc%e3%83%ad%e3%81%8b%e3%82%89%e5%88%86%e3%81%8b%e3%82%8bmicrosoft%e3%81%ae%e6%9c%80%e6%96%b0%e3%81%ae%e3%83%97%e3%83%a9%e3%83%83%e3%83%88/",
+      "image_path": "assets/media/c47e812af2c8-2019-05-17_12h37_03-300x168.png",
+      "kind": "post"
+    },
+    {
+      "title": "5月15日に第4回勉強会を実施します！「ゼロから分かるMicrosoftの最新のプラットフォーム戦略！超初心者歓迎！」",
+      "date": "2019-04-16",
+      "path": "2019/04/16/5月15日に第4回勉強会を実施します！「ゼロから分",
+      "excerpt": "ゼロから分かるMicrosoftの最新のプラットフォーム戦略！超初心者歓迎！ – connpass HCCJPの勉強会も第4回となりました。今回のテーマは「Microsoftの最新のプラットフォーム戦略」です […]",
+      "content_html": "\n<ul><li> <a href=\"https://hybridcloud.connpass.com/event/127301/\" rel=\"noopener noreferrer\">ゼロから分かるMicrosoftの最新のプラットフォーム戦略！超初心者歓迎！ – connpass</a> </li></ul>\n<p></p>\n<p>HCCJPの勉強会も第4回となりました。今回のテーマは「Microsoftの最新のプラットフォーム戦略」です。</p>\n<p>今回はMicrosoft高添さんに登壇いただき、Microsoftがコンピューティングの未来として掲げる「インテリジェントクラウドとインテリジェントエッジ」の世界観を含め最新のプラットフォーム戦略についてわかりやすく解説していただきます。</p>\n<p>特に3月27日に発表があったばかりの「Azure Stack HCI」を含めてAzure / Azure Stack / Azure Stack HCIの同じところと違う所、Data Box Edge/Data Box Gateway/IoT Edge の関係やSQL Databaseとしてのハイブリッドなど様々な要素を整理していただきます。これらを正しく理解することは正しくパブリッククラウド、プライベートクラウド、ハイブリッドクラウド、仮想化を理解し、活用することにも繋がるはずです。</p>\n<p>その後、高添さんの解説を受けて、勉強会らしく全体で様々なことについて議論したいと思います。様々な立場のHCCJPの幹事企業メンバーも参加して議論のリード役となります。さらに第2回勉強会の登壇での忖度無しのトークが大好評だったレコチョク藤川氏にも参加いただきます。もちろん様々な立場の人間がいればMicrosoftの製品、サービス以外を利用している場合もあります。議論の中では他社の製品やサービスに言及いただくのも大歓迎です。エンドユーザー、ハードウェアメーカー、ホスティングサービスプロバイダー、システムインテグレーター、メガクラウドベンダーなど様々な立場の人間と一緒に本音トークを楽しみましょう。</p>\n<p>セミナー実施後には希望者にて懇親会(前払い 2000円)も実施します。同じ悩みを抱える他社の担当者や各メーカーのキーマン、Microsoft MVP等とお酒を飲みながら気軽に会話できる貴重な機会ですのでこちらも奮ってご参加下さい。</p>\n<h2>アジェンダ</h2>\n<table><thead><tr><th>開始時刻</th><th>時間(分)</th><th>セッション</th><th>スピーカー</th></tr></thead><tbody><tr><td>13:30</td><td>30</td><td>開場・受付</td></tr><tr><td>14:00</td><td>10</td><td>挨拶 / 会場ファシリティ説明</td><td>アバナード株式会社<br/>西原 順二氏</td></tr><tr><td>14:10</td><td>15</td><td>HCCJP取り組み紹介<br/><br/>HCCJPの取り組みや今後の活動計画を紹介させていただきます。<br/>参加可能な活動が多数ありますので是非ご参加ください！</td><td>日本ビジネスシステムズ株式会社<br/>事業企画本部 ビジネスインキュベーション部<br/>(Microsoft MVP for Cloud and Datacenter Management)<br/>胡田 昌彦 氏</td></tr><tr><td>14:25</td><td>60</td><td>Microsoftのハイブリッドクラウド戦略まるわかり！<br/><br/>先日発表されたAzure Stack HCIとAzure Stack、そしてAzureとの違いを説明できますか？このセッションではAzure/Azure Stack/Azure Stack HCI の関係、Data Box Edge/Data Box Gateway/IoT Edge の関係、SQL Database としてのハイブリッドなど、いろいろと整理をしてお話をさせていただきます。インフラ管理者の方を中心に、今後のハイブリッドクラウド技術が向かう先を理解したい方は是非ご参加ください！</td><td>日本マイクロソフト株式会社<br/>パートナー技術統括本部<br/>パートナー ソリューション プロフェッショナル<br/>高添 修 氏</td></tr><tr><td>15:25</td><td>15</td><td>休憩</td></tr><tr><td>15:40</td><td>90</td><td>様々な立場でディスカッション！<br/>Microsoftの最新のプラットフォーム戦略どう思う？<br/><br/>1つ前のセッションうけて、このセッションでは勉強会参加者全員で理解すべきところは理解し、疑問があるところは質問し、意見がある所に関しては議論をします。<br/>様々な異なる立場のメンバーが議論をリードさせていただきますので、是非積極的に参加ください！</td><td>(エンドユーザー)<br/>株式会社レコチョク<br/>藤川 大 氏<br/><br/>(ハードウェアメーカー)<br/>日本ヒューレット・パッカード株式会社<br/>原 聖 氏<br/><br/>(ホスティングサービスプロバイダー)<br/>株式会社インターネットイニシアティブ <br/>今中 裕介 氏<br/><br/>(システムインテグレーター, Microsoft MVP)<br/>日本ビジネスシステムズ株式会社<br/>胡田 昌彦 氏<br/><br/>(Microsoft)<br/>日本マイクロソフト株式会社<br/>高添 修 氏</td></tr><tr><td>17:10</td><td>10</td><td>全体Q&amp;A</td></tr><tr><td>17:20</td><td>10</td><td>クロージング</td></tr><tr><td>17:30～</td><td>懇親会<br/>※事前前払い会費制 (2,000円)<br/>※代金の徴収はイベント運営を行う株式会社中外が代行いたします。</td></tr></tbody></table>\n<p>お申込みは下記からお願いいたします！</p>\n<ul><li><a href=\"https://hybridcloud.connpass.com/event/127301/\" rel=\"noopener noreferrer\">ゼロから分かるMicrosoftの最新のプラットフォーム戦略！超初心者歓迎！ – connpass</a></li></ul>\n",
+      "source_url": "https://www.hccjp.org/2019/04/16/5%e6%9c%8815%e6%97%a5%e3%81%ab%e7%ac%ac4%e5%9b%9e%e5%8b%89%e5%bc%b7%e4%bc%9a%e3%82%92%e5%ae%9f%e6%96%bd%e3%81%97%e3%81%be%e3%81%99%ef%bc%81%e3%80%8c%e3%82%bc%e3%83%ad%e3%81%8b%e3%82%89%e5%88%86/",
+      "image_path": "assets/media/2d994a9e6adc-hcc-logo02f_300-300x277.png",
+      "kind": "post"
+    },
+    {
+      "title": "ITSearch+にて連載記事【第13回】が公開されました。#hccjp",
+      "date": "2019-04-11",
+      "path": "2019/04/11/itsearchにて連載記事【第13回】が公開されました。hccjp",
+      "excerpt": "ITSearch+にて連載記事【第13回】が公開されました。 今回は、3/7に開催された第3回勉強会の様子をお伝えしています。 【連載】徹底研究! ハイブリッドクラウド [13] ハイブリッドクラウド研究会「第3回勉強会 […]",
+      "content_html": "\n<p>ITSearch+にて連載記事【第13回】が公開されました。</p>\n<p>今回は、3/7に開催された第3回勉強会の様子をお伝えしています。</p>\n<p><a href=\"https://news.mynavi.jp/itsearch/article/cloud/4396\" rel=\"noopener noreferrer\">【連載】徹底研究! ハイブリッドクラウド [13] ハイブリッドクラウド研究会「第3回勉強会」レポート｜クラウド｜IT製品の事例・解説記事</a></p>\n<p><a href=\"https://news.mynavi.jp/itsearch/article/cloud/4396\" rel=\"noopener noreferrer\"></a></p>\n",
+      "source_url": "https://www.hccjp.org/2019/04/11/itsearch%e3%81%ab%e3%81%a6%e9%80%a3%e8%bc%89%e8%a8%98%e4%ba%8b%e3%80%90%e7%ac%ac13%e5%9b%9e%e3%80%91%e3%81%8c%e5%85%ac%e9%96%8b%e3%81%95%e3%82%8c%e3%81%be%e3%81%97%e3%81%9f%e3%80%82hccjp/",
+      "image_path": "assets/media/e2fb0c275229-HC_300-250-300x250.jpg",
+      "kind": "post"
+    },
+    {
+      "title": "ITSearch+にて連載記事【第12回】が公開されました。#hccjp",
+      "date": "2019-02-28",
+      "path": "2019/02/28/itsearchにて連載記事【第12回】が公開されました。hccjp",
+      "excerpt": "ITSearch+にて連載記事【第12回】が公開されました。 今回は、3月7日に開催される第3回勉強会に向けた内容となります。   【連載】徹底研究! ハイブリッドクラウド [12] 「第3回勉強会」の見どころ […]",
+      "content_html": "<p>ITSearch+にて連載記事【第12回】が公開されました。</p>\n<p>今回は、3月7日に開催される第3回勉強会に向けた内容となります。</p>\n<p> </p>\n<ul>\n<li><a href=\"https://news.mynavi.jp/itsearch/article/cloud/4329\" rel=\"noopener noreferrer\">【連載】徹底研究! ハイブリッドクラウド [12] 「第3回勉強会」の見どころ紹介! 金融業界のクラウド活用、その現状は?｜クラウド｜IT製品の事例・解説記事</a></li>\n</ul>\n",
+      "source_url": "https://www.hccjp.org/2019/02/28/itsearch%e3%81%ab%e3%81%a6%e9%80%a3%e8%bc%89%e8%a8%98%e4%ba%8b%e3%80%90%e7%ac%ac12%e5%9b%9e%e3%80%91%e3%81%8c%e5%85%ac%e9%96%8b%e3%81%95%e3%82%8c%e3%81%be%e3%81%97%e3%81%9f%e3%80%82hccjp/",
+      "image_path": "assets/media/e2fb0c275229-HC_300-250-300x250.jpg",
+      "kind": "post"
+    },
+    {
+      "title": "【第3回勉強会】GitHub様の登壇が決定しました！ #github",
+      "date": "2019-02-25",
+      "path": "2019/02/25/【第3回勉強会】github様の登壇が決定しました！-github",
+      "excerpt": "調整中となっていた1枠に関してGitHub様の登壇が決定しました！ HCCJP第3回勉強会ではGitHub 出木谷 氏より「ハイブリッド・クラウド時代の開発基盤：GitHub 概要と導入事例」と題してお話をいただきます。 […]",
+      "content_html": "<p>調整中となっていた1枠に関してGitHub様の登壇が決定しました！</p>\n<p>HCCJP第3回勉強会ではGitHub 出木谷 氏より「ハイブリッド・クラウド時代の開発基盤：GitHub 概要と導入事例」と題してお話をいただきます。ハイブリッドクラウド時代となり開発基盤としてのGitHubの重要性はますます高まっています。開発者の方には馴染みが深いところですが、インフラ系の方にとってもクラウド時代には非常に重要なサービスとなっていますので、是非ご注目ください。</p>\n<p>お申込みは下記URLよりお願いいたします。</p>\n<ul>\n<li><a href=\"https://hybridcloud.connpass.com/event/120950/\" rel=\"noopener noreferrer\">https://hybridcloud.connpass.com/event/120950/</a></li>\n</ul>\n",
+      "source_url": "https://www.hccjp.org/2019/02/25/%e3%80%90%e7%ac%ac3%e5%9b%9e%e5%8b%89%e5%bc%b7%e4%bc%9a%e3%80%91github%e6%a7%98%e3%81%ae%e7%99%bb%e5%a3%87%e3%81%8c%e6%b1%ba%e5%ae%9a%e3%81%97%e3%81%be%e3%81%97%e3%81%9f%ef%bc%81-github/",
+      "image_path": "assets/media/2d994a9e6adc-hcc-logo02f_300-300x277.png",
+      "kind": "post"
+    },
+    {
+      "title": "【第3回勉強会】みずほ銀行 黒須義一 氏の登壇が決定しました",
+      "date": "2019-02-20",
+      "path": "2019/02/20/みずほ銀行",
+      "excerpt": "先日Connpass上で第3回勉強会の予定を公開し、参加者を募集しています。 イベント公開時点ではまだ調整中で詳細が公開できなかった「金融系エンドユーザー様のクラウド導入ストーリ」ですが、各種調整が完了しました。お待たせ […]",
+      "content_html": "<p>先日Connpass上で第3回勉強会の予定を公開し、参加者を募集しています。</p>\n<p>イベント公開時点ではまだ調整中で詳細が公開できなかった「金融系エンドユーザー様のクラウド導入ストーリ」ですが、各種調整が完了しました。お待たせしました。</p>\n<p>第3回勉強会(3/7(木)14:00～18:00)ではみずほフィナンシャルグループ みずほ銀行 黒須義一 氏から、「＜みずほ＞におけるクラウド利活用」についてお話しいただけることになりました。</p>\n<p>メガバンクがどのようにクラウドを捉え、どのように導入、活用していっているのかという生の話を聞き、質問もできる貴重な機会です。このセッションは資料非公開で実際に勉強会に参加頂いた方にしかお届けできない予定です。是非勉強会会場にお越しいただければと思います。</p>\n<p>勉強会申し込みは下記イベントページよりお願いいたします。</p>\n<ul>\n<li><a href=\"https://hybridcloud.connpass.com/event/120950/\" rel=\"noopener noreferrer\">ハイブリッドクラウド研究会(HCCJP)　第3回勉強会 – connpass</a></li>\n</ul>\n",
+      "source_url": "https://www.hccjp.org/2019/02/20/%e3%81%bf%e3%81%9a%e3%81%bb%e9%8a%80%e8%a1%8c/",
+      "image_path": "assets/media/2d994a9e6adc-hcc-logo02f_300-300x277.png",
+      "kind": "post"
+    },
+    {
+      "title": "第3回勉強会を3月7日14時より実施します",
+      "date": "2019-02-18",
+      "path": "2019/02/18/第3回勉強会を3月7日14時より実施します",
+      "excerpt": "毎回好評を頂いているHCCJPの勉強会の第3回を実施します! ハイブリッドクラウド研究会(HCCJP)　第3回勉強会 – connpass 今回は金融系エンドユーザー様のクラウド導入ストーリーをお話いただく予 […]",
+      "content_html": "<p>毎回好評を頂いているHCCJPの勉強会の第3回を実施します!</p>\n<ul>\n<li><a href=\"https://hybridcloud.connpass.com/event/120950/\" rel=\"noopener noreferrer\">ハイブリッドクラウド研究会(HCCJP)　第3回勉強会 – connpass</a></li>\n</ul>\n<p>今回は金融系エンドユーザー様のクラウド導入ストーリーをお話いただく予定です。現在まだ調整中のため詳細を公開できませんが、近日中に公開予定です。このセッションは資料非公開で実際に勉強会に参加頂いた方にしかお届けできない予定です。是非勉強会に参加いただければと思います。</p>\n<p>また、クラウド時代の開発、運用に欠かせない世界的なサービスを展開する某社にも登壇していただきお話をしてもらう予定です。まだ調整が完了しておらず内容を公開できず申し訳ありません！こちらも近日中に内容公開予定です。</p>\n<p>セミナー後半は第2回勉強会参加者からのフィードバックを受けてあらためてAzure Stackにフォーカスを当てます。概要、今後のロードマップ、各種の取り組みをしている幹事企業の描く青写真、すぐに申し込みおよび利用いただけるAzure Stackも含めたPoC環境の紹介およびPoC環境を使ったデモ等を予定しています。</p>\n<p>そして、毎回公表いただいているQ&amp;Aおよびディスカッションに関しては、それぞれのセッション後にも時間を取りつつ勉強会の最後にも枠をとって実施します。今回も匿名のリアルタイムアンケートシステムを使いますので、是非多数の質問をいただきながら本音の会話を皆さんでできればと思います！</p>\n<p>18時からは懇親会(※会費2000円 前払い制)も実施します。同じ悩みを抱える他社の担当者や各メーカーのキーマン、Microsoft MVP等とお酒を飲みながら気軽に会話できる貴重な機会ですのでこちらも奮ってご参加下さい。</p>\n<p>お申込みは下記からお願いします。</p>\n<ul>\n<li><a href=\"https://hybridcloud.connpass.com/event/120950/\" rel=\"noopener noreferrer\">ハイブリッドクラウド研究会(HCCJP)　第3回勉強会 – connpass</a></li>\n</ul>\n",
+      "source_url": "https://www.hccjp.org/2019/02/18/%e7%ac%ac3%e5%9b%9e%e5%8b%89%e5%bc%b7%e4%bc%9a%e3%82%923%e6%9c%887%e6%97%a514%e6%99%82%e3%82%88%e3%82%8a%e5%ae%9f%e6%96%bd%e3%81%97%e3%81%be%e3%81%99/",
+      "image_path": "assets/media/2d994a9e6adc-hcc-logo02f_300-300x277.png",
+      "kind": "post"
+    },
+    {
+      "title": "ITSearch+にて連載記事【第11回】が公開されました。#hccjp",
+      "date": "2019-02-01",
+      "path": "2019/02/01/itsearchにて連載記事【第11回】が公開されました。hccjp",
+      "excerpt": "ITSearch+にて連載記事【第11回】が公開されました。 今回は、1月24日に開催された第2回勉強会のサマリーレポートです。各種登壇資料にもアクセスしやすくまとめています。是非ご覧になっていただければと思います。 【 […]",
+      "content_html": "<p>ITSearch+にて連載記事【第11回】が公開されました。</p>\n<p>今回は、1月24日に開催された第2回勉強会のサマリーレポートです。各種登壇資料にもアクセスしやすくまとめています。是非ご覧になっていただければと思います。</p>\n<ul>\n<li><a href=\"https://news.mynavi.jp/itsearch/article/cloud/4282\" rel=\"noopener noreferrer\">【連載】徹底研究! ハイブリッドクラウド [11] ハイブリッドクラウド研究会「第2回勉強会」レポート｜クラウド｜IT製品の事例・解説記事</a></li>\n</ul>\n",
+      "source_url": "https://www.hccjp.org/2019/02/01/itsearch%e3%81%ab%e3%81%a6%e9%80%a3%e8%bc%89%e8%a8%98%e4%ba%8b%e3%80%90%e7%ac%ac11%e5%9b%9e%e3%80%91%e3%81%8c%e5%85%ac%e9%96%8b%e3%81%95%e3%82%8c%e3%81%be%e3%81%97%e3%81%9f%e3%80%82hccjp/",
+      "image_path": "assets/media/e2fb0c275229-HC_300-250-300x250.jpg",
+      "kind": "post"
+    },
+    {
+      "title": "ITSearch+にて連載記事【第10回】が公開されました。#hccjp",
+      "date": "2019-02-01",
+      "path": "2019/02/01/itsearchにて連載記事【第10回】が公開されました。hccjp",
+      "excerpt": "ITSearch+にて連載記事【第10回】が公開されました。 今回は、ハイブリッドクラウドガイドライン の中でまとめられている「スタイル」に対してそれぞれの組織が現在どこに位置するか、ということついて、勉強会に参加頂いた […]",
+      "content_html": "<p>ITSearch+にて連載記事【第10回】が公開されました。</p>\n<p>今回は、<a href=\"http://www.hccjp.org/hybridcloudguideline/\" rel=\"noopener noreferrer\">ハイブリッドクラウドガイドライン</a> の中でまとめられている「スタイル」に対してそれぞれの組織が現在どこに位置するか、ということついて、勉強会に参加頂いた皆さんに関してのデータを公開しています。</p>\n<p><a href=\"https://news.mynavi.jp/itsearch/article/cloud/4261\" rel=\"noopener noreferrer\">【連載】徹底研究! ハイブリッドクラウド [10] ハイブリッドクラウドの活用状況｜クラウド｜IT製品の事例・解説記事</a></p>\n",
+      "source_url": "https://www.hccjp.org/2019/02/01/itsearch%e3%81%ab%e3%81%a6%e9%80%a3%e8%bc%89%e8%a8%98%e4%ba%8b%e3%80%90%e7%ac%ac10%e5%9b%9e%e3%80%91%e3%81%8c%e5%85%ac%e9%96%8b%e3%81%95%e3%82%8c%e3%81%be%e3%81%97%e3%81%9f%e3%80%82hccjp/",
+      "image_path": "assets/media/e2fb0c275229-HC_300-250-300x250.jpg",
+      "kind": "post"
+    },
+    {
+      "title": "ITSearch+にて連載記事【第9回】が公開されました。#hccjp",
+      "date": "2018-12-28",
+      "path": "2018/12/28/itsearchにて連載記事【第9回】が公開されました。hccjp",
+      "excerpt": "ITSearch+にて連載記事【第9回】が公開されました。 今回は、11月27日に開催された第1回勉強会のサマリーレポートです。 徹底研究! ハイブリッドクラウド【第9回】「ハイブリッドクラウド研究会 第1回勉強会」レポ […]",
+      "content_html": "<p>ITSearch+にて連載記事【第9回】が公開されました。</p>\n<p>今回は、11月27日に開催された第1回勉強会のサマリーレポートです。</p>\n<p><a href=\"https://news.mynavi.jp/itsearch/article/cloud/4235\" rel=\"noopener noreferrer\">徹底研究! ハイブリッドクラウド【第9回】「ハイブリッドクラウド研究会 第1回勉強会」レポート</a></p>\n<p> </p>\n",
+      "source_url": "https://www.hccjp.org/2018/12/28/itsearch%e3%81%ab%e3%81%a6%e9%80%a3%e8%bc%89%e8%a8%98%e4%ba%8b%e3%80%90%e7%ac%ac9%e5%9b%9e%e3%80%91%e3%81%8c%e5%85%ac%e9%96%8b%e3%81%95%e3%82%8c%e3%81%be%e3%81%97%e3%81%9f%e3%80%82hccjp/",
+      "image_path": "assets/media/e2fb0c275229-HC_300-250-300x250.jpg",
+      "kind": "post"
+    },
+    {
+      "title": "第2回勉強会をやります！今回はレコチョク様の話もVMwareさんの話も聞けます！ #hccjp",
+      "date": "2018-12-19",
+      "path": "2018/12/19/第2回勉強会をやります！今回はレコチョク様の話",
+      "excerpt": "2019年1月24日の午後に第2回勉強会を実施します！下記より申込いただけます！ ハイブリッドクラウド研究会(HCCJP)　第2回勉強会 – connpass 第2回勉強会ではエンドユーザーとして実際にハイブ […]",
+      "content_html": "<p>2019年1月24日の午後に第2回勉強会を実施します！下記より申込いただけます！</p>\n<ul>\n<li><a href=\"https://hybridcloud.connpass.com/event/113498/\" rel=\"noopener noreferrer\">ハイブリッドクラウド研究会(HCCJP)　第2回勉強会 – connpass</a></li>\n</ul>\n<p>第2回勉強会ではエンドユーザーとして実際にハイブリッドクラウド環境を利用されている株式会社レコチョク様より藤川氏に登壇いただき、どのようにハイブリッドクラウド環境を構築および運用しているのか、またその中でどのようなメリット、デメリットがあったのかを忖度無しで赤裸々に語っていただきます。エンドユーザーの生の声を聞きたい方、是非ご注目下さい。</p>\n<p>HCCJPは事務局が日本マイクロソフト様でありこれまでの取り組み内容に関してはMicrosoftソリューションに比重が偏っていましたが、実際の環境はマルチベンダーで複数のクラウドを利用する形態も一般的です。研究会としてもマルチに取り組んでいきます。</p>\n<p>今回の勉強会ではヴイエムウェア 大原氏に登壇いただき、VMwareのクラウド戦略やビジョン、さらにAWSとの連携も含めて説明いただきます。さらに日本ヒューレット・パッカード 小川氏にはMicrosoft, VMwareを含めた「自社にあったハイブリッドクラウドの選び方」を解説いただきます。</p>\n<p>すでにHCCJPにて作成および公開済みの「<a href=\"http://www.hccjp.org/hybridcloudguideline/\" rel=\"noopener noreferrer\">ハイブリッドクラウドガイドライン</a>」より解説とデモンストレーションも行います。アバナード小賀坂氏からはAzure Files と Azure File Sync を用いたファイル サーバーのスモール スタートとハイブリッド化について解説いただき、日本ビジネスシステムズ 胡田氏からはAzure Stack Hybrid DevOpsのデモンストレーションが行われます。</p>\n<p>そして、第１回勉強会で好評だったQ&amp;Aおよびディスカッションセッションは今回も60分の時間をとって実施します。直接質問もできますし、匿名のWebリアルタイムアンケートシステムを使って口頭では聞きにくいエグい質問も気楽にできます。第１回勉強会では30件以上の質問がでて賑わいました。今回はさらにエンドユーザー企業の観点、VMware, AWS等の観点も加わり盛り上がることが予想されます。是非話を聞くだけではなく積極的に参加いただければと思います。</p>\n<p>セミナー実施後には希望者にて懇親会(個別会計 5000円程度を想定)も実施します。同じ悩みを抱える他社の担当者や各メーカーのキーマン、Microsoft MVP等とお酒を飲みながら気軽に会話できる貴重な機会ですのでこちらも奮ってご参加下さい。</p>\n<table>\n<thead>\n<tr>\n<th>開始時刻</th>\n<th>時間(分)</th>\n<th>セッション</th>\n<th>スピーカー</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>13:30</td>\n<td>30</td>\n<td>開場・受付</td>\n<td></td>\n</tr>\n<tr>\n<td>14:00</td>\n<td>10</td>\n<td>挨拶<br/>\nハイブリッドクラウド研究会 趣旨説明とこれまでの取り組み</td>\n<td>日本ビジネスシステムズ株式会社<br/>\n事業企画本部 パートナーアライアンス部<br/>\n(Microsoft MVP for Cloud and Datacenter Management)<br/>\n胡田 昌彦 氏</td>\n</tr>\n<tr>\n<td>14:10</td>\n<td>40</td>\n<td>忖度なし！ハイブリッドクラウドの良いところ/悪いところ<br/>\n〜 Hyper-V + Site Recovery + Azure Backup 環境を3年間運用して見えたこと 〜</td>\n<td>株式会社レコチョク<br/>\n管理部 社内ITグループ<br/>\n藤川 大 氏</td>\n</tr>\n<tr>\n<td>14:50</td>\n<td>30</td>\n<td>(タイトル未定）<br/>\n・VMwareのCloud 戦略/ビジョン<br/>\n・Hybrid CloudとしてのAWSやIBM、VMware Verified パートナーとのアライアンス<br/>\n・VMC on AWS 概要紹介<br/>\n・EUCのCloud戦略（HzC on Azure）</td>\n<td>ヴイエムウェア株式会社<br/>\nパートナーSE本部 パートナーSE部 部長<br/>\n大原 康範 氏</td>\n</tr>\n<tr>\n<td>15:20</td>\n<td>10</td>\n<td>休憩</td>\n<td></td>\n</tr>\n<tr>\n<td>15:30</td>\n<td>30</td>\n<td>～ハイブリッドクラウドガイドラインより～<br/>\nAzure Files と Azure File Sync を用いたファイル サーバーのスモール スタートとハイブリッド化について</td>\n<td>Microsoft MVP for Cloud and Datacenter Management, Microsoft Azure (アバナード株式会社)<br/>\n小賀坂 優 氏</td>\n</tr>\n<tr>\n<td>16:00</td>\n<td>15</td>\n<td>PoC環境紹介と参加方法</td>\n<td>株式会社インターネットイニシアティブ<br/>\nソリューション本部<br/>\nエンタープライズソリューション部<br/>\nクラウドソリューション開発課<br/>\n今中 裕介 氏</td>\n</tr>\n<tr>\n<td>16:15</td>\n<td>10</td>\n<td>～ハイブリッドクラウドガイドラインより～<br/>\nAzure Stack Hybrid DevOpsデモンストレーション</td>\n<td>日本ビジネスシステムズ株式会社<br/>\n事業企画本部 パートナーアライアンス部<br/>\n(Microsoft MVP for Cloud and Datacenter Management)<br/>\n胡田 昌彦 氏</td>\n</tr>\n<tr>\n<td>16:25</td>\n<td>10</td>\n<td>休憩</td>\n<td></td>\n</tr>\n<tr>\n<td>16:35</td>\n<td>30</td>\n<td>自社にあったハイブリッドクラウドの選び方（Microsoft/VMware）</td>\n<td>日本ヒューレット・パッカード株式会社<br/>\nハイブリッドIT事業統括<br/>\nテクノロジー・エバンジェリスト<br/>\n小川 大地 氏</td>\n</tr>\n<tr>\n<td>16:55</td>\n<td>60</td>\n<td>Q&amp;Aおよびディスカッション</td>\n<td>全体<br/>\n※Webアンケートシステムにより匿名での質問も可能</td>\n</tr>\n<tr>\n<td>17:55</td>\n<td>5</td>\n<td>クロージング</td>\n<td></td>\n</tr>\n<tr>\n<td>18:00～</td>\n<td></td>\n<td>懇親会<br/>\n(※会費制 5000円程度を予定)</td>\n<td></td>\n</tr>\n</tbody>\n</table>\n<p>※タイムテーブルは予告なく変更する可能性がございます。ご了承ください。</p>\n<p> </p>\n",
+      "source_url": "https://www.hccjp.org/2018/12/19/%e7%ac%ac2%e5%9b%9e%e5%8b%89%e5%bc%b7%e4%bc%9a%e3%82%92%e3%82%84%e3%82%8a%e3%81%be%e3%81%99%ef%bc%81%e4%bb%8a%e5%9b%9e%e3%81%af%e3%83%ac%e3%82%b3%e3%83%81%e3%83%a7%e3%82%af%e6%a7%98%e3%81%ae%e8%a9%b1/",
+      "image_path": "assets/media/2d994a9e6adc-hcc-logo02f_300-300x277.png",
+      "kind": "post"
+    },
+    {
+      "title": "第1回勉強会を実施しました #hccjp",
+      "date": "2018-11-30",
+      "path": "2018/11/30/第1回勉強会を実施しました-hccjp",
+      "excerpt": "先日2018年11月27日に第1回勉強会を実施しました。 関係者を含めて60名以上の方に参加していただき、7セッションに加えて懇親会まで実施しました。協力、参加頂いた皆さんありがとうございました！ ハイブリッドクラウド研 […]",
+      "content_html": "<p>先日2018年11月27日に第1回勉強会を実施しました。</p>\n<p>関係者を含めて60名以上の方に参加していただき、7セッションに加えて懇親会まで実施しました。協力、参加頂いた皆さんありがとうございました！</p>\n<ul>\n<li><a href=\"https://hybridcloud.connpass.com/event/107366/\" rel=\"noopener noreferrer\">ハイブリッドクラウド研究会　第1回勉強会 – connpass</a></li>\n</ul>\n<p>参加できなかった方も是非セッション資料をご覧になっていただければと思います。</p>\n<p><iframe allowfullscreen=\"\" height=\"1029\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.slideshare.net/slideshow/embed_code/124219437\" width=\"1256\"></iframe></p>\n<p><iframe allowfullscreen=\"\" height=\"1029\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.slideshare.net/slideshow/embed_code/124227720\" width=\"1256\"></iframe></p>\n<p><iframe allowfullscreen=\"\" height=\"1029\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.slideshare.net/slideshow/embed_code/124129479\" width=\"1256\"></iframe></p>\n<ul>\n<li><a href=\"https://mki-group.app.box.com/s/ms50rttkdiq0j42s1u8x331rdez5zo2y\" rel=\"noopener noreferrer\">201801127_ハイブリッドクラウド研究会.pdf | Powered by Box</a></li>\n</ul>\n<p><iframe allowfullscreen=\"\" height=\"1029\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.slideshare.net/slideshow/embed_code/124220459\" width=\"1256\"></iframe></p>\n<p><iframe allowfullscreen=\"\" height=\"1029\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.slideshare.net/slideshow/embed_code/124223024\" width=\"1256\"></iframe></p>\n<p> </p>\n<p>また、最後の「Q&amp;Aおよびディスカッション」では参加者から下記の質問を頂きながらディスカッションを行うことができました。質問が1つも出ないイベントも珍しくありませんが、活発に意見を出していただき大変ありがとうございました！</p>\n<p> </p>\n<table>\n<tbody>\n<tr>\n<td>AzureにあるけどAzureStackにない機能のうち、これがほしい！というものはありますか？</td>\n</tr>\n<tr>\n<td>Azure Stackを製造しているベンダで、自社のAzure Stackエンジニアの育成の為にAzure Stackを国内で自由に触れる環境を保持しているところってありますでしょうか。</td>\n</tr>\n<tr>\n<td>Azure Pack は、日本国内には最終的に普及しなかったという認識でいるのですが、Azure Stack も同様な状況とならないでしょうか？</td>\n</tr>\n<tr>\n<td>パブリッククラウドに行ったけれども戻ってきたという経験を皆さん持たれているでしょうか？</td>\n</tr>\n<tr>\n<td>AzureStackですが、結局IaaSしか使われないというような状況にはならないでしょうか？<br/>\nすでに導入されている企業では、PaaS も含めて各機能を利用し、クラウドプラットフォームらしい利用の仕方をされているのでしょうか？</td>\n</tr>\n<tr>\n<td>AzureStack、PaaSがまだまだだなので、とりあえず最初はIaaSから使おうと思ったら、社内LANと接続するのにVPN接続しなく、接続するVPN-GWが数百Mbpsしか出ないというのはギャグでしょうか…。折角中が10Gbps以上なのに。</td>\n</tr>\n<tr>\n<td>「エッジ」と言った時の具体的な「物」は何を指すでしょうか？これまでのオンプレミスのサーバーではなく？</td>\n</tr>\n<tr>\n<td>Azure Stack購入するなら実質的に何年償却で考えるべきでしょうか？　5年？3年？</td>\n</tr>\n<tr>\n<td>全体最適化をする上で、ホップステップジャンプで進められる状況であれば、段階を踏んでDXが進められると思いますが、エンドユーザーの力が強く必要だと思います。逆に切り取られた範囲で目の前の案件をこなすとどんどんサイロが増えていると感じています。今の日本のビジネスを変えていかないと最適化までとても遠く感じます。どうしたら変えていけるのでしょうか？</td>\n</tr>\n<tr>\n<td>MKIさんの「花火」のアプリのアーキテクチャーで、「エッジだけだと難しい」という話がありました。もう少し詳しく教えていただきたいです。</td>\n</tr>\n<tr>\n<td>AzureStack内にデプロイしたリソースの利用はVPN接続が基本だという理解なのですが、正直この接続形態のみですと、使い勝手が悪く、実利用で心が折れないでしょうか？</td>\n</tr>\n<tr>\n<td>匿名だからか、質問が厳しいものが多いな。と思っているのは私だけですか？</td>\n</tr>\n<tr>\n<td>本日の資料はslideshareなどで公開されますか？</td>\n</tr>\n<tr>\n<td>一部のSaaSとバックアップ以外のクラウド利用は禁止されています。日本企業ではこのケースが多いのではないでしょうか。</td>\n</tr>\n<tr>\n<td>基本的には既存のオンプレミスサーバーにデータやシステムを置いていますが、最近Office365を使い始めて、会社が許可したクラウドシステムのみ使える・・・というのは「２」に該当するのでしょうか？</td>\n</tr>\n<tr>\n<td>スタイル２～５は、クラウドを使ってはいるけれど、考え方やシステム構成がオンプレミスに近い、というイメージでしょうか。</td>\n</tr>\n<tr>\n<td>スタイル６〜８のクラウドネイティブに移行するところが最も困難に感じていますが、移行ステップもガイドライン化されますか？</td>\n</tr>\n<tr>\n<td>検証環境使って何をトライしてみようかな、を考えるところが一番しんどそうですね・・・</td>\n</tr>\n<tr>\n<td>ハードウェアの保守が切れて、ハードの入れ替えが必要になった場合の対応も可能なのでしょうか？</td>\n</tr>\n<tr>\n<td>トラフィック負荷をかけてのオートスケールの検証をやってもよいですか？</td>\n</tr>\n<tr>\n<td>AzureStackはクラウドネイティブシステムのための基盤としては最適だと認識している。レガシーシステムであれば他のプラットフォームも選択があると思います。レガシシステム採用の顧客がAzureStackを導入するメリットはあるでしょうか。</td>\n</tr>\n<tr>\n<td>ざっくりと言うと<br/>\nHyper-Vはレガシーで<br/>\nコンテナ環境がクラウドネイティブ<br/>\nであってますでしょうか？</td>\n</tr>\n<tr>\n<td>この分野は初心者なのですが、AzureStackのセールスポイントってざっくり<br/>\nなんですか？</td>\n</tr>\n<tr>\n<td>Azure IoT サービスを利用したハイブリットクラウド構成（オンプレはEdgeデバイス）の場合にAzure Stackを利用することが前提になってしまうのでしょうか？（例えば、[クラウド]Azure IoT Hub → [オンプレ]Azure Stack → [オンプレ]Azure IoT Edge ）</td>\n</tr>\n<tr>\n<td>プロキシ対応がされると聞いたのですが、Preview版がいつ提供されるか情報お持ちではないですか？</td>\n</tr>\n<tr>\n<td>基盤の更新で失敗してしまった場合に備えて注意しておくべきことがあれば、教えてほしい。(基盤が停止する、などのサービス影響を防ぐ仕組みなど)</td>\n</tr>\n<tr>\n<td>Azurestackを使う上での制約やサービスの前提条件を教えてほしい。</td>\n</tr>\n</tbody>\n</table>\n<p>こんな質問ができて回答ももらえるんだったら参加したかったな！という方いらっしゃいましたら是非<a href=\"https://www.facebook.com/groups/hybridcloud/\" rel=\"noopener noreferrer\">Facebookグループ</a>にも参加しつつ、第2回の勉強会にご参加下さい。</p>\n<p>第2回の勉強会は2019年1月24日午後の開催を予定しています。イベントの内容が固まり次第Connpassにて公開しますので<a href=\"https://hybridcloud.connpass.com/\" rel=\"noopener noreferrer\">Connpassグループ</a>へも参加いただければと思います！</p>\n",
+      "source_url": "https://www.hccjp.org/2018/11/30/%e7%ac%ac1%e5%9b%9e%e5%8b%89%e5%bc%b7%e4%bc%9a%e3%82%92%e5%ae%9f%e6%96%bd%e3%81%97%e3%81%be%e3%81%97%e3%81%9f-hccjp/",
+      "image_path": "assets/media/2d994a9e6adc-hcc-logo02f_300-300x277.png",
+      "kind": "post"
+    },
+    {
+      "title": "ITSearch+にて連載記事【第8回】が公開されました。#hccjp",
+      "date": "2018-11-27",
+      "path": "2018/11/27/itsearchにて連載記事【第8回】が公開されました。hccjp",
+      "excerpt": "ITSearch+にて連載記事【第8回】が公開されました。 今回は、11月5日～7日に開催された日本マイクロソフト主催のイベント「Microsoft Tech Summit 2018」における、研究会メンバーによるブレイ […]",
+      "content_html": "<p>ITSearch+にて連載記事【第8回】が公開されました。</p>\n<p>今回は、11月5日～7日に開催された日本マイクロソフト主催のイベント「Microsoft Tech Summit 2018」における、研究会メンバーによるブレイクアウトセッションレポートとなります。</p>\n<p><a href=\"https://news.mynavi.jp/itsearch/article/cloud/4183\" rel=\"noopener noreferrer\">徹底研究! ハイブリッドクラウド【第8回】「Tech Summit 2018」セッション登壇レポート</a></p>\n<p> </p>\n<p> </p>\n",
+      "source_url": "https://www.hccjp.org/2018/11/27/itsearch%e3%81%ab%e3%81%a6%e9%80%a3%e8%bc%89%e8%a8%98%e4%ba%8b%e3%80%90%e7%ac%ac8%e5%9b%9e%e3%80%91%e3%81%8c%e5%85%ac%e9%96%8b%e3%81%95%e3%82%8c%e3%81%be%e3%81%97%e3%81%9f%e3%80%82hccjp/",
+      "image_path": "assets/media/e2fb0c275229-HC_300-250-300x250.jpg",
+      "kind": "post"
+    },
+    {
+      "title": "2018年11月27日に第1回勉強会を実施します！",
+      "date": "2018-11-26",
+      "path": "2018/11/26/2018年11月27日に第1回勉強会を実施します！",
+      "excerpt": "すでに様々な場所で告知を行っておりますが、明日11月27日の14時より日本マイクロソフト様にて第1回勉強会を実施します。 ハイブリッドクラウド研究会　第1回勉強会 – connpass この勉強会ではハイブリ […]",
+      "content_html": "<p>すでに様々な場所で告知を行っておりますが、明日11月27日の14時より日本マイクロソフト様にて第1回勉強会を実施します。</p>\n<ul>\n<li><a href=\"https://hybridcloud.connpass.com/event/107366/\" rel=\"noopener noreferrer\">ハイブリッドクラウド研究会　第1回勉強会 – connpass</a></li>\n</ul>\n<p>この勉強会ではハイブリッドクラウドに関連する業界動向やMicrosoft社のハイブリッドクラウド最新動向、ユーザー企業によるAzure,Azure Stackの取り組み紹介、HCCJPが公開したハイブリッドクラウドガイドラインの解説等を行います。また、参加者全員でのQ&amp;Aおよびディスカッションにも多くの時間を割いて登壇者の発表を一方的に聞くだけではない勉強会を試行します。</p>\n<p>また今回の勉強会の目玉として、コミュニティで準備したAzure Stack(4ノード) + ExpressRoute(専用線) + Azureの検証環境の内容の説明と利用申込みの開始があります。</p>\n<p>単一組織で準備をしようと思うとハードウェア料金だけでも数千万円が必要な環境での検証を実施できる機会となりますので、是非これまでAzure Stackに興味はあるけれども環境の準備が難しかった組織の方には参加いただき、実際に環境に触れていただければと考えています。</p>\n<p>また、懇親会も実施しますので、打ち解けた雰囲気の中で色々な会話をしていただくこともできます。</p>\n<p>是非お気軽に参加いただければと思います。</p>\n",
+      "source_url": "https://www.hccjp.org/2018/11/26/2018%e5%b9%b411%e6%9c%8827%e6%97%a5%e3%81%ab%e7%ac%ac1%e5%9b%9e%e5%8b%89%e5%bc%b7%e4%bc%9a%e3%82%92%e5%ae%9f%e6%96%bd%e3%81%97%e3%81%be%e3%81%99%ef%bc%81/",
+      "image_path": null,
+      "kind": "post"
+    },
+    {
+      "title": "11/7にイベント登壇およびハイブリッドクラウドガイドラインの公開を行います",
+      "date": "2018-10-26",
+      "path": "2018/10/26/11-7にイベント登壇およびハイブリッドクラウドガ",
+      "excerpt": "11月7日にHCCJPとしてMicrosoft TechSummit 2018 にてブレイクアウトセッションに登壇します。同時にこのセッションにて現在作成中の「ハイブリッドクラウドガイドライン」を公開します。 ぜひセッシ […]",
+      "content_html": "<p>11月7日にHCCJPとして<a href=\"https://www.microsoft.com/ja-jp/events/techsummit/2018\" rel=\"noopener noreferrer\">Microsoft TechSummit 2018</a> にてブレイクアウトセッションに登壇します。同時にこのセッションにて現在作成中の「ハイブリッドクラウドガイドライン」を公開します。</p>\n<p>ぜひセッションにおこしいただければと思います。</p>\n日時　　　　　：DAY3 11/7(水) 12:10～13:00 ※ランチ付き<br/>\nトラック名　　：Cloud Infrastructure<br/>\nセッションID　：CI05<br/>\nセッション名　：日本企業のためのハイブリッドクラウドガイドライン<br/>\n登壇者　　　　：IIJ 四倉氏、JBS 胡田氏、Lenovo Enterprise Solutions 米津氏（順不同）<br/>\nセッション内容：世の中の 9 割以上の企業が中長期的戦略として掲げるハイブリッド クラウドですが、「なんちゃってハイブリッド クラウド」と思われる事案も存在しています。そこで、IT ベンダー数社により、最新の IT 技術を活用することで生まれる生産性を場所を問わず利用可能にする、真のハイブリッド クラウド推進のための『ハイブリッドクラウド研究会』を立ち上げることになりました。研究会では、日本企業によるハイブリッド クラウド導入の成功をご支援すべく「ハイブリッド クラウド ガイドライン」の策定を目指しており、本セッションでは、そのガイドラインの全容と読み解くための注意点などを解説します\n",
+      "source_url": "https://www.hccjp.org/2018/10/26/11-7%e3%81%ab%e3%82%a4%e3%83%99%e3%83%b3%e3%83%88%e7%99%bb%e5%a3%87%e3%81%8a%e3%82%88%e3%81%b3%e3%83%8f%e3%82%a4%e3%83%96%e3%83%aa%e3%83%83%e3%83%89%e3%82%af%e3%83%a9%e3%82%a6%e3%83%89%e3%82%ac/",
+      "image_path": "assets/media/2d994a9e6adc-hcc-logo02f_300-300x277.png",
+      "kind": "post"
+    },
+    {
+      "title": "ITSearch+にて連載記事【第7回】が公開されました。#hccjp",
+      "date": "2018-10-26",
+      "path": "2018/10/26/itsearchにて連載記事【第7回】が公開されました。hccjp",
+      "excerpt": "ITSearch+にて連載記事【第7回】が公開されました。 今回は、Microsoft Ignite 2018にて公開されたAzure Stackの最新情報に関して紹介しています。是非ご覧ください。 【連載】徹底研究!  […]",
+      "content_html": "<p>ITSearch+にて連載記事【第7回】が公開されました。</p>\n<p>今回は、Microsoft Ignite 2018にて公開されたAzure Stackの最新情報に関して紹介しています。是非ご覧ください。</p>\n<ul>\n<li><a href=\"https://news.mynavi.jp/itsearch/article/cloud/4112?memberflag=1\" rel=\"noopener noreferrer\">【連載】徹底研究! ハイブリッドクラウド [7] Igniteで明らかになったAzure Stackの最新情報｜クラウド｜IT製品の事例・解説記事</a></li>\n</ul>\n",
+      "source_url": "https://www.hccjp.org/2018/10/26/itsearch%e3%81%ab%e3%81%a6%e9%80%a3%e8%bc%89%e8%a8%98%e4%ba%8b%e3%80%90%e7%ac%ac7%e5%9b%9e%e3%80%91%e3%81%8c%e5%85%ac%e9%96%8b%e3%81%95%e3%82%8c%e3%81%be%e3%81%97%e3%81%9f%e3%80%82hccjp/",
+      "image_path": "assets/media/e2fb0c275229-HC_300-250-300x250.jpg",
+      "kind": "post"
+    },
+    {
+      "title": "ITSearch+にて連載記事【第6回】が公開されました。#hccjp",
+      "date": "2018-09-23",
+      "path": "2018/09/23/itsearchにて連載記事【第6回】が公開されました。hccjp",
+      "excerpt": "ITSearch+にて連載記事【第6回】が公開されました。是非ご覧ください。 今回は、先日行われたMicrosoft Japan Partner Conference 2018の様子をお伝えしつつ、HCCJPのロゴや今後 […]",
+      "content_html": "<p>ITSearch+にて連載記事【第6回】が公開されました。是非ご覧ください。</p>\n<p>今回は、先日行われたMicrosoft Japan Partner Conference 2018の様子をお伝えしつつ、HCCJPのロゴや今後の予定に関してもお知らせしています。</p>\n<ul>\n<li><a href=\"https://news.mynavi.jp/itsearch/article/cloud/4046\" rel=\"noopener noreferrer\">【連載】徹底研究! ハイブリッドクラウド [6] 「Microsoft Japan Partner Conference 2018」に出展しました!｜クラウド｜IT製品の事例・解説記事</a></li>\n</ul>\n",
+      "source_url": "https://www.hccjp.org/2018/09/23/itsearch%e3%81%ab%e3%81%a6%e9%80%a3%e8%bc%89%e8%a8%98%e4%ba%8b%e3%80%90%e7%ac%ac6%e5%9b%9e%e3%80%91%e3%81%8c%e5%85%ac%e9%96%8b%e3%81%95%e3%82%8c%e3%81%be%e3%81%97%e3%81%9f%e3%80%82hccjp/",
+      "image_path": "assets/media/e2fb0c275229-HC_300-250-300x250.jpg",
+      "kind": "post"
+    },
+    {
+      "title": "ITSearch+にて連載記事【第５回】が公開されました #hccjp",
+      "date": "2018-09-14",
+      "path": "2018/09/14/itsearchにて連載記事【第５回】が公開されました-hccjp",
+      "excerpt": "ITSearch+にて連載記事【第５回】が公開されました。是非ご覧ください。 今回はRe-Host(Lift & Shift)時のフェーズとそれぞれで利用できるAzureのツール群を紹介しています。 【連載】徹底 […]",
+      "content_html": "<p>ITSearch+にて連載記事【第５回】が公開されました。是非ご覧ください。</p>\n<p>今回はRe-Host(Lift &amp; Shift)時のフェーズとそれぞれで利用できるAzureのツール群を紹介しています。</p>\n<ul>\n<li><a href=\"https://news.mynavi.jp/itsearch/article/cloud/4027\" rel=\"noopener noreferrer\">【連載】徹底研究! ハイブリッドクラウド [5] 「Re-Host(Lift &amp; Shift)」実行時に使えるAzureのツール｜クラウド｜IT製品の事例・解説記事</a></li>\n</ul>\n",
+      "source_url": "https://www.hccjp.org/2018/09/14/itsearch%e3%81%ab%e3%81%a6%e9%80%a3%e8%bc%89%e8%a8%98%e4%ba%8b%e3%80%90%e7%ac%ac%ef%bc%95%e5%9b%9e%e3%80%91%e3%81%8c%e5%85%ac%e9%96%8b%e3%81%95%e3%82%8c%e3%81%be%e3%81%97%e3%81%9f-hccjp/",
+      "image_path": "assets/media/e2fb0c275229-HC_300-250-300x250.jpg",
+      "kind": "post"
+    },
+    {
+      "title": "Microsoft Japan Partner Conferenceでブース出展を行いました #azurestackjp #hccjp",
+      "date": "2018-08-31",
+      "path": "2018/08/31/microsoft-japan-partner-conferenceでブース出展を行いました-azurestackjp-hccjp",
+      "excerpt": "皆さんこんばんはJBS胡田です。 本日開催されたMicrosoft Japan Partner Conferenceにてハイブリッドクラウド研究会もブース出展を行いました。ブースに来てくださった皆さんありがとうございまし […]",
+      "content_html": "<p>皆さんこんばんはJBS胡田です。</p>\n<p>本日開催されたMicrosoft Japan Partner Conferenceにてハイブリッドクラウド研究会もブース出展を行いました。ブースに来てくださった皆さんありがとうございました！</p>\n<p><img alt=\"\" class=\"alignnone wp-image-87 size-full\" height=\"768\" loading=\"lazy\" src=\"/assets/media/30fad9269da4-IMG_2099.jpg\" width=\"1024\"/></p>\n<p><img alt=\"\" class=\"alignnone size-full wp-image-88\" height=\"768\" loading=\"lazy\" src=\"/assets/media/1406bd0d12ae-IMG_2103.jpg\" width=\"1024\"/></p>\n<p> </p>\n<p>私も本日ブースにて多くの方と会話させていただきましたが、あらためてコンセプトレベルからの伝わってなさを痛感することが何度もありました。クラウドの利用方法にしても、オンプレミスの基盤の持ち方にしても。</p>\n<p>そして、現在コミュニティで作成しようとしているハイブリッドクラウドガイドラインの必要性を改めて再認識しました。改めて頑張ってガイドライン執筆を進めていこうと思います。</p>\n<p> </p>\n<p>そして本日JPCの会場でもお知らせして回りましたが、新しくコミュニティのFacebookグループを作成し、参加者を募集しております。是非お気軽にお参加ください。</p>\n<ul>\n<li><a href=\"https://www.facebook.com/groups/hybridcloud/\" rel=\"noopener noreferrer\">ハイブリッドクラウド研究会 – Facebook</a></li>\n</ul>\n",
+      "source_url": "https://www.hccjp.org/2018/08/31/microsoft-japan-partner-conference%e3%81%a7%e3%83%96%e3%83%bc%e3%82%b9%e5%87%ba%e5%b1%95%e3%82%92%e8%a1%8c%e3%81%84%e3%81%be%e3%81%97%e3%81%9f-azurestackjp-hccjp/",
+      "image_path": "assets/media/26a27b89e3d4-IMG_2103-768x576.jpg",
+      "kind": "post"
+    },
+    {
+      "title": "Japan Partner Conferenceにてブース出展しています！Azure Stackのデモもあります！ #hccjp",
+      "date": "2018-08-31",
+      "path": "2018/08/31/japan-partner-conferenceにてブース出展しています！azure-stackのデモもあ",
+      "excerpt": "本日2018/08/31は日本マイクロソフト最大規模のパートナー企業様向けイベントであるJapan Partner Conference 2018が開催されます。 Japan Partner Conference 201 […]",
+      "content_html": "<p>本日2018/08/31は日本マイクロソフト最大規模のパートナー企業様向けイベントであるJapan Partner Conference 2018が開催されます。</p>\n<ul>\n<li><a href=\"https://www.microsoft.com/ja-jp/events/jpc/2018\" rel=\"noopener noreferrer\">Japan Partner Conference 2018 – Microsoft Events &amp; Seminars</a></li>\n</ul>\n<p>私達HCCJPもコミュニティブースの1つとしてブース出展を行っています。</p>\n<p>ブースではAzure Stackのデモをお見せしつつ、コミュニティ活動の紹介を行っています。</p>\n<p>Microsoft高添さん、Lenovo米津さん、JBS胡田の3人がメインでブース対応を行っておりますので、是非皆さんHCCJPのブースまで来ていただければと思います！</p>\n",
+      "source_url": "https://www.hccjp.org/2018/08/31/japan-partner-conference%e3%81%ab%e3%81%a6%e3%83%96%e3%83%bc%e3%82%b9%e5%87%ba%e5%b1%95%e3%81%97%e3%81%a6%e3%81%84%e3%81%be%e3%81%99%ef%bc%81azure-stack%e3%81%ae%e3%83%87%e3%83%a2%e3%82%82%e3%81%82/",
+      "image_path": "assets/media/2d994a9e6adc-hcc-logo02f_300-300x277.png",
+      "kind": "post"
+    },
+    {
+      "title": "HCCJP(ハイブリッドクラウド研究会)のWebサイトとFacebookグループを公開しました #hccjp",
+      "date": "2018-08-31",
+      "path": "2018/08/31/hccjpwebサイトとfacebookグループ",
+      "excerpt": "HCCJP(ハイブリッドクラウド研究会)のWebサイトとFacebookグループを公開しました！ Facebookグループは自由にどなたでも参加できますので是非ご参加ください！！ ハイブリッドクラウド研究会 &#8211 […]",
+      "content_html": "<p>HCCJP(ハイブリッドクラウド研究会)のWebサイトとFacebookグループを公開しました！</p>\n<p>Facebookグループは自由にどなたでも参加できますので是非ご参加ください！！</p>\n<ul>\n<li><a href=\"https://www.facebook.com/groups/hybridcloud/?ref=bookmarks\" rel=\"noopener noreferrer\">ハイブリッドクラウド研究会 – Facebook</a></li>\n</ul>\n<p> </p>\n<p>2018年2月20日に<a href=\"https://hybridcloud.connpass.com/event/74887/\" rel=\"noopener noreferrer\">「ハイブリッドクラウド研究会」創立記念イベント</a>を実施してからこれまで、月に1回程度のペースで幹事企業のメンバーで幹事会を開き、活動内容自体の定義から含めて議論を重ねてきました。</p>\n<p>そして現在下記を活動の主軸としてすすめています。</p>\n<ol>\n<li>「ハイブリッドクラウドガイドライン」をドキュメントの形で作成する。2018年11月頭のTechSummitにて公開する。</li>\n<li>Azure Stackのマルチノード環境とAzureをExpressRouteで接続したハイブリッドクラウド環境を構築する。その環境でユーザー企業も含めてコミュニティとして検証活動を行う。</li>\n</ol>\n<p>これまで幹事企業のみで進めてきましたが、2018年8月30日のJapan Partner Conferenceへのブース出展を皮切りに、広く公開された場でも活動を広げていきます。</p>\n<p>是非「ハイブリッドクラウド」に興味のある方は一緒に活動いただければと思います。活動への参加方法は以下を参照ください。</p>\n<ul>\n<li><a href=\"http://www.hccjp.org/%e6%b4%bb%e5%8b%95%e5%8f%82%e5%8a%a0%e6%96%b9%e6%b3%95/\" rel=\"noopener noreferrer\">活動参加方法 | ハイブリッドクラウド研究会</a></li>\n</ul>\n<p>よろしくお願いします！</p>\n",
+      "source_url": "https://www.hccjp.org/2018/08/31/hccjpweb%e3%82%b5%e3%82%a4%e3%83%88%e3%81%a8facebook%e3%82%b0%e3%83%ab%e3%83%bc%e3%83%97/",
+      "image_path": "assets/media/2d994a9e6adc-hcc-logo02f_300-300x277.png",
+      "kind": "post"
+    },
+    {
+      "title": "ITSearch+にて連載記事【第4回】が公開されました。",
+      "date": "2018-08-06",
+      "path": "2018/08/06/itsearchにて連載記事【第4回】が公開されました。",
+      "excerpt": "ITSearch+にて連載記事【第4回】が公開されました。是非ご覧ください。 【連載】徹底研究! ハイブリッドクラウド [4] ハイブリッドクラウドスタイルの具体例｜クラウド｜IT製品の事例・解説記事",
+      "content_html": "<p>ITSearch+にて連載記事【第4回】が公開されました。是非ご覧ください。</p>\n<ul>\n<li><a href=\"https://news.mynavi.jp/itsearch/article/cloud/3880\" rel=\"noopener noreferrer\">【連載】徹底研究! ハイブリッドクラウド [4] ハイブリッドクラウドスタイルの具体例｜クラウド｜IT製品の事例・解説記事</a></li>\n</ul>\n",
+      "source_url": "https://www.hccjp.org/2018/08/06/itsearch%e3%81%ab%e3%81%a6%e9%80%a3%e8%bc%89%e8%a8%98%e4%ba%8b%e3%80%90%e7%ac%ac4%e5%9b%9e%e3%80%91%e3%81%8c%e5%85%ac%e9%96%8b%e3%81%95%e3%82%8c%e3%81%be%e3%81%97%e3%81%9f%e3%80%82/",
+      "image_path": "assets/media/e2fb0c275229-HC_300-250-300x250.jpg",
+      "kind": "post"
+    },
+    {
+      "title": "ITSearch+にて連載記事【第3回】が公開されました。",
+      "date": "2018-07-13",
+      "path": "2018/07/13/itsearchにて連載記事【第3回】が公開されました。",
+      "excerpt": "ITSearch+にて連載記事【第3回】が公開されました。是非ご覧ください。 【連載】徹底研究! ハイブリッドクラウド [3] 「ハイブリッドクラウドガイドライン」とは?｜クラウド｜IT製品の事例・解説記事",
+      "content_html": "<p>ITSearch+にて連載記事【第3回】が公開されました。是非ご覧ください。</p>\n<ul>\n<li><a href=\"https://news.mynavi.jp/itsearch/article/cloud/3875\" rel=\"noopener noreferrer\">【連載】徹底研究! ハイブリッドクラウド [3] 「ハイブリッドクラウドガイドライン」とは?｜クラウド｜IT製品の事例・解説記事</a></li>\n</ul>\n",
+      "source_url": "https://www.hccjp.org/2018/07/13/itsearch%e3%81%ab%e3%81%a6%e9%80%a3%e8%bc%89%e8%a8%98%e4%ba%8b%e3%80%90%e7%ac%ac3%e5%9b%9e%e3%80%91%e3%81%8c%e5%85%ac%e9%96%8b%e3%81%95%e3%82%8c%e3%81%be%e3%81%97%e3%81%9f%e3%80%82/",
+      "image_path": "assets/media/e2fb0c275229-HC_300-250-300x250.jpg",
+      "kind": "post"
+    },
+    {
+      "title": "ITSearch+にて連載記事【第2回】が公開されました。",
+      "date": "2018-04-09",
+      "path": "2018/04/09/itsearchにて連載記事【第2回】が公開されました。",
+      "excerpt": "ITSearch+にて連載記事【第2回】が公開されました。是非ご覧ください。 【連載】徹底研究! ハイブリッドクラウド [2] クラウド利用の仕方は車の選択に似ている?｜クラウド｜IT製品の事例・解説記事",
+      "content_html": "<p>ITSearch+にて連載記事【第2回】が公開されました。是非ご覧ください。</p>\n<ul>\n<li><a href=\"https://news.mynavi.jp/itsearch/article/cloud/3619\" rel=\"noopener noreferrer\">【連載】徹底研究! ハイブリッドクラウド [2] クラウド利用の仕方は車の選択に似ている?｜クラウド｜IT製品の事例・解説記事</a></li>\n</ul>\n",
+      "source_url": "https://www.hccjp.org/2018/04/09/itsearch%e3%81%ab%e3%81%a6%e9%80%a3%e8%bc%89%e8%a8%98%e4%ba%8b%e3%80%90%e7%ac%ac2%e5%9b%9e%e3%80%91%e3%81%8c%e5%85%ac%e9%96%8b%e3%81%95%e3%82%8c%e3%81%be%e3%81%97%e3%81%9f%e3%80%82/",
+      "image_path": "assets/media/e2fb0c275229-HC_300-250-300x250.jpg",
+      "kind": "post"
+    },
+    {
+      "title": "ITSearch+にて連載記事【第1回】が公開されました。",
+      "date": "2018-02-28",
+      "path": "2018/02/28/itsearchにて連載記事【第1回】が公開されました。",
+      "excerpt": "ITSearch+にて連載記事【第1回】が公開されました。是非ご覧ください。 【連載】徹底研究! ハイブリッドクラウド [1] ハイブリッドクラウド研究会が目指す世界とは?｜クラウド｜IT製品の事例・解説記事",
+      "content_html": "<p>ITSearch+にて連載記事【第1回】が公開されました。是非ご覧ください。</p>\n<ul>\n<li><a href=\"https://news.mynavi.jp/itsearch/article/cloud/3489\" rel=\"noopener noreferrer\">【連載】徹底研究! ハイブリッドクラウド [1] ハイブリッドクラウド研究会が目指す世界とは?｜クラウド｜IT製品の事例・解説記事</a></li>\n</ul>\n",
+      "source_url": "https://www.hccjp.org/2018/02/28/itsearch%e3%81%ab%e3%81%a6%e9%80%a3%e8%bc%89%e8%a8%98%e4%ba%8b%e3%80%90%e7%ac%ac1%e5%9b%9e%e3%80%91%e3%81%8c%e5%85%ac%e9%96%8b%e3%81%95%e3%82%8c%e3%81%be%e3%81%97%e3%81%9f%e3%80%82/",
+      "image_path": "assets/media/e2fb0c275229-HC_300-250-300x250.jpg",
+      "kind": "post"
+    },
+    {
+      "title": "検証環境",
+      "date": "2018-12-06",
+      "path": "poc",
+      "excerpt": "(2019/11/13追記)本検証環境の提供は終了させていただきました。ご利用ありがとうございました。 ハイブリッドクラウド研究会でコミュニティとして保持しているハイブリッドクラウド検証環境があります。 ハイブリッドな環 […]",
+      "content_html": "<p><strong><span>(2019/11/13追記)本検証環境の提供は終了させていただきました。ご利用ありがとうございました。</span></strong></p>\n<p>ハイブリッドクラウド研究会でコミュニティとして保持しているハイブリッドクラウド検証環境があります。</p>\n<ul>\n<li>ハイブリッドな環境を実際に体験することのできる検証環境です。</li>\n<li>Azure StackとAzureがExpressRouteで接続された環境です。</li>\n<li>コミュニティに参加し、利用申請していただくことで利用可能です。<br/>\n(※リソース容量やスケジュールの都合でご希望に添えない場合もあります)</li>\n</ul>\n<h4>Azure Stack物理構成</h4>\n<p><img alt=\"\" class=\"alignnone size-large wp-image-137\" height=\"813\" loading=\"lazy\" src=\"/assets/media/9d91091e1a1e-2018-12-06_14h51_41-1024x813.png\" width=\"1024\"/></p>\n<h4>検証にて発生する費用</h4>\n<p><img alt=\"\" class=\"alignnone size-large wp-image-138\" height=\"535\" loading=\"lazy\" src=\"/assets/media/70693f262443-2018-12-06_14h59_57-1024x535.png\" width=\"1024\"/></p>\n<p>※2019年3月以降もおなじスキームで貸し出し可能です。<br/>\n※パブリックのAzure環境は無償評価版も利用可能です。</p>\n<h4>検証環境</h4>\n<p>検証環境の機材、構築、維持管理は下記幹事企業の協力により行われています。</p>\n<p><img alt=\"\" class=\"alignnone size-large wp-image-140\" height=\"430\" loading=\"lazy\" src=\"/assets/media/0f337a9dcb88-2018-12-06_15h03_44-1024x430.png\" width=\"1024\"/></p>\n<h4>その他詳細</h4>\n<p>その他の詳細は下記の資料を参照下さい。</p>\n<iframe allowfullscreen=\"\" height=\"1029\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" sandbox=\"allow-scripts allow-same-origin allow-presentation\" src=\"https://www.slideshare.net/slideshow/embed_code/124223024\" width=\"1256\"></iframe>\n<h4>申し込み</h4>\n<p>検証環境の申し込みは下記のFormの入力をお願いします。入力後、HCCJPの幹事企業から連絡させていただきますのでお待ち下さい。</p>\n<ul>\n<li>(提供終了)ハイブリッドクラウド研究会 ハイブリッドクラウド検証環境利用申し込み</li>\n</ul>\n",
+      "source_url": "https://www.hccjp.org/poc/",
+      "image_path": "assets/media/dd16cb8335e4-2018-12-06_14h59_57-768x401.png",
+      "kind": "page"
+    },
+    {
+      "title": "ハイブリッドクラウドガイドライン",
+      "date": "2018-11-07",
+      "path": "hybridcloudguideline",
+      "excerpt": "ハイブリッドクラウド研究会(HCCJP)ではメイン活動の1つとして日本企業のためのハイブリッドクラウドガイドラインを作成、公開しています。 ハイブリッドクラウドガイドラインは継続的に更新される予定です。 ハイブリッドクラ […]",
+      "content_html": "<p>ハイブリッドクラウド研究会(HCCJP)ではメイン活動の1つとして日本企業のためのハイブリッドクラウドガイドラインを作成、公開しています。</p>\n<p>ハイブリッドクラウドガイドラインは継続的に更新される予定です。</p>\n<ul>\n<li><a href=\"http://bit.ly/2F7cYcZ\" rel=\"noopener noreferrer\">ハイブリッドクラウドガイドラインダウンロード</a></li>\n</ul>\n<p> </p>\n<p>ご意見、ご感想等は下記Facebookグループにお寄せ下さい。</p>\n<ul>\n<li><a href=\"https://www.facebook.com/groups/hybridcloud/\" rel=\"noopener noreferrer\">ハイブリッドクラウド研究会 – Facebookグループ</a></li>\n</ul>\n<p> </p>\n<p>更新履歴</p>\n<ul>\n<li>2018/11/7 Ver. 1.0公開</li>\n</ul>\n",
+      "source_url": "https://www.hccjp.org/hybridcloudguideline/",
+      "image_path": null,
+      "kind": "page"
+    },
+    {
+      "title": "お問い合わせ",
+      "date": "2018-08-29",
+      "path": "お問い合わせ",
+      "excerpt": "本コミュニティに対しての問い合わせは下記フォームからお願いいたします。",
+      "content_html": "<p>本コミュニティに対しての問い合わせは下記フォームからお願いいたします。</p>\n\n\n\n",
+      "source_url": "https://www.hccjp.org/%e3%81%8a%e5%95%8f%e3%81%84%e5%90%88%e3%82%8f%e3%81%9b/",
+      "image_path": null,
+      "kind": "page"
+    },
+    {
+      "title": "活動参加方法",
+      "date": "2018-08-29",
+      "path": "活動参加方法",
+      "excerpt": "イベントや勉強会 HCCJPが主催するイベントや勉強会はConnpassにて告知や登録管理を行っています。下記よりグループに参加ください。 ハイブリッドクラウド研究会 – connpass Facebookコ […]",
+      "content_html": "<h2>イベントや勉強会</h2>\n<p>HCCJPが主催するイベントや勉強会はConnpassにて告知や登録管理を行っています。下記よりグループに参加ください。</p>\n<ul>\n<li><a href=\"https://hybridcloud.connpass.com/\" rel=\"noopener noreferrer\">ハイブリッドクラウド研究会 – connpass</a></li>\n</ul>\n<h2>Facebookコミュニティ</h2>\n<p>HCCJPではFacebookコミュニティにて参加メンバー同士の交流を行っています。オープンなコミュニティであり参加要件等もありません。是非ご参加ください。</p>\n<ul>\n<li><a href=\"https://www.facebook.com/groups/hybridcloud/about/\" rel=\"noopener noreferrer\">ハイブリッドクラウド研究会 – Facebook</a></li>\n</ul>\n<h2>Twitter</h2>\n<p>Twitterでも情報発信を行っています。是非フォローください。</p>\n<ul>\n<li><a href=\"https://twitter.com/hccjp1\" rel=\"noopener noreferrer\">hccjp(@hccjp1) | Twitter</a></li>\n</ul>\n<p>HCCJPで利用しているハッシュタグは　<a href=\"https://twitter.com/search?f=tweets&amp;vertical=default&amp;q=%23hccjp&amp;src=typd\" rel=\"noopener noreferrer\">#hccjp</a> です。本コミュニティに関連することをつぶやく場合には是非ハッシュタグをつけていただければと思います。</p>\n<h2>幹事企業としての参加</h2>\n<p>幹事企業としてHCCJPに参加し、活動をリードしたい企業の方は下記のフォームから連絡をお願いいたします。</p>\n\n\n\n",
+      "source_url": "https://www.hccjp.org/%e6%b4%bb%e5%8b%95%e5%8f%82%e5%8a%a0%e6%96%b9%e6%b3%95/",
+      "image_path": null,
+      "kind": "page"
+    },
+    {
+      "title": "幹事企業",
+      "date": "2018-08-29",
+      "path": "幹事企業",
+      "excerpt": "主幹事企業 日本ビジネスシステムズ株式会社 幹事企業 NTTコミュニケーションズ株式会社 日商エレクトロニクス株式会社 日本ヒューレット・パッカード株式会社 日本マイクロソフト株式会社 VistaNet株式会社 株式会社 […]",
+      "content_html": "<table>\n<tbody>\n<tr>\n<td>主幹事企業</td>\n<td>\n<ul>\n<li>日本ビジネスシステムズ株式会社</li>\n</ul>\n</td>\n</tr>\n<tr>\n<td>幹事企業</td>\n<td>\n<ul>\n<li>NTTコミュニケーションズ株式会社</li>\n<li>日商エレクトロニクス株式会社</li>\n<li>日本ヒューレット・パッカード株式会社</li>\n<li>日本マイクロソフト株式会社</li>\n<li>VistaNet株式会社</li>\n<li>株式会社ネットワールド</li>\n<li>三井情報株式会社</li>\n<li>レノボ・エンタープライズ・ソリューションズ株式会社</li>\n</ul>\n<p>※50音順</p>\n<p>※継続募集中</p></td>\n</tr>\n<tr>\n<td>事務局</td>\n<td>\n<ul>\n<li>日本マイクロソフト株式会社</li>\n</ul>\n</td>\n</tr>\n</tbody>\n</table>\n<p>幹事企業としてコミュニティに参加し活動をリードしてくれる企業を随時募集しています。<a href=\"http://www.hccjp.org/%e6%b4%bb%e5%8b%95%e5%8f%82%e5%8a%a0%e6%96%b9%e6%b3%95/\" rel=\"noopener noreferrer\">活動参加方法</a>を参照してください。</p>\n",
+      "source_url": "https://www.hccjp.org/%e5%b9%b9%e4%ba%8b%e4%bc%81%e6%a5%ad/",
+      "image_path": null,
+      "kind": "page"
+    },
+    {
+      "title": "HCCJPとは",
+      "date": "2018-08-29",
+      "path": "hccjp",
+      "excerpt": "ハイブリッドクラウド研究会(略称HCCJP)は以下を目的として創設されたコミュニティです。 日本における「ハイブリッドクラウド」の再定義 新しい「ハイブリッドクラウド」の導入促進 ハイブリッドクラウドの「実情」 すでに既 […]",
+      "content_html": "<p>ハイブリッドクラウド研究会(略称HCCJP)は以下を目的として創設されたコミュニティです。</p>\n<ul>\n<li>日本における「ハイブリッドクラウド」の再定義</li>\n<li>新しい「ハイブリッドクラウド」の導入促進</li>\n</ul>\n<h2>ハイブリッドクラウドの「実情」</h2>\n<p>すでに既に日本企業の70%近くが「ハイブリッドクラウドを導入済み」と回答しているというデータがあります。しかし「クラウドを使っていると言ってもメールサーバをSaaSに切り替えただけ」「仮想マシンをクラウド上でホスティングしているだけで、結局やっていることもスピード感もオンプレミスの仮想環境と全く同じ」「積極的にパブリッククラウドの活用を決めたけれど、大量に残る社内のITとビジネスの距離は広がるばかり」。――そんな状況でも「ハイブリッドクラウド導入済み」と呼んでしまっている実体があります。</p>\n<h2>HCCJPの狙い</h2>\n<p>ハイブリッドクラウド研究会では、「クラウドとは何か」「ハイブリッドクラウドとは何か」「より連続性・一貫性のある基盤を活用することで、迅速にビジネス上の成果を挙げる方法とは?」といった問いに対し、企業の枠を越えてユースケースや方法論を議論・検証することで、日本へのハイブリッドクラウド導入を促進していきます。</p>\n<h2>HCCJPで取り扱う技術と参加企業</h2>\n<p>「ハイブリッドクラウド」とひとくちに言ってもさまざまな形態が考えられます。利用するパブリッククラウドサービスに関しても多種多様なものが存在します。本コミュニティは、事務局としてマイクロソフトの支援を受けてはいますが、だからと言ってマイクロソフト提供のクラウドだけに閉じた議論にはせず、例えばAWSやGCPなどに関しても必要に応じて扱っていきます。</p>\n<p>また、本コミュニティにはITベンダーに限らず、ユーザー企業も参加いただくことを期待しています。技術論のみに終始せず、実際の業務に活かせるかたちでのアウトプットに取り組んでいく方針です。自社業務への適用を具体的に考えられるユーザー企業の方にも、ぜひ参加していただきたいと考えています。</p>\n",
+      "source_url": "https://www.hccjp.org/hccjp/",
+      "image_path": null,
+      "kind": "page"
+    }
+  ],
+  "connpass": [
+    {
+      "number": 71,
+      "title": "AI時代の「本当の」ハイブリッドクラウド — エージェントが実現した、あの頃の夢",
+      "date": "2026-03-13",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "source_url": "https://hybridcloud.connpass.com/event/386349/",
+      "image_url": "https://media.connpass.com/thumbs/fb/41/fb4114292904efb26716dfb1232ab10e.png",
+      "image_path": "assets/media/5c74b7f74a9d-fb4114292904efb26716dfb1232ab10e.png",
+      "content_html": "\nHCCJP 第71回勉強会\n<h2>開催情報</h2>\n<ul>\n<li><strong>日時</strong>: 2026年3月13日（金）14:00-15:30</li>\n<li><strong>形式</strong>: オンライン（YouTube Live）</li>\n<li><strong>テーマ</strong>: AI時代の「本当の」ハイブリッドクラウド — エージェントが実現した、あの頃の夢</li>\n</ul>\n<h2>概要</h2>\n<p>毎月第2金曜日14時からはHCCJPの勉強会！3月は「AIエージェント時代のハイブリッドクラウド」をテーマにお届けします！</p>\n<p>「ハイブリッドクラウド」「マルチクラウド」——かつてホットワードだったこの言葉、<strong>本当に実現できていましたか？</strong> VMやストレージの移行コストが高く、「ハイブリッド」はネットワーク接続にとどまっていたのが大部分の組織の実態ではないでしょうか。</p>\n<p>それが今、<strong>AIエージェントの登場によって状況が一変</strong>しています。Claude Code、Codex、 Gemini CLI、 GitHub Copilot CLIといったコーディングエージェントは、<strong>1つのエージェントがローカルとクラウドを自由に跨いで動く</strong>——これこそが「本当のハイブリッドクラウド」ではないでしょうか。</p>\n<p>実行環境・コンテキスト・モデルの<strong>3軸</strong>でAIエージェント時代のハイブリッドを整理し、これからのインフラ設計を考えます！</p>\n<h2>セッション内容</h2>\n<h3>1. AI時代の「本当の」ハイブリッドクラウド — エージェントが実現した、あの頃の夢</h3>\n<p>胡田 昌彦 (日本ビジネスシステムズ株式会社)</p>\n<p>HCCJPが2018年に始まった頃の「ハイブリッドクラウドの夢」と、2025-2026年のAIエージェント時代を比較。なぜ今、ハイブリッドクラウドが「当たり前」になったのかを3つの軸で解説します。</p>\n<ul>\n<li><strong>Part 1</strong>: HCCJPの原点と「あの頃の夢」 — 本当にハイブリッドを実現していたか？</li>\n<li><strong>Part 2</strong>: 時代は変わった — AIエージェントが複数の場所を跨いで動く</li>\n<li><strong>Part 3</strong>: 3つの軸で整理 — 実行環境・コンテキスト・モデルの組み合わせ</li>\n<li><strong>Part 4</strong>: 具体例で見てみよう — 構成例と実際のエージェントの動きのパターン例(※膨大！)</li>\n<li><strong>Part 5</strong>: なぜ今「本当のハイブリッド」なのか — モビリティと標準化</li>\n<li><strong>Part 6</strong>: AIエージェントの動力源 = API — クラウドはAPIが当たり前、オンプレにもAPIを。Azure Arcで全部繋げる最高の選択</li>\n<li><strong>Part 7</strong>: これからのインフラ設計 — コンテキスト・柔軟性・ガバナンス</li>\n</ul>\n<h3>2. Microsoft \"Adaptive Cloud\" 最新動向</h3>\n<p>高添 修 氏（日本マイクロソフト株式会社）</p>\n<p>Microsoft高添さんからは毎月恒例のMicrosoft \"Adaptive Cloud\" の最新動向をお伝えいただきます！\nAzure Local、Azure Arc、Windows Server関連の最新情報をお見逃しなく！</p>\n<h2>スピーカー</h2>\n<ul>\n<li><strong>胡田 昌彦</strong> - 日本ビジネスシステムズ株式会社、Microsoft MVP for Cloud and Datacenter Management, Microsoft Azure</li>\n<li><strong>高添 修 氏</strong> - 日本マイクロソフト株式会社</li>\n</ul>\n<h2>タイムテーブル</h2>\n<table>\n<thead>\n<tr>\n<th>時刻</th>\n<th>時間</th>\n<th>セッション</th>\n<th>スピーカー</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>14:00</td>\n<td>5分</td>\n<td>オープニング</td>\n<td>胡田 昌彦</td>\n</tr>\n<tr>\n<td>14:05</td>\n<td>40分</td>\n<td>AI時代の「本当の」ハイブリッドクラウド</td>\n<td>胡田 昌彦</td>\n</tr>\n<tr>\n<td>14:45</td>\n<td>10分</td>\n<td>Q&amp;A</td>\n<td>全員</td>\n</tr>\n<tr>\n<td>14:55</td>\n<td>20分</td>\n<td>Microsoft \"Adaptive Cloud\" Updates</td>\n<td>高添 修 氏</td>\n</tr>\n<tr>\n<td>15:15</td>\n<td>10分</td>\n<td>Q&amp;A</td>\n<td>高添 修 氏</td>\n</tr>\n<tr>\n<td>15:25</td>\n<td>5分</td>\n<td>クロージング</td>\n<td>胡田 昌彦</td>\n</tr>\n</tbody>\n</table>\n<h2>視聴方法</h2>\n<ul>\n<li><strong>YouTube Live</strong>: <a href=\"https://youtube.com/live/aeVMn5ernhg?feature=share\" rel=\"noopener noreferrer\">https://youtube.com/live/aeVMn5ernhg?feature=share</a></li>\n</ul>\n<h2>主催</h2>\n<p>ハイブリッドクラウド研究会（HCCJP）</p>\n<p><strong>主幹事</strong>: 日本ビジネスシステムズ株式会社</p>\n<p><strong>幹事</strong>（50音順）:\n- NTTコミュニケーションズ株式会社\n- 日商エレクトロニクス株式会社\n- 日本ヒューレット・パッカード株式会社\n- 日本マイクロソフト株式会社\n- VistaNet株式会社\n- 株式会社ネットワールド\n- 三井情報株式会社\n- レノボ・エンタープライズ・ソリューションズ株式会社</p>\n"
+    },
+    {
+      "number": 72,
+      "title": "AIエージェントに Azure を教える / MS公式 Skills を読み解く",
+      "date": "2026-04-10",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "source_url": "https://hybridcloud.connpass.com/event/389668/",
+      "image_url": "https://media.connpass.com/thumbs/cd/92/cd92f7a205e3b882cb32a6c74e3c9b77.png",
+      "image_path": "assets/media/5fcfc30304ae-cd92f7a205e3b882cb32a6c74e3c9b77.png",
+      "content_html": "\nHCCJP 第72回勉強会\n<h2>開催情報</h2>\n<ul>\n<li><strong>日時</strong>: 2026年4月10日（金）14:00-15:30</li>\n<li><strong>形式</strong>: オンライン（YouTube Live）</li>\n<li><strong>テーマ</strong>: AIエージェントに Azure を教える — Microsoft公式 Agent Skills を読み解く</li>\n</ul>\n<h2>概要</h2>\n<p>毎月第2金曜日14時からはHCCJPの勉強会！4月は「Microsoft公式 Agent Skills」をテーマにお届けします！</p>\n<p>Claude Code、GitHub Copilot、OpenAI Codex… AIコーディングエージェントは「コードを書く」だけではなく、<strong>インフラの設計・構築・運用まで担う時代</strong>になりました。でも、エージェントは本当にAzureの正しい使い方を知っているでしょうか？</p>\n<p>古いAPIを使ってしまう。ベストプラクティスに反した構成を作る。セキュリティの考慮が足りない構成をデプロイしてしまう——そんな経験をした方も多いのではないでしょうか。</p>\n<p>この課題に対して、Microsoftは公式に「AIエージェントにAzureの知識を教える」ためのスキル集を<strong>3つのGitHubリポジトリ</strong>で公開しています。合計300以上のスキルと200以上のツール。AIエージェントがAzureインフラを正しく扱うための基盤が、いま急速に整いつつあります。</p>\n<p>本セッションでは、これら3つのリポジトリの中身を深掘りし、何が提供されているのか、どう使えるのか、そして<strong>ハイブリッドクラウドの文脈でどんな意味を持つのか</strong>を解説します。Azure Local や Azure Arc のスキルはどこまでカバーされているのか？——HCCJPメンバーなら気になるこのポイントも、しっかり読み解きます！</p>\n<h2>セッション内容</h2>\n<h3>1. AIエージェントに Azure を教える — Microsoft公式 Agent Skills を読み解く</h3>\n<p><strong>胡田 昌彦</strong></p>\n<p>Microsoft公式の3つのAgent Skillsリポジトリを読み解き、AIエージェント × Azure の全体像を解説します。</p>\n<ul>\n<li><strong>Part 1</strong>: AIコーディングエージェントの現在地 — コード補完からインフラ運用へ</li>\n<li><strong>Part 2</strong>: 3つのリポジトリの構造 — microsoft/skills（SDK開発スキル132個）、MicrosoftDocs/Agent-Skills（Azureサービス百科事典192個）、microsoft/azure-skills（統合プラグイン）</li>\n<li><strong>Part 3</strong>: 注目スキルの深掘り — prepare→validate→deployの3ステップ、entra-agent-id、cloud-solution-architect</li>\n<li><strong>Part 4</strong>: ハイブリッドクラウド視点での分析 — Azure Local / Azure Arc スキルのカバー状況と現状の課題</li>\n<li><strong>Part 5</strong>: デモ — azure-skills プラグインで実際にAzureリソースを操作</li>\n<li><strong>Part 6</strong>: 考察 — AIエージェントがインフラを操作する時代にエンジニアは何をすべきか</li>\n</ul>\n<h3>2. Microsoft \"Adaptive Cloud\" 最新動向</h3>\n<p>高添 修 氏（日本マイクロソフト株式会社）</p>\n<p>Microsoft高添さんからは毎月恒例のMicrosoft \"Adaptive Cloud\" の最新動向をお伝えいただきます！\nAzure Local、Azure Arc、Windows Server関連の最新情報をお見逃しなく！</p>\n<h2>スピーカー</h2>\n<ul>\n<li><strong>胡田 昌彦</strong> - 日本ビジネスシステムズ株式会社、Microsoft MVP for Cloud and Datacenter Management, Microsoft Azure</li>\n<li><strong>高添 修 氏</strong> - 日本マイクロソフト株式会社</li>\n</ul>\n<h2>タイムテーブル</h2>\n<table>\n<thead>\n<tr>\n<th>時刻</th>\n<th>時間</th>\n<th>セッション</th>\n<th>スピーカー</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>14:00</td>\n<td>5分</td>\n<td>オープニング</td>\n<td>胡田 昌彦</td>\n</tr>\n<tr>\n<td>14:05</td>\n<td>40分</td>\n<td>AIエージェントに Azure を教える — Microsoft公式 Agent Skills を読み解く</td>\n<td>胡田 昌彦</td>\n</tr>\n<tr>\n<td>14:45</td>\n<td>10分</td>\n<td>Q&amp;A</td>\n<td>全員</td>\n</tr>\n<tr>\n<td>14:55</td>\n<td>20分</td>\n<td>Microsoft \"Adaptive Cloud\" Updates</td>\n<td>高添 修 氏</td>\n</tr>\n<tr>\n<td>15:15</td>\n<td>10分</td>\n<td>Q&amp;A</td>\n<td>全員</td>\n</tr>\n<tr>\n<td>15:25</td>\n<td>5分</td>\n<td>クロージング</td>\n<td>胡田 昌彦</td>\n</tr>\n</tbody>\n</table>\n<h2>参考リンク</h2>\n<ul>\n<li><a href=\"https://github.com/microsoft/skills\" rel=\"noopener noreferrer\">microsoft/skills</a> — SDK開発スキル集（132個）</li>\n<li><a href=\"https://github.com/MicrosoftDocs/Agent-Skills\" rel=\"noopener noreferrer\">MicrosoftDocs/Agent-Skills</a> — Azureサービス百科事典（192個）</li>\n<li><a href=\"https://github.com/microsoft/azure-skills\" rel=\"noopener noreferrer\">microsoft/azure-skills</a> — 統合プラグイン</li>\n<li><a href=\"https://microsoft.github.io/skills/\" rel=\"noopener noreferrer\">Skill Explorer</a> — 全スキル一覧（1-click install）</li>\n<li><a href=\"https://devblogs.microsoft.com/all-things-azure/announcing-the-azure-skills-plugin/\" rel=\"noopener noreferrer\">Announcing the Azure Skills Plugin</a> — 公式ブログ</li>\n<li><a href=\"https://devblogs.microsoft.com/all-things-azure/context-driven-development-agent-skills-for-microsoft-foundry-and-azure/\" rel=\"noopener noreferrer\">Context-Driven Development</a> — 公式ブログ</li>\n</ul>\n<h2>視聴方法</h2>\n<ul>\n<li><strong>YouTube Live</strong>: <a href=\"https://youtube.com/live/RR2LPCQcyQE?feature=share\" rel=\"noopener noreferrer\">https://youtube.com/live/RR2LPCQcyQE?feature=share</a></li>\n<li>チャンネル登録してお待ちください！</li>\n</ul>\n<h2>主催</h2>\n<p>ハイブリッドクラウド研究会（HCCJP）</p>\n<p><strong>主幹事</strong>: 日本ビジネスシステムズ株式会社</p>\n<p><strong>幹事</strong>（50音順）:\n- NTTコミュニケーションズ株式会社\n- 日商エレクトロニクス株式会社\n- 日本ヒューレット・パッカード株式会社\n- 日本マイクロソフト株式会社\n- VistaNet株式会社\n- 株式会社ネットワールド\n- 三井情報株式会社\n- レノボ・エンタープライズ・ソリューションズ株式会社</p>\n"
+    },
+    {
+      "number": 73,
+      "title": "専用機がなくても大丈夫！ 既存環境で始めるAzure Local",
+      "date": "2026-05-08",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "source_url": "https://hybridcloud.connpass.com/event/391292/",
+      "image_url": "https://media.connpass.com/thumbs/02/dc/02dc78e06d6ea3b5409d6eea86bf6cdc.png",
+      "image_path": "assets/media/312b428a4130-02dc78e06d6ea3b5409d6eea86bf6cdc.png",
+      "content_html": "\nHCCJP 第73回勉強会\n<h2>開催情報</h2>\n<ul>\n<li><strong>日時</strong>: 2026年5月8日（金）14:00-15:30</li>\n<li><strong>形式</strong>: オンライン（YouTube Live）</li>\n<li><strong>テーマ</strong>: 専用機がなくても大丈夫！ 既存環境で始めるAzure Local</li>\n</ul>\n<h2>概要</h2>\n<p>毎月第2金曜日14時からはHCCJPの勉強会！5月は株式会社ネットワールドの後藤さんをお迎えして「Azure Local検証環境」をテーマにお届けします！</p>\n<h2>セッション内容</h2>\n<h3>1. 専用機がなくても大丈夫！ 既存環境で始めるAzure Local</h3>\n<p><strong>後藤 諭史 氏</strong>（株式会社ネットワールド 技術本部ソリューションアーキテクト部 エキスパートエンジニア）</p>\n<p>プレミアソリューションなどの認定ハードウェアソリューションでの構成が一般的なAzure Localですが、\n昨今の半導体供給の問題も相まってPoCや検証などでハードウェアを購入するのはかなりハードルが高いと思います。</p>\n<p>実は既存の仮想化環境を利用した「入れ子の仮想化環境（Nested環境）」であれば、意外と簡単に検証環境が\n構築できることをご存じでしょうか？</p>\n<p>本セッションでは、Hyper-Vをはじめとする仮想化環境下でのNested構成の勘所や、Azure上でのデプロイのコツなど、\n簡単に評価環境をデプロイするコツをお伝えします。</p>\n<h3>2. Microsoft \"Adaptive Cloud\" 最新動向</h3>\n<p>高添 修 氏（日本マイクロソフト株式会社）</p>\n<p>Microsoft高添さんからは毎月恒例のMicrosoft \"Adaptive Cloud\" の最新動向をお伝えいただきます！\nAzure Local、Azure Arc、Windows Server関連の最新情報をお見逃しなく！</p>\n<h2>スピーカー</h2>\n<ul>\n<li><strong>後藤 諭史 氏</strong> - 株式会社ネットワールド 技術本部ソリューションアーキテクト部 エキスパートエンジニア</li>\n<li><strong>高添 修 氏</strong> - 日本マイクロソフト株式会社</li>\n</ul>\n<h2>タイムテーブル</h2>\n<table>\n<thead>\n<tr>\n<th>時刻</th>\n<th>時間</th>\n<th>セッション</th>\n<th>スピーカー</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>14:00</td>\n<td>5分</td>\n<td>オープニング</td>\n<td>胡田 昌彦</td>\n</tr>\n<tr>\n<td>14:05</td>\n<td>40分</td>\n<td>専用機がなくても大丈夫！ 既存環境で始めるAzure Local</td>\n<td>後藤 諭史 氏</td>\n</tr>\n<tr>\n<td>14:45</td>\n<td>10分</td>\n<td>Q&amp;A</td>\n<td>全員</td>\n</tr>\n<tr>\n<td>14:55</td>\n<td>20分</td>\n<td>Microsoft \"Adaptive Cloud\" Updates</td>\n<td>高添 修 氏</td>\n</tr>\n<tr>\n<td>15:15</td>\n<td>10分</td>\n<td>Q&amp;A</td>\n<td>高添 修 氏</td>\n</tr>\n<tr>\n<td>15:25</td>\n<td>5分</td>\n<td>クロージング</td>\n<td>胡田 昌彦</td>\n</tr>\n</tbody>\n</table>\n<h2>視聴方法</h2>\n<ul>\n<li><strong>YouTube Live</strong>: <a href=\"https://youtube.com/live/Evw51I55-IQ?feature=share\" rel=\"noopener noreferrer\">https://youtube.com/live/Evw51I55-IQ?feature=share</a></li>\n<li>チャンネル登録してお待ちください！</li>\n</ul>\n<h2>主催</h2>\n<p>ハイブリッドクラウド研究会（HCCJP）</p>\n<p><strong>主幹事</strong>: 日本ビジネスシステムズ株式会社</p>\n<p><strong>幹事</strong>（50音順）:</p>\n<ul>\n<li>NTTコミュニケーションズ株式会社</li>\n<li>日商エレクトロニクス株式会社</li>\n<li>日本ヒューレット・パッカード株式会社</li>\n<li>日本マイクロソフト株式会社</li>\n<li>VistaNet株式会社</li>\n<li>株式会社ネットワールド</li>\n<li>三井情報株式会社</li>\n<li>レノボ・エンタープライズ・ソリューションズ株式会社</li>\n</ul>\n"
+    },
+    {
+      "number": 74,
+      "title": "オンプレ × 冪等 × AI — コードで建てる検証環境をOSSでみんなで作りませんか？",
+      "date": "2026-06-12",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "source_url": "https://hybridcloud.connpass.com/event/396455/",
+      "image_url": "https://media.connpass.com/thumbs/1a/3d/1a3ded6f5670151db51138b725eed1c1.png",
+      "image_path": "assets/media/153ced5f835a-1a3ded6f5670151db51138b725eed1c1.png",
+      "content_html": "\n<p>Nested Hyper-V の土台からゲストOS展開まで丸ごとコード化。中間報告＆みんなでアイデア出し合う参加型回！</p>\n<p>毎月第2金曜日14時からはHCCJPの勉強会！</p>\n<p>前回（第73回）は、ネットワールドの後藤さんに「Nested Hyper-V環境を使えば専用機がなくてもAzure Localの検証環境が作れる」というお話をいただきました。今回は、同じ「Nested Hyper-V」という土俵を使いつつ、胡田が挑戦しているのは少し違う方向です——<strong>Azure Localではなく、Nested Hyper-Vの土台づくりから、その上に載せるLinux／Windowsの検証環境まで、まるごとコードで展開してしまう</strong>仕組みをご紹介します。</p>\n<p>オンプレミスのマシンにNested Hyper-Vの土台を組み、その上へLinux・WindowsのVMをガリガリ展開する——土台からゲストまでを<strong>コードによる冪等な展開</strong>で一気通貫にこなす、新しいオープンソースのツールをいま開発中です(※趣味)。Nested Hyper-Vを使っているので、ホストがオンプレミスでもAzure上のVMでも同じコードがそのまま動く——いまはまずオンプレミスで構築を進めていますが、そこも地続きにしたいという構想です。</p>\n<p>今はAIエージェントに頼めばHyper-Vの構築や仮想マシン構成なども自動で行ってくれますが、このような仕組みを間に挟み、AIエージェントにはskillsでその仕組みを伝える形にしたほうが効率よく安定的に環境構築できると考えています。</p>\n<p>さらに、普通のWindowsやLinuxが動作するようになったらAzure Localにも手を出そうと構想しています(※Azure Local展開部分は既存のオープンソースを呼ぶ形になると思います)。</p>\n<p>今回はその<strong>中間報告</strong>として設計と使用感をお見せし、「こんな構成で作っているけれど、どう思う？」「こんな機能があったら嬉しい」をコミュニティの皆さんと一緒に考えたい回です。いつもの一方向のセッションではなく、<strong>みんなでアイデアを出し合ってOSSプロダクトを育てる</strong>参加型の会にしたいと思っています。AI時代の検証環境づくりの在り方を、一緒に提案していきましょう！</p>\n<h3>📺 視聴方法</h3>\n<p>YouTube Live（HCCJPチャンネル）で配信します。</p>\n<ul>\n<li>👉 配信URL: <a href=\"https://youtube.com/live/gtHp9BSjQXk\" rel=\"noopener noreferrer\">https://youtube.com/live/gtHp9BSjQXk</a></li>\n<li>👉 質問投稿&amp;アンケートURL: <a href=\"https://flowask.ebisuda.net/e/552645\" rel=\"noopener noreferrer\">https://flowask.ebisuda.net/e/552645</a></li>\n</ul>\n<h3>🎤 セッション内容</h3>\n<p><strong>1. Microsoft \"Adaptive Cloud\" 最新動向</strong></p>\n<p>高添 修 氏（日本マイクロソフト株式会社）</p>\n<p>Azure Local、Azure Arc、Windows Server関連の最新情報を毎月恒例でお届けします！</p>\n<p><strong>2. オンプレ × 冪等 × AI — コードで建てる検証環境をOSSでみんなで作りませんか？</strong></p>\n<p>胡田 昌彦（日本ビジネスシステムズ株式会社 / Microsoft MVP）</p>\n<ul>\n<li>なぜ「コードで建てる検証環境」なのか</li>\n<li>設計の全体像 — Nested Hyper-Vの土台づくりから、ゲストのLinux／Windows展開まで丸ごとコード化</li>\n<li>冪等性を保った展開の勘所（何度流しても同じ状態になる）</li>\n<li>同じコードがどこでも動く — オンプレミスでもAzure上でも、というポータビリティの狙い</li>\n<li>手動コマンド → コード(AIが扱いやすい形) → スキル化、という運用の進化</li>\n<li>AIに指示を出して環境構築を任せる、AI時代の検証環境像</li>\n<li>デモ / 使用感のご紹介</li>\n</ul>\n<p>そして本題——皆さんと一緒に考えたいこと：</p>\n<ul>\n<li>この構成、どう思いますか？</li>\n<li>どんな機能があったら嬉しいですか？</li>\n<li>「自分のこの用途で使いたい」というユースケースはありますか？</li>\n</ul>\n<h3>⏰ タイムテーブル</h3>\n<table>\n<thead>\n<tr>\n<th>時刻</th>\n<th>時間</th>\n<th>セッション</th>\n<th>スピーカー</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>14:00</td>\n<td>5分</td>\n<td>オープニング</td>\n<td>胡田 昌彦</td>\n</tr>\n<tr>\n<td>14:05</td>\n<td>20分</td>\n<td>Microsoft \"Adaptive Cloud\" Updates</td>\n<td>高添 修 氏</td>\n</tr>\n<tr>\n<td>14:25</td>\n<td>10分</td>\n<td>Q&amp;A</td>\n<td>高添 修 氏</td>\n</tr>\n<tr>\n<td>14:35</td>\n<td>35分</td>\n<td>コードで建てる検証環境（中間報告＆デモ）</td>\n<td>胡田 昌彦</td>\n</tr>\n<tr>\n<td>15:10</td>\n<td>15分</td>\n<td>ディスカッション「こんな機能が欲しい！」</td>\n<td>全員</td>\n</tr>\n<tr>\n<td>15:25</td>\n<td>5分</td>\n<td>クロージング</td>\n<td>胡田 昌彦</td>\n</tr>\n</tbody>\n</table>\n<h3>👤 スピーカー</h3>\n<ul>\n<li><strong>高添 修 氏</strong> — 日本マイクロソフト株式会社</li>\n<li><strong>胡田 昌彦</strong> — 日本ビジネスシステムズ株式会社、Microsoft MVP for Cloud and Datacenter Management, Microsoft Azure</li>\n</ul>\n<h3>🏢 主催</h3>\n<p>ハイブリッドクラウド研究会（HCCJP）</p>\n<p>主幹事: 日本ビジネスシステムズ株式会社</p>\n<p>幹事（50音順）:\nNTTコミュニケーションズ株式会社 / 日商エレクトロニクス株式会社 / 日本ヒューレット・パッカード株式会社 / 日本マイクロソフト株式会社 / VistaNet株式会社 / 株式会社ネットワールド / 三井情報株式会社 / レノボ・エンタープライズ・ソリューションズ株式会社</p>\n"
+    },
+    {
+      "number": 75,
+      "title": "ソブリンクラウドの現在地：データ主権、Microsoft最新動向、ハイブリッド活用まで",
+      "date": "2026-07-10",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "source_url": "https://hybridcloud.connpass.com/event/399283/",
+      "image_url": "https://media.connpass.com/thumbs/31/b3/31b3352cbc034b9e617fd883fd6784e9.png",
+      "image_path": "assets/media/32338b2704d6-31b3352cbc034b9e617fd883fd6784e9.png",
+      "content_html": "\n<p>毎月第2金曜日14時からはHCCJPの勉強会！</p>\n<p>今回のテーマは、いま世界中で関心が高まっている <strong>ソブリンクラウド（Sovereign Cloud＝主権あるクラウド）</strong> です。</p>\n<p>「ソブリンクラウドって言葉は聞くけど、正直よく分からない」「データ主権とか運用主体が違うとか言われると、最先端のサービスが使えない“劣化版”なのでは？」——そんなモヤモヤを、この90分でスッキリさせる回です。</p>\n<p><strong>そもそもソブリンクラウドとは何か</strong> を、むずかしい言葉を避けてやさしく整理します。ポイントは「データをどこに置くか」より「<strong>どの国のルールに従うか・誰が運営するか</strong>」。また、技術目線で、<strong>“結局どこまでのサービスが使えるのか／本当に劣化版なのか”</strong> を AWS・Google・Oracle など各社横断で検証します。鍵を握るのは「<strong>分離の深さ</strong>」と「<strong>ハードウェアを誰が持つか</strong>」。そして、生産性スイート（M365相当）まで主権環境で動かせるのは誰か——という観点まで掘り下げます。</p>\n<p>さらに、日本マイクロソフトの高添さんからは <strong>Microsoft の Sovereign Cloud</strong> の最新動向を。3つの提供モデルや、Sovereign Private の Connected / Disconnected（フルセット⇔サブセット）まで含めて解説いただきます。</p>\n<p>専門外の方も大歓迎、ぜひ一緒に整理していきましょう！</p>\n<h3>📺 視聴方法</h3>\n<p>YouTube Live（HCCJPチャンネル）で配信します。</p>\n<p>👉 配信URL: <a href=\"https://youtube.com/live/5pS6siEvUCo?feature=share\" rel=\"noopener noreferrer\">https://youtube.com/live/5pS6siEvUCo?feature=share</a></p>\n<h3>⏰ タイムテーブル</h3>\n<table>\n<thead>\n<tr>\n<th>時刻</th>\n<th>時間</th>\n<th>セッション</th>\n<th>スピーカー</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>14:00</td>\n<td>5分</td>\n<td>オープニング</td>\n<td>胡田 昌彦</td>\n</tr>\n<tr>\n<td>14:05</td>\n<td>20分</td>\n<td>ソブリンクラウドの現在地：そもそも何か、どこまで使えるか</td>\n<td>胡田 昌彦</td>\n</tr>\n<tr>\n<td>14:25</td>\n<td>40分</td>\n<td>Microsoft \"Adaptive Cloud\" ＆ Sovereign Cloud 最新動向</td>\n<td>高添 修 氏</td>\n</tr>\n<tr>\n<td>15:05</td>\n<td>15分</td>\n<td>全体Q&amp;A</td>\n<td>高添 修 氏 / 胡田 昌彦</td>\n</tr>\n<tr>\n<td>15:20</td>\n<td>10分</td>\n<td>クロージング・お知らせ</td>\n<td>胡田 昌彦</td>\n</tr>\n</tbody>\n</table>\n<h3>👤 スピーカー</h3>\n<ul>\n<li><strong>高添 修 氏</strong> — 日本マイクロソフト株式会社</li>\n<li><strong>胡田 昌彦</strong> — 日本ビジネスシステムズ株式会社、Microsoft MVP for Cloud and Datacenter Management, Microsoft Azure</li>\n</ul>\n<h3>🏢 主催</h3>\n<p>ハイブリッドクラウド研究会（HCCJP）\n主幹事: 日本ビジネスシステムズ株式会社</p>\n<p>幹事（50音順）:\nNTTコミュニケーションズ株式会社 / 日商エレクトロニクス株式会社 / 日本ヒューレット・パッカード株式会社 / 日本マイクロソフト株式会社 / VistaNet株式会社 / 株式会社ネットワールド / 三井情報株式会社 / レノボ・エンタープライズ・ソリューションズ株式会社</p>\n"
+    }
+  ]
+}

@@ -1,49 +1,58 @@
-# このレポジトリについて
-このレポジトリは[HCCJP](www.hccjp.org)の環境構築等に使用するコード類をまとめています。
-主に下記の処理を行っています。
+# HCCJP
 
-- Terraformを使用してAzure上にVMとWebAppsの作成
-- Ansibleを使用してVMの構成
-  - Azure Stack用の証明局の作成
-- Azure Stack用の証明書の作成
-- Azure Stack上への検証用ユーザーおよびサブスクリプションの作成
-- 検証用Azure環境とのハイブリッドネットワークの構成(ExpressRoute接続)
+This repository contains the website and legacy infrastructure examples for
+[Hybrid Cloud Community Japan (HCCJP)](https://www.hccjp.org/).
 
-# 簡単なハンズオンの実行方法(※研修用)
-## Cloud Shellへのアクセス
-1. Azure Portalへのログイン
-1. Cloud Shellの実行(Bash)
+## Static website
 
-## サブスクリプションの選択
+The current WordPress content is archived as a static site that can be hosted
+on Cloudflare Pages at no infrastructure cost. The snapshot includes:
 
-```
-az account list #サブスクリプション一覧の確認
-az account set --subscription サブスリプション名 #利用するサブスクリプションの設定
-az account show #確認
-```
+- 93 WordPress posts and 6 fixed pages
+- locally archived images used by those pages
+- Connpass event pages for HCCJP meetings 71 through 75
+- preserved legacy URL paths, an event archive, sitemap, Atom feed, 404 page,
+  and security headers
 
-## ソースコードの取得
+### Build
 
-```
-git clone https://github.com/ebibibi/hccjp.git
+```bash
+python3 -m pip install -r requirements.txt
+python3 -m scripts.site_builder --source site --output public
 ```
 
-## Terraform用の設定
+To refresh the source snapshot from the live WordPress and Connpass pages:
 
-```
-cd hccjp
-cd Terraform
-cp terraform.tfvars.sample terraform.tfvars
-emacs terraform.tfvars #変数の定義(ファイル保存はCtrl-x, Ctrl-s。emacs終了はCtrl-x, Ctrl-c)
-emacs WindowsVM.tf
-rm Web.tf
-rm ExpressRoute.tf
+```bash
+python3 -m scripts.snapshot_sources --output site
 ```
 
-## Terraform実行
+To run the checks:
 
+```bash
+ruff format --check scripts tests
+ruff check scripts tests
+coverage run --branch --source=scripts.site_builder -m pytest -q tests
+coverage report --fail-under=80
+uvx --from bandit bandit -q -r scripts
 ```
-terraform init
-terraform plan
-terraform apply
+
+### Deploy to Cloudflare Pages
+
+```bash
+npx wrangler pages deploy public --project-name hccjp-org-mirror
 ```
+
+Cloudflare Pages serves the generated files only. WordPress, PHP, a database,
+and a paid application host are not required.
+
+## Legacy infrastructure examples
+
+The older directories remain as historical examples for the HCCJP hybrid
+cloud lab:
+
+- `Terraform/`: Azure VM, networking, and web resources
+- `VMConfigure/`: Ansible configuration
+- `Certificate/`: Azure Stack certificate utilities
+- `HybridNetwork/`: hybrid network setup
+- `NewOrganization/`: Azure Stack organization setup
