@@ -123,6 +123,15 @@ def test_extract_connpass_event_rejects_missing_description() -> None:
         )
 
 
+def test_homepage_hero_crop_preserves_embedded_title() -> None:
+    stylesheet = (Path(__file__).parents[1] / "site" / "static" / "site.css").read_text(
+        encoding="utf-8"
+    )
+
+    assert "object-position: 10% center;" in stylesheet
+    assert "object-position: left center;" in stylesheet
+
+
 def test_build_site_creates_home_archive_details_and_metadata(
     tmp_path: Path,
 ) -> None:
