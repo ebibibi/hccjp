@@ -30,6 +30,7 @@ CONNPASS_EVENTS = (
     (73, "https://hybridcloud.connpass.com/event/391292/"),
     (74, "https://hybridcloud.connpass.com/event/396455/"),
     (75, "https://hybridcloud.connpass.com/event/399283/"),
+    (76, "https://hybridcloud.connpass.com/event/402528/"),
 )
 DOCUMENT_HOSTS = frozenset({"www.hccjp.org", "hybridcloud.connpass.com"})
 ASSET_HOSTS = frozenset(
