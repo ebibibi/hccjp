@@ -288,6 +288,7 @@ def _header() -> str:
     </a>
     <nav aria-label="メインナビゲーション">
       <a href="/hccjp/">HCCJPとは</a>
+      <a href="/hybridcloudguideline/">ガイドライン</a>
       <a href="/events/">勉強会</a>
       <a href="{CONNPASS_URL}" rel="noopener noreferrer">connpass</a>
       <a href="{YOUTUBE_URL}" rel="noopener noreferrer">YouTube</a>
