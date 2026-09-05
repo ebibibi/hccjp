@@ -10,7 +10,7 @@ on Cloudflare Pages at no infrastructure cost. The snapshot includes:
 
 - 93 WordPress posts and 6 fixed pages
 - locally archived images used by those pages
-- Connpass event pages for HCCJP meetings 71 through 76
+- Connpass event pages for HCCJP meetings 71 through 77
 - preserved legacy URL paths, an event archive, sitemap, Atom feed, 404 page,
   and security headers
 
@@ -26,6 +26,17 @@ To refresh the source snapshot from the live WordPress and Connpass pages:
 ```bash
 python3 -m scripts.snapshot_sources --output site
 ```
+
+> **Note:** the original WordPress site has been retired, so `www.hccjp.org/wp-json`
+> now returns 404 and a full refresh would drop the archived posts. To add a new
+> Connpass event, append it to `CONNPASS_EVENTS` and snapshot only that event:
+>
+> ```python
+> from pathlib import Path
+> from scripts import snapshot_sources as ss
+> event = ss._connpass_event(77, "https://hybridcloud.connpass.com/event/406031/", Path("site/assets"))
+> # then append event.to_dict() to the "connpass" list in site/content.json
+> ```
 
 To run the checks:
 
