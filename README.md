@@ -10,7 +10,7 @@ on Cloudflare Pages at no infrastructure cost. The snapshot includes:
 
 - 93 WordPress posts and 6 fixed pages
 - locally archived images used by those pages
-- Connpass event pages for HCCJP meetings 71 through 77
+- Connpass event pages for HCCJP meetings 71 through 78
 - preserved legacy URL paths, an event archive, sitemap, Atom feed, 404 page,
   and security headers
 
