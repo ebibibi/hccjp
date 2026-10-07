@@ -20,6 +20,14 @@ SITE_TAGLINE = (
 SITE_URL = "https://hccjp.org"
 CONNPASS_URL = "https://hybridcloud.connpass.com/"
 YOUTUBE_URL = "https://www.youtube.com/@hccjp."
+GA4_MEASUREMENT_ID = "G-3G8P0M4CFD"
+GA4_LOADER_URL = f"https://www.googletagmanager.com/gtag/js?id={GA4_MEASUREMENT_ID}"
+# Kept in an external file so the CSP does not need 'unsafe-inline'.
+GA4_BOOTSTRAP_JS = f"""window.dataLayer = window.dataLayer || [];
+function gtag() {{ dataLayer.push(arguments); }}
+gtag('js', new Date());
+gtag('config', '{GA4_MEASUREMENT_ID}');
+"""
 
 ALLOWED_TAGS = frozenset(
     {
@@ -326,6 +334,8 @@ def _document(*, title: str, description: str, body: str) -> str:
   <meta property="og:site_name" content="HCCJP">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="stylesheet" href="/assets/site.css?v=2">
+  <script async src="{GA4_LOADER_URL}"></script>
+  <script src="/assets/analytics.js"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">本文へ移動</a>
@@ -537,9 +547,12 @@ def _feed(posts: list[ContentItem]) -> str:
 def _write_headers(output_dir: Path) -> None:
     content_security_policy = (
         "default-src 'self'; "
-        "img-src 'self' data:; "
+        "img-src 'self' data: https://*.google-analytics.com "
+        "https://*.googletagmanager.com; "
         "style-src 'self'; "
-        "script-src 'none'; "
+        "script-src 'self' https://www.googletagmanager.com; "
+        "connect-src 'self' https://*.google-analytics.com "
+        "https://*.analytics.google.com https://*.googletagmanager.com; "
         "frame-src https://www.youtube.com https://www.youtube-nocookie.com "
         "https://www.slideshare.net; "
         "base-uri 'self'; form-action 'none'; frame-ancestors 'none'"
@@ -580,6 +593,7 @@ def build_site(*, source_dir: Path, output_dir: Path) -> None:
     if assets_dir.exists():
         shutil.copytree(assets_dir, output_dir / "assets", dirs_exist_ok=True)
 
+    _write_text(output_dir / "assets" / "analytics.js", GA4_BOOTSTRAP_JS)
     _write_text(output_dir / "index.html", _home_page(posts, events))
     _write_text(
         output_dir / "events" / "index.html",
