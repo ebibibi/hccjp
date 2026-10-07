@@ -195,3 +195,40 @@ def test_build_site_creates_home_archive_details_and_metadata(
     assert "\n/assets/*" not in headers
     assert (output_dir / "_headers").exists()
     assert (output_dir / "404.html").exists()
+
+
+def test_build_site_adds_ga4_tag_allowed_by_csp(tmp_path: Path) -> None:
+    source_dir = tmp_path / "source"
+    output_dir = tmp_path / "public"
+    source_dir.mkdir()
+    event = ConnpassEvent(
+        number=78,
+        title="イベント",
+        date="2026-10-01",
+        start_time="14:00",
+        end_time="15:30",
+        source_url="https://hybridcloud.connpass.com/event/1/",
+        image_url="",
+        image_path="",
+        content_html="<p>本文</p>",
+    )
+    (source_dir / "content.json").write_text(
+        json.dumps({"wordpress": [], "connpass": [event.to_dict()]}),
+        encoding="utf-8",
+    )
+
+    build_site(source_dir=source_dir, output_dir=output_dir)
+
+    home = (output_dir / "index.html").read_text(encoding="utf-8")
+    not_found = (output_dir / "404.html").read_text(encoding="utf-8")
+    analytics = (output_dir / "assets" / "analytics.js").read_text(encoding="utf-8")
+    headers = (output_dir / "_headers").read_text(encoding="utf-8")
+
+    loader = "https://www.googletagmanager.com/gtag/js?id=G-3G8P0M4CFD"
+    for page in (home, not_found):
+        assert f'<script async src="{loader}"></script>' in page
+        assert '<script src="/assets/analytics.js"></script>' in page
+    assert "gtag('config', 'G-3G8P0M4CFD')" in analytics
+    assert "script-src 'self' https://www.googletagmanager.com;" in headers
+    assert "connect-src 'self' https://*.google-analytics.com" in headers
+    assert "'unsafe-inline'" not in headers
